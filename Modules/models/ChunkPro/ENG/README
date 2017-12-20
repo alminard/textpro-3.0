@@ -1,0 +1,23 @@
+Models built with the following parameters:
+
+- training: CoNLL 2000 training set (https://www.clips.uantwerpen.be/conll2000/chunking/)
+- SVM (linear kernel)
+- F:-2..2:1 F:0:0 T:-2..-1
+0: token
+1: pos
+
+- evaluation against the CoNLL 2000 test set
+processed 47377 tokens with 23852 phrases; found: 24045 phrases; correct: 21322.
+accuracy:  92.94%; precision:  88.68%; recall:  89.39%; FB1:  89.03
+             ADJP: precision:  75.68%; recall:  63.93%; FB1:  69.31
+             ADVP: precision:  71.41%; recall:  75.87%; FB1:  73.57
+            CONJP: precision:  50.00%; recall:  44.44%; FB1:  47.06
+             INTJ: precision:  50.00%; recall:  50.00%; FB1:  50.00
+              LST: precision:   0.00%; recall:   0.00%; FB1:   0.00
+               NP: precision:  87.98%; recall:  89.23%; FB1:  88.60
+               PP: precision:  93.77%; recall:  95.41%; FB1:  94.58
+              PRT: precision:  59.86%; recall:  80.19%; FB1:  68.55
+             SBAR: precision:  85.14%; recall:  74.95%; FB1:  79.72
+               VP: precision:  90.99%; recall:  90.60%; FB1:  90.79
+
+

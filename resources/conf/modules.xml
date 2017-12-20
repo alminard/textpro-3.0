@@ -1,0 +1,312 @@
+<textpro>
+	<server name="127.0.0.1" port="6789"/>
+	<property name="channel">FILE,FILE,STD</property>
+	<property name="version">v3.0, Dec 2017</property>
+
+	<resources>
+		<language id="ita">Italian</language>
+		<language id="eng">English</language>
+		<language id="fre">French</language>
+	</resources>
+
+	<modules>
+		<module name="TokenPro">
+			<descr>FBK Tokenizer</descr>
+			<ModulesVersionDetails>v2.1, 2017</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.tokenpro.TokenPro</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+				<language id="fre" />
+			</languages>
+			<input channel="OBJECTDATA" encoding="UTF8" />
+			<output channel="OBJECTDATA" encoding="UTF8">
+				<field name="token" />
+				<field name="tokenid" />
+				<field name="tokennorm" />
+				<field name="tokenstart" />
+				<field name="tokenend" />
+				<field name="tokentype" />
+			</output>
+			<params>
+				<param name="language">-l $language</param>
+				<param name="htmlcleaner">-html</param>
+				<param name="outputheaderfile">-h o</param>
+				<param name="inputheaderfile">-h i</param>
+			</params>
+		</module>
+		<module name="MorphoPro">
+			<descr>FBK Morphological Analyzer</descr>
+			<ModulesVersionDetails>v2.0, 2017</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.morphoprojava.MorphoPro</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+				<language id="fre" />
+			</languages>
+			<input channel="OBJECTDATA" encoding="UTF8">
+				<field name="token" />
+				<field name="tokennorm" />
+			</input>
+			<output channel="OBJECTDATA" encoding="UTF8">
+				<field name="full_morpho" />
+			</output>
+			<params>
+				<param name="inputheaderfield">-h i</param>
+				<param name="outputheaderfield">-h o</param>
+				<param name="language">$language</param>
+			</params>
+		</module>
+		<module name="TagPro">
+			<descr>FBK Postagger</descr>
+			<ModulesVersionDetails>v2.0, 2017, based on libSVM
+			</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.tagpro.TagPro</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+				<language id="fre" />
+			</languages>
+			<input channel="OBJECTDATA" encoding="UTF8">
+				<field name="token" />				
+				<field name="tokennorm" />
+				<field name="full_morpho"/>
+			</input>
+			<output channel="OBJECTDATA" encoding="UTF8">
+				<field name="pos" />
+			</output>
+			<params>
+				<param name="inputheaderfield">-h i</param>
+                                <param name="outputheaderfield">-h o</param>
+				<param name="language">$language</param>
+			</params>
+		</module>
+		<module name="LemmaPro">
+			<descr>FBK Lemmatizer</descr>
+			<ModulesVersionDetails>v2.1, May 2017</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.lemmapro.LemmaPro</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+				<language id="fre" />
+			</languages>
+			<input channel="OBJECTDATA" encoding="UTF8">
+				<field name="token" />
+				<field name="full_morpho" />
+				<field name="pos" />
+			</input>
+			<output channel="OBJECTDATA" encoding="UTF8">
+				<field name="comp_morpho" />
+				<field name="lemma" />
+				<field name="wnpos" />
+			</output>
+			<params>
+				<param name="inputheaderfield">-h i</param>
+                                <param name="outputheaderfield">-h o</param>
+				<param name="language">-l $language</param>
+			</params>
+		</module>
+		<module name="ChunkPro">
+			<descr>FBK Chunker</descr>
+			<ModulesVersionDetails>v3.0, 2017, based on libSVM
+			</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.chunkpro.ChunkPro</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+				<language id="fre" />
+			</languages>
+			<input channel="OBJECTDATA" encoding="UTF8">
+				<field name="token" />
+				<field name="tokennorm" />
+				<field name="pos" />
+			</input>
+			<output channel="OBJECTDATA" encoding="UTF8">
+				<field name="chunk" />
+			</output>
+			<params>
+ 				<param name="inputheaderfield">-h i</param>
+                                <param name="outputheaderfield">-h o</param>
+				<param name="language">$language</param>
+			</params>
+		</module>
+		<module name="EntityPro">
+			<descr>FBK Name Entity Recognizer</descr>
+			<ModulesVersionDetails>v2.0, 2017, based on libSVM
+			</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.entitypro.EntityPro</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+				<language id="fre" />
+			</languages>
+			<input channel="OBJECTDATA" encoding="UTF8">
+				<field name="token" />
+				<field name="tokennorm" />
+				<field name="tokentype" />
+				<field name="pos" />
+				<field name="lemma" />
+			</input>
+			<output channel="OBJECTDATA" encoding="UTF8">
+				<field name="entity" />
+			</output>
+			<params>
+				<param name="inputheaderfield">-h i</param>
+                                <param name="outputheaderfield">-h o</param>
+				<param name="language">$language</param>
+			</params>
+		</module>
+	<!-- <module name="KX">
+			<descr>FBK Keywords Extractor</descr>
+			<ModulesVersionDetails>v8.3.4, July 2012, based on KX
+			</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.keypro.KeywordsExtraction</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+			</languages>
+			<input channel="FILE" encoding="UTF8">
+				<field name="token" />
+				<field name="full_morpho" />
+			</input>
+			<output channel="FILE" encoding="UTF8">
+				<header name="keywords" />
+			</output>
+			<params>
+				<param name="language">$language</param>
+				<param name="kxparams">$kxparams</param>
+				<param name="keywordsfield">-h o</param>
+			</params>
+		</module>
+		<module name="GeoCoder">
+			<descr>FBK Toponym Resolution System</descr>
+			<ModulesVersionDetails>v1.1, Sept 2012, based on GeoCoder
+			</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.geopro.GeoPro</cmd>
+			<languages>
+				<language id="ita" />
+			</languages>
+			<input channel="FILE" encoding="UTF8">
+				<field name="token" />
+				<field name="tokenid" />
+				<field name="entity" />
+			</input>
+			<output channel="FILE" encoding="UTF8">
+				<field name="geoinfo" />
+			</output>
+		</module>
+	-->
+		<module name="TimePro">
+			<descr>FBK Temporal expressions processing</descr>
+			<ModulesVersionDetails>v2.0, based on LibSVM</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.timepro.TimePro</cmd>
+			<languages>
+				<language id="eng" />
+				<language id="ita" />
+				<language id="fre" />
+			</languages>
+			<input channel="OBJECTDATA" encoding="UTF8">
+				<field name="token" />
+				<field name="tokennorm" />
+				<field name="pos" />
+				<field name="lemma" />
+				<field name="comp_morpho" />
+				<field name="chunk" />
+				<field name="entity" />
+			</input>
+			<output channel="OBJECTDATA" encoding="UTF8">
+				<field name="tmx" />
+				<field name="tmxid" />
+                                <field name="tmxvalue" />
+                                <field name="tmxanchor" />
+                                <field name="beginpoint" />
+                                <field name="endpoint" />
+				<field name="mod" />
+			</output>
+			<params>
+				<param name="inputheaderfield">-h i</param>
+                                <param name="outputheaderfield">-h o</param>
+				<param name="language">$language</param>
+			</params>
+		</module>
+
+<!--		<module name="TimeNormPro">
+                        <descr>FBK Temporal expressions normalization</descr>
+                        <ModulesVersionDetails>v1.0, based on timenorm</ModulesVersionDetails>
+                        <cmd type="javaclass">eu.fbk.textpro.modules.timepro.TimePro</cmd>
+                        <languages>
+                                <language id="eng" />
+                                <language id="ita" />
+                        </languages>
+                        <input channel="OBJECTDATA" encoding="UTF8">
+                                <field name="token" />
+                                <field name="lemma" />
+                                <field name="pos" />
+                                <field name="timex" />
+                        </input>
+                        <output channel="OBJECTDATA" encoding="UTF8">
+                                <field name="timexId" />
+				<field name="timexVal" />
+				<field name="timexAnchor" />
+				<field name="beginPoint" />
+				<field name="endPoint" />
+                        </output>
+                        <params>
+                                <param name="inputheaderfield">-h i</param>
+                                <param name="outputheaderfield">-h o</param>
+                                <param name="language">$language</param>
+                        </params>
+                </module>
+-->
+<!--
+		<module name="DepParserPro">
+			<descr>FBK Dependency Parser based on MaltParser</descr>
+			<ModulesVersionDetails>v1.0, based on MaltParser
+			</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.depparserpro.MaltParser</cmd>
+			<languages>
+				<language id="ita" />
+			</languages>
+			<input channel="FILE" encoding="UTF8">
+				<field name="tokennorm" />
+				<field name="pos" />
+				<field name="lemma" />
+			</input>
+			<output channel="FILE" encoding="UTF8">
+				<field name="parserid" />
+				<field name="feats" />
+				<field name="head" />
+				<field name="deprel" />
+			</output>
+			<params>
+				<param name="language">$language</param>
+				<param name="inputfield">-h i</param>
+
+			</params>
+		</module>
+		<module name="SentiPro">
+			<descr>FBK Sentiment Analyzer</descr>
+			<ModulesVersionDetails>v1.0, 2014</ModulesVersionDetails>
+			<cmd type="javaclass">eu.fbk.textpro.modules.sentipro.SentiPro</cmd>
+			<languages>
+				<language id="ita" />
+				<language id="eng" />
+			</languages>
+			<input channel="FILE" encoding="UTF8">
+				<field name="token" />
+				<field name="lemma" />
+				<field name="wnpos" />
+			</input>
+			<output channel="FILE" encoding="UTF8">
+				<field name="sentiment" />
+			</output>
+			<params>
+				<param name="language">$language</param>
+				<param name="inputfield">-h i</param>
+				<param name="inputfield">-h o</param>
+
+			</params>
+		</module>
+ -->	
+	</modules>
+</textpro>

@@ -1,0 +1,42 @@
+ 
+  unit = "^(secondes?|minutes?|heures?|jours?|journées?|semaines?|mois|semestres?|années?|ans?|decades?|décennies?|siècles?|millennaires?|trimestres?)$";
+
+  parts_of_the_day = "^(matinée|matin|matinal|après-midi|aprem|soir|soirée|veille|nuit|midi|minuit)$";
+
+  day = "^(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|lun\\.?|mar\\.?|mer\\.?|merc\\.?|jeu\\.?|jeud\\.?|ven\\.?|vend\\.?|sam\\.?|dim\\.?)$";
+
+  month = "^(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|jan\\.?|janv\\.?|fév\\.?|févr\\.?|mar\\.?|avr\\.?|mai\\.?|juin\\.?|juil\\.?|juill\\.?|août\\.?|sept\\.?|oct\\.?|nov\\.?|déc\\.?)$";
+
+  season = "^(printemps|été|automne|hiver)$";
+
+  number = "^(0?[1-9]|[1-2][0-9]|30|31)\\s?$";
+
+  yy = "^('[1-9][0-9]|[1-2][0-9][0-9][0-9])\\s?$";
+
+  time = "^(([1-9]|[0-1][0-9]|20|21|22|23|24)([:.,]([0-5][0-9]|60)([:.,][0-5][0-9]60)?))\\s?$";
+
+  duration = "^([0-9][0-9]?h)?([0-9][0-9]+\047)?([0-9][0-9]+\042)?$";
+
+  date = "^([0-][0-9][/-][0-9][0-9][/-][1-2]?[0-9]?[0-9][0-9])\\s?$";
+
+  cardinal_number = "^(un|une|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|onze|douze|treize|quatorze|quinze|seize|dix-sept|dix-huit|dix-neuf|vingt|trent|quarant|cinquant|soixant|quatre-vingt|cent|mille|paire|couple|douzaine)[a-z]*$";
+
+  ordinal_number = "^(premier|première|second|seconde|deuxième|troisième|quatrième|cinquième)$";
+
+  mods = "^(certains?|quelques?|peu|courte?|bref|beaucoup|plusieurs|divers|derniers|premiers|presque|quasiment|environ|moins|plus|dessus|au-dessus|supérieure?s?|inférieure?s?|maximum|jusque?|sous|moitié|même|ce|cette|ces|fin|début|tard|après|celle|ceux|celui)$";
+
+  adverbs = "^(passée?s?|récente?s?|recemment|dernièrement|derniers?|dernières?|premiers?|premières?|avant|présente?s?|maintenant|désormais|dorénavant|actuellement|toujours|encore|jusqu'à|actuels?|actuelles?|courante?s?|couramment|alors|future?|tôt|bientôt|tot|bientot|suite|prochainement|prochaine?s?|particulièrement|après|précédente?s?|auparavant|suivante?s?)$";
+
+  adverbs_date = "^(ici|aujourd'hui|demain|lendemain|surlendemain|après-demain|hier|avant-hier)$";
+
+  plurals = "^(matinées|matinales|soirs|soirées|veilles|nuits|printemps|étés|automnes|hivers|futurs)$";
+
+  names = "^(weekend|week-end|we|periode|assomption|noel|noël|pâques?|mi-|moments?|temps|aube|année|cuvée|avance|ouverture|instant|contemporaine?s?|crépuscule|date|après-guerre|époques?|ères?|âge|age|ex|locals?|tranche|fuseau|laps|lustres|moyen-age|moyen-âge|nocturnes?|repas|déjeuner|petit-déjeuner|gouter|goûter|diner|souper|préhistoire|quarts?|quinzaine|retard|saisons?|coucher)$";
+
+  set = "^(chaque|quotidiens?|quotidiennes?|journaliers?|journalières?|quotidiennement|hebdomadaires?|mensuels?|mensuelles?|mensuellement|trimestriels?|trimestrielles?|annuels?|annuelles?|annuellement|tous|toute?s?|chaque|saisonniers?|saisonnières?|triennale?s?|biennale?s?|bisannuels?|bisannuelles?|décennale?s?|quadriennale?s?)$";
+
+  signal_words = "^(à|afin|au|aux|dès|avec|de|des|du|d'abord|en|après|d'|pendant|durant|avant|jusqu'ici|jusqu'|entre|deja|déjà|le|immediatement|immédiat|entre-temps|tandis|alors|dans|ne|pas|finalement|pour|puis|tôt|bientôt|tot|bientot|quand|si|successivement|sur|fois)$";
+
+  score_tennis = "^([0-9]-[0-9]$)";
+
+

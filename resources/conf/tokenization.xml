@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tokenizer>
+    <languages>
+        <language id="ita"/>
+        <language id="eng"/>
+    </languages>
+    <splittingRules>
+        <generalSplittingRules>
+            <!-- These chars will be used to split the words and they are deleted from the tokenized output -->
+            <char id="32" hexcode="0020" desc="SPACE"/>
+            <char id="9" hexcode="0009" desc="TABULAR SPACE"/>
+            <char id="10" hexcode="000A" desc="LINE FEED"/>
+            <char id="13" hexcode="0x0d" desc="CARRIAGE RETURN"/>
+        </generalSplittingRules>
+
+        <charSplitter>
+            <!-- This is a list of chars which will be used to split the token while reaching it to two sequensed tokens
+       with respect to save this char in a token itself. -->
+            <generalRules>
+                <char id="33" hexcode="0021" desc="EXCLAMATION MARK"/>
+                <char id="34" hexcode="0022" desc="QUOTATION MARK"/>
+                <char id="35" hexcode="0023" desc="NUMBER SIGN"/>
+                <char id="36" hexcode="0024" desc="DOLLAR SIGN"/>
+                <char id="37" hexcode="0025" desc="PERCENT SIGN"/>
+                <!-- <char id="38" hexcode="0026" desc="AMPERSAND"/> -->
+                <char id="39" hexcode="0027" desc="APOSTROPHE"/>
+                <char id="40" hexcode="0028" desc="LEFT PARENTHESIS"/>
+                <char id="41" hexcode="0029" desc="RIGHT PARENTHESIS"/>
+                <char id="42" hexcode="002A" desc="ASTERISK"/>
+                <char id="43" hexcode="002B" desc="PLUS SIGN"/>
+                <char id="44" hexcode="002C" desc="COMMA"/>
+                <char id="46" hexcode="002E" desc="FULL STOP"/>
+                <char id="47" hexcode="002F" desc="SOLIDUS"/>
+                <char id="58" hexcode="003A" desc="COLON"/>
+                <char id="59" hexcode="003B" desc="SEMICOLON"/>
+                <char id="60" hexcode="003C" desc="LESS-THAN SIGN"/>
+                <char id="61" hexcode="003D" desc="EQUALS SIGN"/>
+                <char id="62" hexcode="003E" desc="GREATER-THAN SIGN"/>
+                <char id="63" hexcode="003F" desc="QUESTION MARK"/>
+                <char id="64" hexcode="0040" desc="COMMERCIAL AT"/>
+                <char id="91" hexcode="005B" desc="LEFT SQUARE BRACKET"/>
+                <char id="92" hexcode="005C" desc="REVERSE SOLIDUS"/>
+                <char id="93" hexcode="005D" desc="RIGHT SQUARE BRACKET"/>
+                <char id="94" hexcode="005E" desc="CIRCUMFLEX ACCENT"/>
+                <!-- <char id="95" hexcode="005F" desc="LOW LINE"/>
+                    <char id="96" hexcode="0060" desc="GRAVE ACCENT"/> -->
+                <char id="123" hexcode="007B" desc="LEFT CURLY BRACKET"/>
+                <char id="124" hexcode="007C" desc="VERTICAL LINE"/>
+                <char id="125" hexcode="007D" desc="RIGHT CURLY BRACKET"/>
+                <char id="126" hexcode="007E" desc="TILDE"/>
+                <char id="139" hexcode="008B" desc="CONTROL"/>
+                <char id="155" hexcode="009B" desc="CONTROL"/>
+                <char id="160" hexcode="00A0" desc="NO-BREAK SPACE"/>
+                <char id="161" hexcode="00A1" desc="INVERTED EXCLAMATION MARK"/>
+                <char id="162" hexcode="00A2" desc="CENT SIGN"/>
+                <char id="163" hexcode="00A3" desc="POUND SIGN"/>
+                <char id="164" hexcode="00A4" desc="CURRENCY SIGN"/>
+                <char id="165" hexcode="00A5" desc="YEN SIGN"/>
+                <char id="166" hexcode="00A6" desc="BROKEN BAR"/>
+                <char id="167" hexcode="00A7" desc="SECTION SIGN"/>
+                <char id="168" hexcode="00A8" desc="DIAERESIS"/>
+                <char id="169" hexcode="00A9" desc="COPYRIGHT SIGN"/>
+                <char id="170" hexcode="00AA" desc="FEMININE ORDINAL INDICATOR"/>
+                <char id="171" hexcode="00AB" desc="LEFT-POINTING DOUBLE ANGLE QUOTATION MARK"/>
+                <char id="172" hexcode="00AC" desc="NOT SIGN"/>
+                <char id="173" hexcode="00AD" desc="SOFT HYPHEN"/>
+                <char id="174" hexcode="00AE" desc="REGISTERED SIGN"/>
+                <!-- <char id="175" hexcode="00AF" desc="MACRON"/> -->
+                <char id="176" hexcode="00B0" desc="DEGREE SIGN"/>
+                <char id="177" hexcode="00B1" desc="PLUS-MINUS SIGN"/>
+                <char id="178" hexcode="00B2" desc="SUPERSCRIPT TWO"/>
+                <char id="179" hexcode="00B3" desc="SUPERSCRIPT THREE"/>
+                <char id="180" hexcode="00B4" desc="ACUTE ACCENT"/>
+                <char id="181" hexcode="00B5" desc="MICRO SIGN"/>
+                <char id="182" hexcode="00B6" desc="PILCROW SIGN"/>
+                <char id="183" hexcode="00B7" desc="MIDDLE DOT"/>
+                <char id="184" hexcode="00B8" desc="CEDILLA"/>
+                <char id="185" hexcode="00B9" desc="SUPERSCRIPT ONE"/>
+                <char id="186" hexcode="00BA" desc="MASCULINE ORDINAL INDICATOR"/>
+                <char id="187" hexcode="00BB" desc="RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK"/>
+                <char id="188" hexcode="00BC" desc="VULGAR FRACTION ONE QUARTER"/>
+                <char id="189" hexcode="00BD" desc="VULGAR FRACTION ONE HALF"/>
+                <char id="190" hexcode="00BE" desc="VULGAR FRACTION THREE QUARTERS"/>
+                <char id="191" hexcode="00BF" desc="INVERTED QUESTION MARK"/>
+                <char id="215" hexcode="00D7" desc="MULTIPLICATION SIGN"/>
+                <char id="222" hexcode="00DE" desc="LATIN CAPITAL LETTER THORN"/>
+                <char id="247" hexcode="00F7" desc="DIVISION SIGN"/>
+                <char id="254" hexcode="00FE" desc="LATIN SMALL LETTER THORN"/>
+                <char id="96" hexcode="0060" desc="ACCENT GRAVE"/>
+                <char id="8220" hexcode="201C" category="quote" desc="DOUBLE GRAVE ACCENT">"</char>
+                <char id="8221" hexcode="201D" category="quote" desc="DOUBLE ACUTE ACCENT">"</char>
+
+                //quotations
+                <char id="8216" hexcode="2018" desc="RIGHT SINGLE QUOTATION MARK"/>
+                <char id="8217" hexcode="2019" desc="RIGHT SINGLE QUOTATION MARK"/>
+                <char id="8218" hexcode="201a" desc="RIGHT-BOTTOM SINGLE QUOTATION MARK"/>
+
+                //other
+                <!-- <char id="45" hexcode="002D" desc="HYPHEN-MINUS"/> -->
+                <!-- <char id="8211" hexcode="2013" desc="MINUS"/> -->
+                <!-- <char id="8722" hexcode="2212" desc="MINUS"/> -->
+                <char id="8230" hexcode="2026" desc="TREE DOTS"/> -->
+                <char id="8224" hexcode="2020" desc="DAGGER"/> -->
+
+                <!--
+
+                //currency char
+                <char id="8352" hexcode="20A0" desc="EURO-CURRENCY SIGN" />
+                <char id="8353" hexcode="20A1" desc="COLON SIGN" />
+                <char id="8354" hexcode="20A2" desc="CRUZEIRO SIGN" />
+                <char id="8355" hexcode="20A3" desc="FRENCH FRANC SIGN" />
+                <char id="8356" hexcode="20A4" desc="LIRA SIGN" />
+                <char id="8357" hexcode="20A5" desc="MILL SIGN" />
+                <char id="8358" hexcode="20A6" desc="NAIRA SIGN" />
+                <char id="8359" hexcode="20A7" desc="PESETA SIGN" />
+                <char id="8360" hexcode="20A8" desc="RUPEE SIGN" />
+                <char id="8361" hexcode="20A9" desc="WON SIGN" />
+                <char id="8362" hexcode="20AA" desc="NEW SHEQEL SIGN" />
+                <char id="8363" hexcode="20AB" desc="DONG SIGN" />
+                <char id="8364" hexcode="20AC" desc="EURO SIGN" />
+                <char id="8365" hexcode="20AD" desc="KIP SIGN" />
+                <char id="8366" hexcode="20AE" desc="TUGRIK SIGN" />
+                <char id="8366" hexcode="20AF" desc="DRACHMA SIGN" />
+                <char id="8367" hexcode="20B0" desc="GERMAN PENNY SIGN" />
+                <char id="8369" hexcode="20B1" desc="PESO SIGN" />
+                <char id="8370" hexcode="20B2" desc="GUARANI SIGN" />
+                <char id="8371" hexcode="20B3" desc="AUSTRAL SIGN" />
+                <char id="8372" hexcode="20B4" desc="HRYVNIA SIGN" />
+                <char id="8373" hexcode="20B5" desc="CEDI SIGN" />
+                <char id="8374" hexcode="20B6" desc="LIVRE TOURNOIS SIGN" />
+                <char id="8375" hexcode="20B7" desc="SPESMILO SIGN" />
+                <char id="8376" hexcode="20B8" desc="TENGE SIGN" />
+                <char id="8377" hexcode="20B9" desc="INDIAN RUPEE SIGN" />
+                -->
+            </generalRules>
+            <languageRest id="eng">
+                <!-- add the splitting chars for English only -->
+            </languageRest>
+            <languageRest id="ita">
+                <!-- add the splitting chars for Italian only -->
+            </languageRest>
+        </charSplitter>
+
+        <knownWordsList>
+            <!--  This is the special list of each language that have some known words, which need to be splitted or joined.
+                  This is works just with regular expression -->
+            <languageRes id="ita">
+                <!-- telephon number like 0461/223344 -->
+                <expression find="(\d+) \/ (\d+)" replaceTo="$1\/$2" />
+                <!-- dates, hours, numbers ... -->
+                <expression find="([A-Z]\w+)([-|–|−])([A-Z]\w+)" replaceTo="$1 $2 $3" />
+                <expression find="^([-|–|−])([A-Za-z]+)" replaceTo="$1 $2" />
+                <expression find="([A-Za-z]+)([-|–|−])$" replaceTo="$1 $2" />
+                <!-- <expression find="(\w+) ([-|–|−]) (\w+)" replaceTo="$1$2$3" /> -->
+                <expression find="([0-9]+) ([,|:|/]) ([0-9]+)" replaceTo="$1$2$3" />
+                <expression find="([0-9]+,[0-9]+) , ([0-9]+)" replaceTo="$1,$2" />
+                <expression find="([0-9]+:[0-9]+) : ([0-9]+)" replaceTo="$1:$2" />
+                <expression find="([0-9]+\/[0-9]+) \/ ([0-9]+)" replaceTo="$1\/$2" />
+                <!-- words with apostrophe -->
+                <expression find="(\w+) ([’|\'])" replaceTo="$1$2" />
+                <expression find="([’|\']) (l)" replaceTo="$1$2" />
+                <expression find="([’|\']) ([0-9]+s*)" replaceTo="$1$2" />
+                <expression find="([’|\']) (ndrangheta)" replaceTo="$1$2" />
+                <expression find="([’|\']) (st[a|o|i|e|u])" replaceTo="$1$2" />
+                <expression find="([’|\']) (n\'?)" replaceTo="$1$2" />
+                <expression find="([’|\']) (n[o|a])" replaceTo="$1$2" />
+                <expression find="([’|\']) (mo?)" replaceTo="$1$2" />
+                <expression find="([’|\']) (ndo)" replaceTo="$1$2" />
+                <expression find="([’|\']) (ve)" replaceTo="$1$2" />
+                <expression find="([’|\']) (nanzi)" replaceTo="$1$2" />
+                <!-- abbreviations -->
+                <expression find="^(\w) (\.)" replaceTo="$1$2" />
+                <expression find=" (\w) (\.)" replaceTo=" $1$2" />
+                <expression find="(\w\.) (\w\.)" replaceTo="$1$2" />
+                <expression find="(\w\.\w\.) (\w\.?)" replaceTo="$1$2" />
+                <expression find="(\w+\.) (\w+\.?)" replaceTo="$1$2" />
+                <expression find="(\w+{2,4}) \. (\w+{2,4}\.?)" replaceTo="$1.$2" />
+                <expression find="(\d+)\.([A-Za-z]+)" replaceTo="$1 . $2" />
+                <!-- web address -->
+                <expression find="https?\://[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(/[a-zA-Z0-9\-\.]*)?" />
+                <!-- email -->
+                <expression find="[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" />
+                <!-- rules for SMS faces like :o) or ;D -->
+                <expression find="([:|;]) ?([-|o|O]*) ?([\)|\(|D|P|p|X|x|\*|\!|\?]+)" replaceTo="$1$2$3" />
+                <!-- tags -->
+                <expression find="&lt; (\/*) ([A-Za-z0-9]+) &gt;" replaceTo="&lt;$1$2&gt;" />
+                <!-- other -->
+                <expression find="(\w+) \[ ([A-Za-z]+) \]" replaceTo="$1\[$2\]" />
+                <!-- three dots -->
+                <expression find="\. \. \." replaceTo="\.\.\." />
+                <!-- company like AT&T
+                <expression find="(\w+) &amp; (\w+)" replaceTo="$1&amp;$2" />    -->
+            </languageRes>
+
+            <languageRes id="eng">
+                <!-- telephon number like 0461/223344 -->
+                <expression find="(\d+) \/ (\d+)" replaceTo="$1\/$2" />
+                <!-- dates, hours, numbers ... -->
+                <expression find="([A-Z]\w+)([-|–|−])([A-Z]\w+)" replaceTo="$1 $2 $3" />
+                <expression find="^([-|–|−])([A-Za-z]+)" replaceTo="$1 $2" />
+                <expression find="([A-Za-z]+)([-|–|−])$" replaceTo="$1 $2" />
+                <!-- <expression find="(\w+) ([-|–|−]) (\w+)" replaceTo="$1$2$3" /> -->
+                <expression find="([0-9]+) ([,|:|/]) ([0-9]+)" replaceTo="$1$2$3" />
+                <expression find="([0-9]+,[0-9]+) , ([0-9]+)" replaceTo="$1,$2" />
+                <expression find="([0-9]+:[0-9]+) : ([0-9]+)" replaceTo="$1:$2" />
+                <expression find="([0-9]+/[0-9]+) / ([0-9]+)" replaceTo="$1/$2" />
+                <expression find="' ([Ss])" replaceTo="'$1" />
+                <expression find="' ([Ll])([Ll])" replaceTo=" '$1$2" />
+                <expression find="' ([Rr])([Ee])" replaceTo=" '$1$2" />
+                <expression find="' ([Vv])([Ee])" replaceTo=" '$1$2" />
+                <expression find="' ([Dd])" replaceTo=" '$1" />
+                <expression find="' ([Ss])" replaceTo=" '$1" />
+                <expression find="' ([Mm])" replaceTo=" '$1" />
+                <expression find="([Cc])([Aa])([Nn])([Nn])([Oo])([Tt])" replaceTo="$1$2$3 $4$5$6" />
+                <expression find="([Dd]) ' ([Yy])([Ee])" replaceTo="$1' $2$3" />
+                <expression find="([Gg])([Ii])([Mm])([Mm])([Ee])" replaceTo="$1$2$3 $4$5" />
+                <expression find="([Gg])([Oo])([Nn])([Nn])([Aa])" replaceTo="$1$2$3 $4$5" />
+                <expression find="([Gg])([Oo])([Tt])([Tt])([Aa])" replaceTo="$1$2$3 $4$5" />
+                <expression find="([Ww])([Aa|Oo])([Nn])([Nn])([Aa])" replaceTo="$1$2$3 $4$5" />
+                <expression find="([Ll])([Ee])([Mm])([Mm])([Ee])" replaceTo="$1$2$3 $4$5" />
+                <expression find="([Mm])([Oo])([Rr])([Ee]) ' ([Nn])" replaceTo="$1$2$3$4 '$5" />
+                <expression find="' ([Tt])([Ii])([Ss])" replaceTo="$1 $2$3" />
+                <expression find="' ([Tt])([Ww])([Aa])([Ss])" replaceTo="$1 $2$3$4" />
+                <expression find="([Aa])([Ii])([Nn]) ' ([Tt])" replaceTo="$1$2 $3'$4" />
+                <expression find="([Ii])([Ss])([Nn]) ' ([Tt])" replaceTo="$1$2 $3'$4" />
+                <expression find="([Aa])([Rr])([Ee])([Nn]) ' ([Tt])" replaceTo="$1$2$3 $4'$5" />
+                <expression find="([Dd])([Oo])([Nn]) ' ([Tt])" replaceTo="$1$2 $3'$4" />
+                <expression find="([Dd])([Oo])([Ee|Ss]*)([Nn]) ' ([Tt])" replaceTo="$1$2$3 $4'$5" />
+                <expression find="([Dd])([Ii])([Dd])([Nn]) ' ([Tt])" replaceTo="$1$2$3 $4'$5" />
+                <expression find="([Hh])([Aa])([Vv])([Ee])([Nn]) ' ([Tt])" replaceTo="$1$2$3$4 $5'$6" />
+                <expression find="([Hh])([Aa])([Ss|Dd])([Nn]) ' ([Tt])" replaceTo="$1$2$3 $4'$5" />
+                <expression find="([Hh])([Aa])([Ss]) ' ([Nn])([Tt])" replaceTo="$1$2$3 '$4$5" />
+                <expression find="([Ww])([Aa])([Ss])([Nn]) ' ([Tt])" replaceTo="$1$2$3 $4'$5" />
+                <expression find="([Ww])([Ee])([Rr])([Ee])([Nn]) ' ([Tt])" replaceTo="$1$2$3$4 $5'$6" />
+                <expression find="([Cc])([Aa])([Nn]) ' ([Tt])" replaceTo="$1$2 $3'$4" />
+                <expression find="([Cc|Ww])([Oo])([Uu])([Ll])([Dd])([Nn]) ' ([Tt])" replaceTo="$1$2$3$4$5 $6'$7" />
+                <expression find="([Ss])([Hh])([Oo])([Uu])([Ll])([Dd])([Nn]) ' ([Tt])" replaceTo="$1$2$3$4$5$6 $7'$8" />
+                <expression find="([Mm])([Uu])([Ss])([Tt])([Nn]) ' ([Tt])" replaceTo="$1$2$3$4 $5'$6" />
+                <expression find="([Ww])([Oo])([Nn]) ' ([Tt])" replaceTo="$1$2 $3'$4" />
+                <expression find="([Ss])([Hh])([Aa])([Nn]) ' ([Tt])" replaceTo="$1$2$3 $4'$5" />
+                <!-- abbreviations -->
+                <expression find="^(\w) (\.)" replaceTo="$1$2" />
+                <expression find=" (\w) (\.)" replaceTo=" $1$2" />
+                <expression find="(\w\.) (\w\.)" replaceTo="$1$2" />
+                <expression find="(\w\.\w\.) (\w\.?)" replaceTo="$1$2" />
+                <expression find="(\w+\.) (\w+\.?)" replaceTo="$1$2" />
+                <expression find="(\w+{2,4}) \. (\w+{2,4}\.?)" replaceTo="$1.$2" />
+                <!-- web address -->
+                <expression find="https?\://[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(/[a-zA-Z0-9\-\.]*)?" />
+                <!-- email -->
+                <expression find="[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" />
+                <!-- rules for SMS faces like :o) or ;D -->
+                <expression find="([:|;]) ?([-|o|O]*) ?([\)|\(|D|P|p|X|x|\*|\!|\?]+)" replaceTo="$1$2$3" />
+                <!-- tags -->
+                <expression find="&lt; (\/*) ([A-Za-z0-9]+) &gt;" replaceTo="&lt;$1$2&gt;" />
+                <!-- three dots -->
+                <expression find="\. \. \." replaceTo="\.\.\." />
+            </languageRes>
+        </knownWordsList>
+    </splittingRules>
+
+    <abbreviationList>
+        <languageRes id="ita">
+            <!-- generic abbreviations like A. or A.B. or A.B.C. or a. or A.b.C. or a.b.c ... -->
+            <expression find="([A-Za-z]\.)+" />
+            <!-- Main abbreviations -->
+            <abbreviation>Aff.Est.</abbreviation>
+            <abbreviation>Amb.</abbreviation>
+            <abbreviation>Amm.</abbreviation>
+            <abbreviation>Art.</abbreviation>
+            <abbreviation>Uff.</abbreviation>
+            <abbreviation>Cap.</abbreviation>
+            <abbreviation>Cass.</abbreviation>
+            <abbreviation>Co.Re.Co.</abbreviation>
+            <abbreviation>Cod.</abbreviation>
+            <abbreviation>Cons.Gen.</abbreviation>
+            <abbreviation>Cost.</abbreviation>
+            <abbreviation>Ctg.</abbreviation>
+            <abbreviation>D.lgt.</abbreviation>
+            <abbreviation>FF.AA.</abbreviation>
+            <abbreviation>L.Cost.</abbreviation>
+            <abbreviation>L.Reg.</abbreviation>
+            <abbreviation>L.st.</abbreviation>
+            <abbreviation>LL.</abbreviation>
+            <abbreviation>LL.AA.</abbreviation>
+            <abbreviation>LL.MM.</abbreviation>
+            <abbreviation>LL.PP.</abbreviation>
+            <abbreviation>Lit.</abbreviation>
+            <abbreviation>O.F.M.Cap.</abbreviation>
+            <abbreviation>O.F.M.Conv.</abbreviation>
+            <abbreviation>OO.MM.</abbreviation>
+            <abbreviation>OO.PP.</abbreviation>
+            <abbreviation>OO.RR.</abbreviation>
+            <abbreviation>PP.SS.</abbreviation>
+            <abbreviation>PP.TT.</abbreviation>
+            <abbreviation>Proc.</abbreviation>
+            <abbreviation>R.I.Na.</abbreviation>
+            <abbreviation>S.acc.</abbreviation>
+            <abbreviation>S.acc.p.a.</abbreviation>
+            <abbreviation>SS.PP.</abbreviation>
+            <abbreviation>SS.RR.</abbreviation>
+            <abbreviation>UNI.</abbreviation>
+            <abbreviation>TEL.</abbreviation>
+            <abbreviation>Sett.</abbreviation>
+            <abbreviation>abr.</abbreviation>
+            <abbreviation>accel.</abbreviation>
+            <abbreviation>all.</abbreviation>
+            <abbreviation>allarg.</abbreviation>
+            <abbreviation>ang.</abbreviation>
+            <abbreviation>app.</abbreviation>
+            <abbreviation>apr.</abbreviation>
+            <abbreviation>arch.</abbreviation>
+            <abbreviation>arg.</abbreviation>
+            <abbreviation>art.</abbreviation>
+            <abbreviation>avv.</abbreviation>
+            <abbreviation>az.</abbreviation>
+            <abbreviation>bibl.</abbreviation>
+            <abbreviation>banc.</abbreviation>
+            <abbreviation>cab.</abbreviation>
+            <abbreviation>cad.</abbreviation>
+            <abbreviation>cap.</abbreviation>
+            <abbreviation>cav.</abbreviation>
+            <abbreviation>ced.</abbreviation>
+            <abbreviation>cfr.</abbreviation>
+            <abbreviation>cit.</abbreviation>
+            <abbreviation>ct.</abbreviation>
+            <abbreviation>coll.</abbreviation>
+            <abbreviation>comm.</abbreviation>
+            <abbreviation>comp.</abbreviation>
+            <abbreviation>cons.</abbreviation>
+            <abbreviation>coop.</abbreviation>
+            <abbreviation>cresc.</abbreviation>
+            <abbreviation>dd.</abbreviation>
+            <abbreviation>decr.</abbreviation>
+            <abbreviation>dic.</abbreviation>
+            <abbreviation>dim.</abbreviation>
+            <abbreviation>div.</abbreviation>
+            <abbreviation>doc.</abbreviation>
+            <abbreviation>dom.</abbreviation>
+            <abbreviation>Dott.</abbreviation>
+            <abbreviation>dott.</abbreviation>
+            <abbreviation>d.r</abbreviation>
+            <abbreviation>ecc.</abbreviation>
+            <abbreviation>eccl.</abbreviation>
+            <abbreviation>ed.</abbreviation>
+            <abbreviation>ediz.</abbreviation>
+            <abbreviation>egr.</abbreviation>
+            <abbreviation>em.</abbreviation>
+            <abbreviation>es.</abbreviation>
+            <abbreviation>p.es.</abbreviation>
+            <abbreviation>etc.</abbreviation>
+            <abbreviation>feb.</abbreviation>
+            <abbreviation>fig.</abbreviation>
+            <abbreviation>Fig.</abbreviation>
+            <abbreviation>FIG.</abbreviation>
+            <abbreviation>figs.</abbreviation>
+            <abbreviation>Figs.</abbreviation>
+            <abbreviation>figg.</abbreviation>
+            <abbreviation>gen.</abbreviation>
+            <abbreviation>genn.</abbreviation>
+            <abbreviation>giu.</abbreviation>
+            <abbreviation>gr.</abbreviation>
+            <abbreviation>hg.</abbreviation>
+            <abbreviation>ib.</abbreviation>
+            <abbreviation>ibid.</abbreviation>
+            <abbreviation>id.</abbreviation>
+            <abbreviation>ines.</abbreviation>
+            <abbreviation>inf.</abbreviation>
+            <abbreviation>ing.</abbreviation>
+            <abbreviation>kcal.</abbreviation>
+            <abbreviation>kg.</abbreviation>
+            <abbreviation>km.</abbreviation>
+            <abbreviation>l.cit.</abbreviation>
+            <abbreviation>lat.</abbreviation>
+            <abbreviation>lett.</abbreviation>
+            <abbreviation>loc.cit.</abbreviation>
+            <abbreviation>long.</abbreviation>
+            <abbreviation>lu.</abbreviation>
+            <abbreviation>lug.</abbreviation>
+            <abbreviation>lun.</abbreviation>
+            <abbreviation>m.rev.</abbreviation>
+            <abbreviation>ma.</abbreviation>
+            <abbreviation>mag.</abbreviation>
+            <abbreviation>magg.</abbreviation>
+            <abbreviation>mar.</abbreviation>
+            <abbreviation>max.</abbreviation>
+            <abbreviation>me.</abbreviation>
+            <abbreviation>merid.</abbreviation>
+            <abbreviation>min.</abbreviation>
+            <abbreviation>mod.</abbreviation>
+            <abbreviation>mons.</abbreviation>
+            <abbreviation>ms.</abbreviation>
+            <abbreviation>mss.</abbreviation>
+            <abbreviation>nav.</abbreviation>
+            <abbreviation>naz.</abbreviation>
+            <abbreviation>nord.</abbreviation>
+            <abbreviation>nov.</abbreviation>
+            <abbreviation>obbl.</abbreviation>
+            <abbreviation>occ.</abbreviation>
+            <abbreviation>occid.</abbreviation>
+            <abbreviation>on.</abbreviation>
+            <abbreviation>op.</abbreviation>
+            <abbreviation>op.cit.</abbreviation>
+            <abbreviation>orient.</abbreviation>
+            <abbreviation>ott.</abbreviation>
+            <abbreviation>p.ass.</abbreviation>
+            <abbreviation>post.</abbreviation>
+            <abbreviation>pag.</abbreviation>
+            <abbreviation>pagg.</abbreviation>
+            <abbreviation>par.</abbreviation>
+            <abbreviation>pas.</abbreviation>
+            <abbreviation>pass.</abbreviation>
+            <abbreviation>phil.</abbreviation>
+            <abbreviation>pizz.</abbreviation>
+            <abbreviation>pp.</abbreviation>
+            <abbreviation>pr.</abbreviation>
+            <abbreviation>pref.</abbreviation>
+            <abbreviation>priv.</abbreviation>
+            <abbreviation>prov.</abbreviation>
+            <abbreviation>pt.</abbreviation>
+            <abbreviation>quot.</abbreviation>
+            <abbreviation>racc.</abbreviation>
+            <abbreviation>rag.</abbreviation>
+            <abbreviation>rall.</abbreviation>
+            <abbreviation>red.</abbreviation>
+            <abbreviation>reg.</abbreviation>
+            <abbreviation>rel.</abbreviation>
+            <abbreviation>rep.</abbreviation>
+            <abbreviation>rev.</abbreviation>
+            <abbreviation>risp.</abbreviation>
+            <abbreviation>rist.</abbreviation>
+            <abbreviation>rit.</abbreviation>
+            <abbreviation>s.em.</abbreviation>
+            <abbreviation>sab.</abbreviation>
+            <abbreviation>sec.</abbreviation>
+            <abbreviation>secc.</abbreviation>
+            <abbreviation>seg.</abbreviation>
+            <abbreviation>segg.</abbreviation>
+            <abbreviation>sen.</abbreviation>
+            <abbreviation>seq.</abbreviation>
+            <abbreviation>serg.</abbreviation>
+            <abbreviation>sett.</abbreviation>
+            <abbreviation>settentr.</abbreviation>
+            <abbreviation>sez.</abbreviation>
+            <abbreviation>sg.</abbreviation>
+            <abbreviation>sgg.</abbreviation>
+            <abbreviation>sigg.</abbreviation>
+            <abbreviation>amb.</abbreviation>
+            <abbreviation>amm.</abbreviation>
+            <abbreviation>com.</abbreviation>
+            <abbreviation>dr.</abbreviation>
+            <abbreviation>geom.</abbreviation>
+            <abbreviation>ingg.</abbreviation>
+            <abbreviation>onn.</abbreviation>
+            <abbreviation>pm.</abbreviation>
+            <abbreviation>proc.</abbreviation>
+            <abbreviation>Prof.</abbreviation>
+            <abbreviation>prof.</abbreviation>
+            <abbreviation>proff.</abbreviation>
+            <abbreviation>sim.</abbreviation>
+            <abbreviation>somm.</abbreviation>
+            <abbreviation>sopr.</abbreviation>
+            <abbreviation>soprast.</abbreviation>
+            <abbreviation>spett.</abbreviation>
+            <abbreviation>ss.</abbreviation>
+            <abbreviation>st.civ.</abbreviation>
+            <abbreviation>stud.</abbreviation>
+            <abbreviation>str.</abbreviation>
+            <abbreviation>string.</abbreviation>
+            <abbreviation>sup.</abbreviation>
+            <abbreviation>suppl.</abbreviation>
+            <abbreviation>tab.</abbreviation>
+            <abbreviation>Tab.</abbreviation>
+            <abbreviation>TAB.</abbreviation>
+            <abbreviation>tav.</abbreviation>
+            <abbreviation>tel.</abbreviation>
+            <abbreviation>ten.</abbreviation>
+            <abbreviation>ten.col.</abbreviation>
+            <abbreviation>tit.</abbreviation>
+            <abbreviation>tr.</abbreviation>
+            <abbreviation>trad.</abbreviation>
+            <abbreviation>trans.</abbreviation>
+            <abbreviation>trib.</abbreviation>
+            <abbreviation>uff.</abbreviation>
+            <abbreviation>ven.</abbreviation>
+            <abbreviation>vol.</abbreviation>
+            <abbreviation>s.l.m.</abbreviation>
+            <!-- Titles before names:  -->
+            <abbreviation>sig.</abbreviation>
+            <abbreviation>Sig.</abbreviation>
+            <abbreviation>Sigg.</abbreviation>
+            <abbreviation>Dott.</abbreviation>
+            <abbreviation>dott.</abbreviation>
+            <abbreviation>Dr.</abbreviation>
+            <abbreviation>dr.</abbreviation>
+            <abbreviation>Arch.</abbreviation>
+            <abbreviation>Avv.</abbreviation>
+            <abbreviation>Egr.</abbreviation>
+            <abbreviation>Gent.</abbreviation>
+            <abbreviation>Geom.</abbreviation>
+            <abbreviation>Ill.</abbreviation>
+            <abbreviation>Ing.</abbreviation>
+            <abbreviation>Mons.</abbreviation>
+            <abbreviation>On.</abbreviation>
+            <abbreviation>Preg.</abbreviation>
+            <abbreviation>Rag.</abbreviation>
+            <abbreviation>Rev.</abbreviation>
+            <abbreviation>Spett.</abbreviation>
+            <abbreviation>Soc.</abbreviation>
+            <abbreviation>Srl.</abbreviation>
+            <abbreviation>Mrs.</abbreviation>
+            <abbreviation>Mr.</abbreviation>
+            <abbreviation>Ms.</abbreviation>
+            <abbreviation>Pres.</abbreviation>
+            <abbreviation>Drs.</abbreviation>
+            <abbreviation>Gen.</abbreviation>
+            <abbreviation>Rep.</abbreviation>
+            <abbreviation>Sen.</abbreviation>
+            <abbreviation>Secy.</abbreviation>
+            <abbreviation>Treas.</abbreviation>
+            <abbreviation>Dir.</abbreviation>
+            <!-- Titles after names:  -->
+            <abbreviation>Sr.</abbreviation>
+            <abbreviation>Jr.</abbreviation>
+            <abbreviation>Ph.D.</abbreviation>
+            <!-- Common Latin terms: -->
+            <abbreviation>etc.</abbreviation>
+            <abbreviation>al.</abbreviation>
+            <!-- Commercial -->
+            <abbreviation>Lt.</abbreviation>
+            <abbreviation>Ltd.</abbreviation>
+            <abbreviation>Co.</abbreviation>
+            <abbreviation>Corp.</abbreviation>
+            <abbreviation>Mgr.</abbreviation>
+            <abbreviation>Fdn.</abbreviation>
+            <abbreviation>Org.</abbreviation>
+            <abbreviation>no.</abbreviation>
+            <abbreviation>Mt.</abbreviation>
+            <abbreviation>Rd.</abbreviation>
+            <abbreviation>Univ.</abbreviation>
+            <abbreviation>univ.</abbreviation>
+        </languageRes>
+        <languageRes id="eng">
+            <!-- generic abbreviations like A. or A.B. or A.B.C. or a. or A.b.C. or a.b.c ... -->
+            <expression find="([A-Za-z]\.)+" />
+            <!-- symbol of a unit of measure -->
+            <abbreviation>lb.</abbreviation>
+            <abbreviation>ft.</abbreviation>
+            <abbreviation>cu.</abbreviation>
+            <abbreviation>gl.</abbreviation>
+            <abbreviation>gal.</abbreviation>
+            <abbreviation>in.</abbreviation>
+            <abbreviation>mi.</abbreviation>
+            <abbreviation>mph.</abbreviation>
+            <abbreviation>oz.</abbreviation>
+            <abbreviation>fl.oz.</abbreviation>
+            <abbreviation>qt.</abbreviation>
+            <abbreviation>pt.</abbreviation>
+            <abbreviation>std.</abbreviation>
+            <abbreviation>yd.</abbreviation>
+            <abbreviation>ac.</abbreviation>
+            <abbreviation>mm.</abbreviation>
+            <abbreviation>ml.</abbreviation>
+            <abbreviation>cm.</abbreviation>
+            <abbreviation>mg.</abbreviation>
+            <abbreviation>gr.</abbreviation>
+            <abbreviation>kg.</abbreviation>
+            <abbreviation>ll.</abbreviation>
+            <abbreviation>min.</abbreviation>
+            <abbreviation>hr.</abbreviation>
+            <abbreviation>vol.</abbreviation>
+            <!-- Mounts and days -->
+            <abbreviation>Jan.</abbreviation>
+            <abbreviation>Feb.</abbreviation>
+            <abbreviation>Mar.</abbreviation>
+            <abbreviation>Apr.</abbreviation>
+            <abbreviation>May.</abbreviation>
+            <abbreviation>Jun.</abbreviation>
+            <abbreviation>Jul.</abbreviation>
+            <abbreviation>Aug.</abbreviation>
+            <abbreviation>Sept.</abbreviation>
+            <abbreviation>Oct.</abbreviation>
+            <abbreviation>Nov.</abbreviation>
+            <abbreviation>Dec.</abbreviation>
+            <abbreviation>Mon.</abbreviation>
+            <abbreviation>Tues.</abbreviation>
+            <abbreviation>Wed.</abbreviation>
+            <abbreviation>Thur.</abbreviation>
+            <abbreviation>Sat.</abbreviation>
+            <abbreviation>Sun.</abbreviation>
+            <!-- Street and Saint -->
+            <abbreviation>St.</abbreviation>
+            <abbreviation>Ste.</abbreviation>
+            <abbreviation>Sta.</abbreviation>
+            <abbreviation>Rd.</abbreviation>
+            <abbreviation>Pres.</abbreviation>
+            <abbreviation>Rev.</abbreviation>
+            <abbreviation>Hon.</abbreviation>
+            <abbreviation>Rt.</abbreviation>
+            <abbreviation>Fr.</abbreviation>
+            <abbreviation>Ave.</abbreviation>
+            <abbreviation>ctr.</abbreviation>
+            <abbreviation>Ct.</abbreviation>
+            <abbreviation>hwy.</abbreviation>
+            <abbreviation>Lk.</abbreviation>
+            <abbreviation>Ln.</abbreviation>
+            <!-- Titles before names:  -->
+            <abbreviation>Dott.</abbreviation>
+            <abbreviation>dott.</abbreviation>
+            <abbreviation>Prof.</abbreviation>
+            <abbreviation>prof.</abbreviation>
+            <abbreviation>Dr.</abbreviation>
+            <abbreviation>dr.</abbreviation>
+            <abbreviation>Mrs.</abbreviation>
+            <abbreviation>Mr.</abbreviation>
+            <abbreviation>Ms.</abbreviation>
+            <abbreviation>Msgr.</abbreviation>
+            <abbreviation>Pres.</abbreviation>
+            <abbreviation>Drs.</abbreviation>
+            <abbreviation>Gen.</abbreviation>
+            <abbreviation>Rep.</abbreviation>
+            <abbreviation>Sen.</abbreviation>
+            <abbreviation>Secy.</abbreviation>
+            <abbreviation>Treas.</abbreviation>
+            <abbreviation>Dir.</abbreviation>
+            <!-- Titles after names:  -->
+            <abbreviation>Sr.</abbreviation>
+            <abbreviation>Jr.</abbreviation>
+            <abbreviation>Ph.D.</abbreviation>
+            <abbreviation>Ph.D.s</abbreviation>
+            <!-- Common Latin terms: -->
+            <abbreviation>etc.</abbreviation>
+            <abbreviation>al.</abbreviation>
+            <!-- Commercial -->
+            <abbreviation>Inc.</abbreviation>
+            <abbreviation>Lt.</abbreviation>
+            <abbreviation>Ltd.</abbreviation>
+            <abbreviation>Co.</abbreviation>
+            <abbreviation>Corp.</abbreviation>
+            <abbreviation>Mgr.</abbreviation>
+            <abbreviation>Fdn.</abbreviation>
+            <abbreviation>Org.</abbreviation>
+            <abbreviation>Mt.</abbreviation>
+            <abbreviation>Rd.</abbreviation>
+            <abbreviation>Univ.</abbreviation>
+            <!-- Other -->
+            <abbreviation>cc.</abbreviation>
+            <abbreviation>ct.</abbreviation>
+            <abbreviation>ctn.</abbreviation>
+            <abbreviation>gm.</abbreviation>
+            <abbreviation>grs.</abbreviation>
+            <abbreviation>gt.</abbreviation>
+            <abbreviation>gtt.</abbreviation>
+            <abbreviation>hgt.</abbreviation>
+            <abbreviation>kl.</abbreviation>
+            <abbreviation>nn.</abbreviation>
+            <abbreviation>obl.</abbreviation>
+            <abbreviation>pc.</abbreviation>
+            <abbreviation>pk.</abbreviation>
+            <abbreviation>pr.</abbreviation>
+            <abbreviation>pts.</abbreviation>
+            <abbreviation>st.</abbreviation>
+            <abbreviation>lat.</abbreviation>
+            <abbreviation>long.</abbreviation>
+            <abbreviation>ht.</abbreviation>
+            <abbreviation>wt.</abbreviation>
+            <abbreviation>alt.</abbreviation>
+            <abbreviation>deg.</abbreviation>
+            <abbreviation>no.</abbreviation>
+            <abbreviation>No.</abbreviation>
+            <abbreviation>tsp.</abbreviation>
+            <abbreviation>doz.</abbreviation>
+        </languageRes>
+    </abbreviationList>
+    <endSentenceChars>
+        <languageRes id="ita">
+            <!--
+            <expression find="&lt;br&gt;" />
+            <char id="58" hexcode="003A" desc="COLON"/>
+            -->
+            <char id="46" hexcode="0020" desc="FULL STOP" />
+            <char id="33" hexcode="0021" desc="EXCLAMATION MARK"/>
+            <char id="59" hexcode="003B" desc="SEMICOLON"/>
+            <char id="63" hexcode="003F" desc="QUESTION MARK"/>
+			<char id="13" hexcode="0x0d" desc="CARRIAGE RETURN" />
+            <!--<char id="10" hexcode="000A" desc="LINE FEED"/>-->
+        </languageRes>
+        <languageRes id="eng">
+			<char id="46" hexcode="0020" desc="FULL STOP" />
+            <char id="33" hexcode="0021" desc="EXCLAMATION MARK"/>
+            <char id="59" hexcode="003B" desc="SEMICOLON"/>
+            <char id="63" hexcode="003F" desc="QUESTION MARK"/>
+			<char id="13" hexcode="0x0d" desc="CARRIAGE RETURN" />
+            <!--<char id="10" hexcode="000A" desc="LINE FEED"/>-->
+        </languageRes>
+    </endSentenceChars>
+</tokenizer>

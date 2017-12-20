@@ -1,0 +1,3789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tagsets>
+    <tagset lang="ita">
+        <tag tagName="DS" wnpos="a" description="Singular determinative adjective: quello, alcuna, mio, quale">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+sing\+(pst|sup|_|nil|noun_adj)\+(dim|in[dt]|neg|rel|poss|escl|comp).*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="DP" wnpos="a" description="Plural determinative adjective: quelli, alcune, miei, quali">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+plur\+(pst|sup|_|nil|noun_adj)\+(dim|in[dt]|neg|rel|poss|escl|comp).*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="DN" wnpos="a" description="Neutral determinative adjective: quello, alcuna, mio, quale">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+(_|nil)\+(pst|sup|_|nil|noun_adj)\+(dim|in[dt]|neg|rel|poss|escl|comp).*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="N" wnpos="n" description="Number: 1, 1999">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+(sing|plur|_|nil)\+(pst|sup|_|nil|noun_adj)\+num.*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AS" wnpos="a" description="Singular qualificative adjective: vera, grandissimo, migliore">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+sing\+(pst|sup|_|nil|noun_adj).*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AP" wnpos="a" description="Plural qualificative adjective: vere, grandissimi, maggiori">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+plur\+(pst|sup|_|nil|noun_adj).*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AN" wnpos="a" description="Neutral qualificative adjective: osa, più, super, antincendio">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+(_|nil)\+(pst|sup|_|nil|noun_adj).*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="B" wnpos="r" description="Adverb: molto, invece, esattamente">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="C" description="Conjunction: e, ma, bensì, sia, perché">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="ES" description="Singular articulated preposition: dal, sulla, nello">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+prep/.+[\+~]det\+art\+([mf_]|nil)\+sing$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="EP" description="Plural articulated preposition: dalle, sulle, negli, nei, ai">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+prep/.+[\+~]det\+art\+([mf_]|nil)\+plur$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="E" description="Simple preposition: di, a, dopo, fino, nonostante">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+prep$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="I" description="Interjection: oh!">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+inter$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PS" description="Singular pronoun: ciascuna, lo, mio">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pron\+(acc|dat|accdat|nom|gen|loc|_)\+([mf_]|nil)\+([123_]|nil)\+sing.*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PP" description="Plural pronoun: costoro, esse, nostri, loro">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pron\+(acc|dat|accdat|nom|gen|loc|_)\+([mf_]|nil)\+([123_]|nil)\+plur.*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PN" description="Pronoun neutral for number: ci, cui, sé">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pron\+(acc|dat|accdat|nom|gen|loc|_)\+([mf_]|nil)\+([123_]|nil)\+(_|nil).*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="RS" description="Singular article: il, l', la, un, una">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+art\+([mf_]|nil)\+sing$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="RP" description="Plural article: i, gli, gl', le">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+art\+([mf_]|nil)\+plur$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="YA" wnpos="n" description="Acronym: ANSA, CEE, ONU">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+([mf_]|nil)\+(plur|sing|_|nil)\+abb$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="YF" wnpos="n" description="Foreign term: city, fiesta, Papier">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+([mf_]|nil)\+(plur|sing|_|nil)\+foreign$</expression>
+                    <!-- NB: REMEMBER TO UNCOMMENT THIS FOR THE NEW VERSION OF LEMMAPRO!!!
+                   <expression>.*\+mwel\+$</expression> -->
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="SS" wnpos="n" description="Singular noun: aereo, formula">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+([mf_]|nil)\+(sing|_|nil)$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="SP" wnpos="n" description="Plural noun: aerei, formule">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+([mf_]|nil)\+(plur|_|nil)$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="SN" wnpos="n" description="Noun neutral for number: attività, business, novità">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+([mf_]|nil)\+(_|nil)$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="SPN" wnpos="n" description="Proper noun: Alfredo, Ford, Piombino">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pn\+.*</expression>
+                    <expression>.*\+pn$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="XPW" description="Comma: ,">
+            <rules>
+                <rule operation="||">
+                    <expression>comma\+punc</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="XPB" description="Brakets: ( ) [ ]">
+            <rules>
+                <rule operation="||">
+                    <expression>.*parenthesis.*\+punc$</expression>
+                    <expression>.*bracket.*\+punc$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="XPO" description="Quotation mark, ellipsis, hyphen: `` '' - ... _">
+            <rules>
+                <rule operation="||">
+                    <expression>.*quote.*\+punc$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="XPS" description="Punctuation	 . ; : ? !">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+punc$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VI" wnpos="v" description="Main verb, indicative, subjunctive, conditional: vedo, giungano, saprei">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+(indic|cong|cond)\+(pres|imperf|pass|fut)\+nil\+([123_]|nil)\+(plur|sing|_|nil)$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VIY" wnpos="v" description="Auxiliar verb, indicative, subjunctive, conditional: ho, sia, avrebbe">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+(indic|cong|cond)\+(pres|imperf|pass|fut)\+nil\+([123_]|nil)\+(plur|sing|_|nil)$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VF" wnpos="v" description="Main verb, infinitive: arrivare, vedere">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+infinito\+pres[^\/]*</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VFY" wnpos="v" description="Auxiliar verb, infinitive: avere, essere">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+infinito\+pres[^\/]*</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VSP" wnpos="v" description="Main verb, past participle singular: acquisito, interrotto">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+sing$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VSPY" wnpos="v" description="Auxiliar verb, past participle singular: avente, stato, stata">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+sing$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VPP" wnpos="v" description="Main verb, past participle plural: arrivati">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+plur$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VPPY" wnpos="v" description="Auxiliar verb, past participle plural: state">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+plur$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VG" wnpos="v" description="Main verb, gerund: cantando, ringraziando">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+gerundio\+pres[^\/]*</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VGY" wnpos="v" description="Auxiliar verb, gerund: avendo, essendo">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+gerundio\+pres[^\/]*</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VM" wnpos="v" description="Main verb, imperative: cercate, leggi">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+imp\+pres\+\nil\+([123_]|nil)\+(plur|sing|_|nil)$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VMY" wnpos="v" description="Auxiliar verb, imperative: sia, abbia">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+imp\+pres\+\nil\+([123_]|nil)\+(plur|sing|_|nil)$</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <!-- verb + clitic -->
+        <tag tagName="VI+E" wnpos="v" description="Main verb, indicative, subjunctive, conditional + clitic: ???">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+(indic|cong|cond)\+(pres|imperf|pass|fut)\+nil\+([123_]|nil)\+(plur|sing|_|nil)\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VIY+E" wnpos="v" description="Auxiliar verb, indicative, subjunctive, conditional + clitic: ???">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+(indic|cong|cond)\+(pres|imperf|pass|fut)\+nil\+([123_]|nil)\+(plur|sing|_|nil)\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VF+E" wnpos="v" description="Main verb, infinitive + clitic: arrivarci, vederne">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+infinito\+pres.*\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VFY+E" wnpos="v" description="Auxiliar verb, infinitive + clitic: averci, esserne">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+infinito\+pres.*\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VSP+E" wnpos="v" description="Main verb, past participle singular + clitic: intessutane">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+sing\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VSPY+E" wnpos="v" description="Auxiliar verb, past participle singular + clitic: avutasene">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+sing\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VPP+E" wnpos="v" description="Main verb, past participle plural + clitic: intessutine">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+plur\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VPPY+E" wnpos="v" description="Auxiliar verb, past participle plural + clitic: avutesene">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+plur\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VG+E" wnpos="v" description="Main verb, gerund + clitic: zoomandoci">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+gerundio\+pres[^/]*\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VGY+E" wnpos="v" description="Auxiliar verb, gerund + clitic: avendola, essendola">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+gerundio\+pres[^/]*\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VM+E" wnpos="v" description="Main verb, imperative + clitic: cercatele, leggile">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+imp\+pres\+\nil\+([123_]|nil)\+(plur|sing|_|nil)\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VMY+E" wnpos="v" description="Auxiliar verb, imperative + clitic: abbine">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+imp\+pres\+\nil\+([123_]|nil)\+(plur|sing|_|nil)\/.+</expression>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="QNS" description="Singular relative pronoun: quanto, quanta">
+            <rules>
+                <rule operation="||">
+                    <expression>^quanto\+pron\+_\+([mf_]|nil)\+_\+sing.*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="QNP" description="Plural relative pronoun: quanti, quante">
+            <rules>
+                <rule operation="||">
+                    <expression>^quanto\+pron\+_\+([mf_]|nil)\+_\+plur.*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CCHI" description="chi">
+            <rules>
+                <rule operation="||">
+                    <expression>^chi\+pron.*</expression>
+                    <expression>^chi\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CCHE" description="che">
+            <rules>
+                <rule operation="||">
+                    <expression>^(che|ch\')\+pron.*</expression>
+                    <expression>^(che|ch\')\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CADV" description="Connettivo avverbiale: come, dove, quando">
+            <rules>
+                <rule operation="||">
+                    <expression>^(quando|dove|come)\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+    </tagset>
+
+    <tagset lang="eng">
+        <tag tagName="AJ0" wnpos="a" description="Adjective general or positive e.g. good, old, beautiful">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+zero\+.*</expression>
+                    <expression>.*\+zero$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AJC" wnpos="a" description="Comparative adjective e.g. better, older">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+comp\+.*</expression>
+                    <expression>.*\+comp$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AJS" wnpos="a" description="Superlative adjective e.g. best, oldest">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+sup\+.*</expression>
+                    <expression>.*\+sup$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AT0" description="Article e.g. the, a, an, no">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+art\+.*</expression>
+                    <expression>.*\+art$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AV0" wnpos="r" description="General adverb: an adverb not subclassified as AVP or AVQ see below e.g. often, well, longer adv., furthest.">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AVP" wnpos="r" description="Adverb particle e.g. up, off, out">
+            <rules>
+                <rule operation="||">
+                    <expression>^about\+.*</expression>
+                    <expression>^about$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^along\+.*</expression>
+                    <expression>^along$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^around\+.*</expression>
+                    <expression>^around$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^away\+.*</expression>
+                    <expression>^away$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^back\+.*</expression>
+                    <expression>^back$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^by\+.*</expression>
+                    <expression>^by$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^down\+.*</expression>
+                    <expression>^down$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^for\+.*</expression>
+                    <expression>^for$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^in\+.*</expression>
+                    <expression>^in$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^mid\-off\+.*</expression>
+                    <expression>^mid\-off$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^off\+.*</expression>
+                    <expression>^off$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^on\+.*</expression>
+                    <expression>^on$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^on\/off\+.*</expression>
+                    <expression>^on\/off$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^out\+.*</expression>
+                    <expression>^out$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^over\+.*</expression>
+                    <expression>^over$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^round\+.*</expression>
+                    <expression>^round$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^through\+.*</expression>
+                    <expression>^through$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^to\+.*</expression>
+                    <expression>^to$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^under\+.*</expression>
+                    <expression>^under$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^up\+.*</expression>
+                    <expression>^up$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="AVQ" wnpos="r" description="Wh-adverb e.g. when, where, how, why, wherever">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'ow\+.*</expression>
+                    <expression>^\'ow$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^how\+.*</expression>
+                    <expression>^how$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^however\+.*</expression>
+                    <expression>^however$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^when\+.*</expression>
+                    <expression>^when$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whence\+.*</expression>
+                    <expression>^whence$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whenever\+.*</expression>
+                    <expression>^whenever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^where\+.*</expression>
+                    <expression>^where$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whereabouts\+.*</expression>
+                    <expression>^whereabouts$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whereby\+.*</expression>
+                    <expression>^whereby$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^wherein\+.*</expression>
+                    <expression>^wherein$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whereof\+.*</expression>
+                    <expression>^whereof$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^wherever\+.*</expression>
+                    <expression>^wherever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whither\+.*</expression>
+                    <expression>^whither$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^why\+.*</expression>
+                    <expression>^why$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CJC" description="Coordinating conjunction e.g. and, or, but">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'n\+.*</expression>
+                    <expression>^\'n$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^an\'\+.*</expression>
+                    <expression>^an\'$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^and\+.*</expression>
+                    <expression>^and$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^and\/or\+.*</expression>
+                    <expression>^and\/or$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^as\+.*</expression>
+                    <expression>^as$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^but\+.*</expression>
+                    <expression>^but$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nor\+.*</expression>
+                    <expression>^nor$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^or\+.*</expression>
+                    <expression>^or$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^plus\+.*</expression>
+                    <expression>^plus$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CJS" description="Subordinating conjunction e.g. although, when">
+            <rules>
+                <rule operation="||">
+                    <expression>^for\+.*</expression>
+                    <expression>^for$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^as\+.*</expression>
+                    <expression>^as$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^because\+.*</expression>
+                    <expression>^because$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^if\+.*</expression>
+                    <expression>^if$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^lest\+.*</expression>
+                    <expression>^lest$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^like\+.*</expression>
+                    <expression>^like$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^once\+.*</expression>
+                    <expression>^once$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^since\+.*</expression>
+                    <expression>^since$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^so\+.*</expression>
+                    <expression>^so$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^such\+.*</expression>
+                    <expression>^such$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^than\+.*</expression>
+                    <expression>^than$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^that\+.*</expression>
+                    <expression>^that$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^then\+.*</expression>
+                    <expression>^then$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^tho\'\+.*</expression>
+                    <expression>^tho\'$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^though\+.*</expression>
+                    <expression>^though$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^till\+.*</expression>
+                    <expression>^till$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^unless\+.*</expression>
+                    <expression>^unless$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^until\+.*</expression>
+                    <expression>^until$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^when\+.*</expression>
+                    <expression>^when$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^where\+.*</expression>
+                    <expression>^where$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whereas\+.*</expression>
+                    <expression>^whereas$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whereupon\+.*</expression>
+                    <expression>^whereupon$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whether\+.*</expression>
+                    <expression>^whether$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^while\+.*</expression>
+                    <expression>^while$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whilst\+.*</expression>
+                    <expression>^whilst$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yet\+.*</expression>
+                    <expression>^yet$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CJT" description="The subordinating conjunction that">
+            <rules>
+                <rule operation="||">
+                    <expression>^that\+.*</expression>
+                    <expression>^that$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+conj\+.*</expression>
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CRD" wnpos="n" description="Cardinal number e.g. one, 3, fifty-five, 3609">
+            <rules>
+                <rule operation="||">
+                    <expression>^c_digit\+.*</expression>
+                    <expression>^c_digit$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="ORD" wnpos="a" description="Ordinal numeral e.g. first, sixth, 77th, last .">
+            <rules>
+                <rule operation="||">
+                    <expression>^o_digit\+.*</expression>
+                    <expression>^o_digit$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="DPS" wnpos="a" description="Possessive determiner-pronoun e.g. your, their, his">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'er\+.*</expression>
+                    <expression>^\'er$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'is\+.*</expression>
+                    <expression>^\'is$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^her\+.*</expression>
+                    <expression>^her$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^his\+.*</expression>
+                    <expression>^his$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^its\+.*</expression>
+                    <expression>^its$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^m\'\+.*</expression>
+                    <expression>^m\'$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^me\+.*</expression>
+                    <expression>^me$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^mine\+.*</expression>
+                    <expression>^mine$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^my\+.*</expression>
+                    <expression>^my$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^our\+.*</expression>
+                    <expression>^our$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^their\+.*</expression>
+                    <expression>^their$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^thine\+.*</expression>
+                    <expression>^thine$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^thy\+.*</expression>
+                    <expression>^thy$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yer\+.*</expression>
+                    <expression>^yer$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^your\+.*</expression>
+                    <expression>^your$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yu\+.*</expression>
+                    <expression>^yu$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="DTQ" description="Wh-determiner-pronoun e.g. which, what, whose, whichever">
+            <rules>
+                <rule operation="||">
+                    <expression>^what\+.*</expression>
+                    <expression>^what$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whatever\+.*</expression>
+                    <expression>^whatever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whatsoever\+.*</expression>
+                    <expression>^whatsoever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^which\+.*</expression>
+                    <expression>^which$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whichever\+.*</expression>
+                    <expression>^whichever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whose\+.*</expression>
+                    <expression>^whose$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^wot\+.*</expression>
+                    <expression>^wot$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adj\+.*</expression>
+                    <expression>.*\+adj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="DT0" description="General determiner-pronoun: i.e. a determiner-pronoun which is not a DTQ or an AT0.">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'alf\+.*</expression>
+                    <expression>^\'alf$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'nother\+.*</expression>
+                    <expression>^\'nother$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^a\'\+.*</expression>
+                    <expression>^a\'$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^all\+.*</expression>
+                    <expression>^all$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^another\+.*</expression>
+                    <expression>^another$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^any\+.*</expression>
+                    <expression>^any$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^both\+.*</expression>
+                    <expression>^both$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^dat\+.*</expression>
+                    <expression>^dat$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^dis\+.*</expression>
+                    <expression>^dis$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^each\+.*</expression>
+                    <expression>^each$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^either\+.*</expression>
+                    <expression>^either$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^enough\+.*</expression>
+                    <expression>^enough$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^enuff\+.*</expression>
+                    <expression>^enuff$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^few\+.*</expression>
+                    <expression>^few$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^fewer\+.*</expression>
+                    <expression>^fewer$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^fewest\+.*</expression>
+                    <expression>^fewest$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^former\+.*</expression>
+                    <expression>^former$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^half\+.*</expression>
+                    <expression>^half$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^latter\+.*</expression>
+                    <expression>^latter$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^least\+.*</expression>
+                    <expression>^least$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^less\+.*</expression>
+                    <expression>^less$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^little\+.*</expression>
+                    <expression>^little$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^many\+.*</expression>
+                    <expression>^many$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^more\+.*</expression>
+                    <expression>^more$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^most\+.*</expression>
+                    <expression>^most$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^much\+.*</expression>
+                    <expression>^much$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^neither\+.*</expression>
+                    <expression>^neither$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^overmuch\+.*</expression>
+                    <expression>^overmuch$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^own\+.*</expression>
+                    <expression>^own$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^same\+.*</expression>
+                    <expression>^same$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^several\+.*</expression>
+                    <expression>^several$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^some\+.*</expression>
+                    <expression>^some$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^such\+.*</expression>
+                    <expression>^such$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^such-and-such\+.*</expression>
+                    <expression>^such-and-such$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^tha\+.*</expression>
+                    <expression>^tha$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^that\+.*</expression>
+                    <expression>^that$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^these\+.*</expression>
+                    <expression>^these$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^this\+.*</expression>
+                    <expression>^this$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^this-and-that\+.*</expression>
+                    <expression>^this-and-that$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^those\+.*</expression>
+                    <expression>^those$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yon\+.*</expression>
+                    <expression>^yon$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yonder\+.*</expression>
+                    <expression>^yonder$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="EX0" description="Existential there, i.e. there occurring in the there is ... or there are ... construction">
+            <rules>
+                <rule operation="||">
+                    <expression>^there\+.*</expression>
+                    <expression>^there$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="ITJ" wnpos="n" description="Interjection or other isolate e.g. oh, yes, mhm, wow">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+int\+.*</expression>
+                    <expression>.*\+int$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="NN0" wnpos="n" description="Common noun, neutral for number e.g. aircraft, data, committee">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+.*</expression>
+                    <expression>.*\+n\+.*_\+.*</expression>
+                    <expression>.*\+n\+.*_$</expression>
+                    <expression>.*\+n$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="NN1" wnpos="n" description="Singular common noun e.g. pencil, goose, time, revelation">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+.*</expression>
+                    <expression>.*\+n\+.*sing\+.*</expression>
+                    <expression>.*\+n\+.*sing$</expression>
+                    <expression>.*\+n$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="NN2" wnpos="n" description="Plural common noun e.g. pencils, geese, times, revelations">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+.*</expression>
+                    <expression>.*\+n\+.*plur\+.*</expression>
+                    <expression>.*\+n\+.*plur$</expression>
+                    <expression>.*\+n$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="NP0" wnpos="n" description="Proper noun e.g. London, Michael, Mars, IBM">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pn\+.*</expression>
+                    <expression>.*\+pn$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PNI" description="Indefinite pronoun e.g. none, everything, one [as pronoun], nobody">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'un\+.*</expression>
+                    <expression>^\'un$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^anybody\+.*</expression>
+                    <expression>^anybody$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^anyone\+.*</expression>
+                    <expression>^anyone$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^anythin\'\+.*</expression>
+                    <expression>^anythin\'$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^anything\+.*</expression>
+                    <expression>^anything$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^aught\+.*</expression>
+                    <expression>^aught$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^everybody\+.*</expression>
+                    <expression>^everybody$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^everyone\+.*</expression>
+                    <expression>^everyone$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^everything\+.*</expression>
+                    <expression>^everything$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^lots\+.*</expression>
+                    <expression>^lots$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^naught\+.*</expression>
+                    <expression>^naught$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nil\+.*</expression>
+                    <expression>^nil$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^no-one\+.*</expression>
+                    <expression>^no-one$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nobody\+.*</expression>
+                    <expression>^nobody$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^none\+.*</expression>
+                    <expression>^none$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nothin\'\+.*</expression>
+                    <expression>^nothin\'$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nothing\+.*</expression>
+                    <expression>^nothing$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nought\+.*</expression>
+                    <expression>^nought$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nowt\+.*</expression>
+                    <expression>^nowt$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^nuffink\+.*</expression>
+                    <expression>^nuffink$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^one\+.*</expression>
+                    <expression>^one$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ones\+.*</expression>
+                    <expression>^ones$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^owt\+.*</expression>
+                    <expression>^owt$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^plenty\+.*</expression>
+                    <expression>^plenty$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^somebody\+.*</expression>
+                    <expression>^somebody$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^someone\+.*</expression>
+                    <expression>^someone$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^somethin\'\+.*</expression>
+                    <expression>^somethin\'$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^something\+.*</expression>
+                    <expression>^something$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^summat\+.*</expression>
+                    <expression>^summat$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PNP" description="Personal pronoun e.g. I, you, them, ours">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'e\+.*</expression>
+                    <expression>^\'e$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'em\+.*</expression>
+                    <expression>^\'em$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'er\+.*</expression>
+                    <expression>^\'er$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'im\+.*</expression>
+                    <expression>^\'im$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'is\+.*</expression>
+                    <expression>^\'is$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'t\+.*</expression>
+                    <expression>^\'t$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ah\+.*</expression>
+                    <expression>^ah$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^dem\+.*</expression>
+                    <expression>^dem$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^dey\+.*</expression>
+                    <expression>^dey$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^he\+.*</expression>
+                    <expression>^he$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^he\/she\+.*</expression>
+                    <expression>^he\/she$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^her\+.*</expression>
+                    <expression>^her$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^hers\+.*</expression>
+                    <expression>^hers$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^him\+.*</expression>
+                    <expression>^him$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^him\/her\+.*</expression>
+                    <expression>^him\/her$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^his\+.*</expression>
+                    <expression>^his$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^i\+.*</expression>
+                    <expression>^i$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^it\+.*</expression>
+                    <expression>^it$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^me\+.*</expression>
+                    <expression>^me$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^mine\+.*</expression>
+                    <expression>^mine$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ours\+.*</expression>
+                    <expression>^ours$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^s\/he\+.*</expression>
+                    <expression>^s\/he$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^she\+.*</expression>
+                    <expression>^she$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^she-she\+.*</expression>
+                    <expression>^she-she$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^she\/he\+.*</expression>
+                    <expression>^she\/he$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^t\+.*</expression>
+                    <expression>^t$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^thee\+.*</expression>
+                    <expression>^thee$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^theirs\+.*</expression>
+                    <expression>^theirs$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^them\+.*</expression>
+                    <expression>^them$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^they\+.*</expression>
+                    <expression>^they$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^thine\+.*</expression>
+                    <expression>^thine$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^thou\+.*</expression>
+                    <expression>^thou$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^us\+.*</expression>
+                    <expression>^us$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^we\+.*</expression>
+                    <expression>^we$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ya\+.*</expression>
+                    <expression>^ya$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ye\+.*</expression>
+                    <expression>^ye$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^you\+.*</expression>
+                    <expression>^you$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yours\+.*</expression>
+                    <expression>^yours$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^youse\+.*</expression>
+                    <expression>^youse$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yu\+.*</expression>
+                    <expression>^yu$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PNQ" description="Wh-pronoun e.g. who, whoever, whom">
+            <rules>
+                <rule operation="||">
+                    <expression>^who\+.*</expression>
+                    <expression>^who$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whoever\+.*</expression>
+                    <expression>^whoever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whom\+.*</expression>
+                    <expression>^whom$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whomever\+.*</expression>
+                    <expression>^whomever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whomsoever\+.*</expression>
+                    <expression>^whomsoever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^whosoever\+.*</expression>
+                    <expression>^whosoever$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^you-know-who\+.*</expression>
+                    <expression>^you-know-who$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PNX" description="Reflexive pronoun e.g. myself, yourself, itself, ourselves">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'imself\+.*</expression>
+                    <expression>^\'imself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^each_other\+.*</expression>
+                    <expression>^each_other$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^herself\+.*</expression>
+                    <expression>^herself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^himself\+.*</expression>
+                    <expression>^himself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^itself\+.*</expression>
+                    <expression>^itself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^meself\+.*</expression>
+                    <expression>^meself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^myself\+.*</expression>
+                    <expression>^myself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^oneself\+.*</expression>
+                    <expression>^oneself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^other\+.*</expression>
+                    <expression>^other$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ourself\+.*</expression>
+                    <expression>^ourself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ourselves\+.*</expression>
+                    <expression>^ourselves$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^th\'self\+.*</expression>
+                    <expression>^th\'self$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^themselves\+.*</expression>
+                    <expression>^themselves$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^thyself\+.*</expression>
+                    <expression>^thyself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yerself\+.*</expression>
+                    <expression>^yerself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yourself\+.*</expression>
+                    <expression>^yourself$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^yourselves\+.*</expression>
+                    <expression>^yourselves$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pron\+.*</expression>
+                    <expression>.*\+pron$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="POS" description="The possessive or genitive marker 's or '">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'s\+.*</expression>
+                    <expression>^\'s$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'\+.*</expression>
+                    <expression>^\'$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PRF" description="The preposition of">
+            <rules>
+                <rule operation="||">
+                    <expression>^of\+.*</expression>
+                    <expression>^of$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+prep\+.*</expression>
+                    <expression>.*\+prep$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PRP" description="Preposition except for of e.g. about, at, in, on, on behalf of, with">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+prep\+.*</expression>
+                    <expression>.*\+prep$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PUL" description="Punctuation: left bracket - i.e.  or [">
+            <rules>
+                <rule operation="||">
+                    <expression>^\(\+.*</expression>
+                    <expression>^\($</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\[\+.*</expression>
+                    <expression>^\[$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\{\+.*</expression>
+                    <expression>^\{$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PUN" description="Punctuation: general separating mark - i.e. . , ! , : ; - or ?">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+punc$</expression>
+                    <!-- NB: REMEMBER TO UNCOMMENT THIS FOR THE NEW VERSION OF LEMMAPRO!!!
+                    <expression>^punc$</expression>
+                    -->
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\.\+.*</expression>
+                    <expression>^\.$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\!\+.*</expression>
+                    <expression>^\!$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\?\+.*</expression>
+                    <expression>^\?$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\:\+.*</expression>
+                    <expression>^\:$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\,\+.*</expression>
+                    <expression>^\,$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\;\+.*</expression>
+                    <expression>^\;$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+punc$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PUQ" description="Punctuation: quotation mark - i.e. ' or &quot; ">
+            <rules>
+                <rule operation="||">
+                    <expression>^\'\+.*</expression>
+                    <expression>^\'$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\"\+.*</expression>
+                    <expression>^\"$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PUR" description="Punctuation: right bracket - i.e.  or ]">
+            <rules>
+                <rule operation="||">
+                    <expression>^\)\+.*</expression>
+                    <expression>^\)$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\]\+.*</expression>
+                    <expression>^\]$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\}\+.*</expression>
+                    <expression>^\}$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="TO0" description="Infinitive marker to">
+            <rules>
+                <rule operation="||">
+                    <expression>^to\+.*</expression>
+                    <expression>^to$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+prep\+.*</expression>
+                    <expression>.+\+prep$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="UNC" description="Unclassified items which are not appropriately considered as items of the English lexicon."></tag>
+        <tag tagName="VBB" wnpos="v" description="The present tense forms of the verb BE, except for is, 's: i.e. am, are, 'm, 're and be [subjunctive or imperative]">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^be\+.*</expression>
+                    <expression>^be$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+no3sing\+.*</expression>
+                    <expression>.+\+no3sing$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VBD" wnpos="v" description="The past tense forms of the verb BE: was and were">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^be\+.*</expression>
+                    <expression>^be$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+past\+.*</expression>
+                    <expression>.+\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VBG" wnpos="v" description="The -ing form of the verb BE: being">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^be\+.*</expression>
+                    <expression>^be$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+gerund\+.*</expression>
+                    <expression>.+\+gerund$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VBI" wnpos="v" description="The infinitive form of the verb BE: be">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^be\+.*</expression>
+                    <expression>^be$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+infin\+.*</expression>
+                    <expression>.+\+infin$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VBN" wnpos="v" description="The past participle form of the verb BE: been">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^be\+.*</expression>
+                    <expression>^be$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+part\+.*</expression>
+                    <expression>.+\+part$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+past\+.*</expression>
+                    <expression>.+\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VBZ" wnpos="v" description="The -s form of the verb BE: is, 's">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^be\+.*</expression>
+                    <expression>^be$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+sing3\+.*</expression>
+                    <expression>.+\+sing3$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VDB" wnpos="v" description="The finite base form of the verb BE: do">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^do\+.*</expression>
+                    <expression>^do$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+no3sing\+.*</expression>
+                    <expression>.+\+no3sing$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VDD" wnpos="v" description="The past tense form of the verb DO: did">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^do\+.*</expression>
+                    <expression>^do$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+past\+.*</expression>
+                    <expression>.+\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VDG" wnpos="v" description="The -ing form of the verb DO: doing">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^do\+.*</expression>
+                    <expression>^do$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+gerund\+.*</expression>
+                    <expression>.+\+gerund$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VDI" wnpos="v" description="The infinitive form of the verb DO: do">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^do\+.*</expression>
+                    <expression>^do$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+infin\+.*</expression>
+                    <expression>.+\+infin$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VDN" wnpos="v" description="The past participle form of the verb DO: done">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^do\+.*</expression>
+                    <expression>^do$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+part\+.*</expression>
+                    <expression>.+\+part$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+past\+.*</expression>
+                    <expression>.+\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VDZ" wnpos="v" description="The -s form of the verb DO: does, 's">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^do\+.*</expression>
+                    <expression>^do$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+sing3\+.*</expression>
+                    <expression>.+\+sing3$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VHB" wnpos="v" description="The finite base form of the verb HAVE: have, 've">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^have\+.*</expression>
+                    <expression>^have$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+no3sing\+.*</expression>
+                    <expression>.+\+no3sing$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VHD" wnpos="v" description="The past tense form of the verb HAVE: had, 'd">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^have\+.*</expression>
+                    <expression>^have$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+past\+.*</expression>
+                    <expression>.+\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VHG" wnpos="v" description="The -ing form of the verb HAVE: having">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^have\+.*</expression>
+                    <expression>^have$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+gerund\+.*</expression>
+                    <expression>.+\+gerund$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VHI" wnpos="v" description="The infinitive form of the verb HAVE: have">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^have\+.*</expression>
+                    <expression>^have$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+infin\+.*</expression>
+                    <expression>.+\+infin$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VHN" wnpos="v" description="The past participle form of the verb HAVE: had">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^have\+.*</expression>
+                    <expression>^have$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+part\+.*</expression>
+                    <expression>.+\+part$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+past\+.*</expression>
+                    <expression>.+\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VHZ" wnpos="v" description="The -s form of the verb HAVE: has, 's">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^have\+.*</expression>
+                    <expression>^have$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+pres\+.*</expression>
+                    <expression>.+\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+sing3\+.*</expression>
+                    <expression>.+\+sing3$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VM0" wnpos="v" description="Modal auxiliary verb e.g. will, would, can, could, 'll, 'd">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'d\+.*</expression>
+                    <expression>^\'d$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^\'ll\+.*</expression>
+                    <expression>^\'ll$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.+\+indic\+.*</expression>
+                    <expression>.+\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ai\+.*</expression>
+                    <expression>^ai$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ca\+.*</expression>
+                    <expression>^ca$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^can\+.*</expression>
+                    <expression>^can$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^could\+.*</expression>
+                    <expression>^could$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^d\+.*</expression>
+                    <expression>^d$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^dare\+.*</expression>
+                    <expression>^dare$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^let\'s\+.*</expression>
+                    <expression>^let\'s$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ll\+.*</expression>
+                    <expression>^ll$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^may\+.*</expression>
+                    <expression>^may$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^might\+.*</expression>
+                    <expression>^might$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^mus\+.*</expression>
+                    <expression>^mus$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^must\+.*</expression>
+                    <expression>^must$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^need\+.*</expression>
+                    <expression>^need$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^ought\+.*</expression>
+                    <expression>^ought$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^sha\+.*</expression>
+                    <expression>^sha$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^shall\+.*</expression>
+                    <expression>^shall$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^shalt\+.*</expression>
+                    <expression>^shalt$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^should\+.*</expression>
+                    <expression>^should$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^used\+.*</expression>
+                    <expression>^used$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^will\+.*</expression>
+                    <expression>^will$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^wilt\+.*</expression>
+                    <expression>^wilt$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^wo\+.*</expression>
+                    <expression>^wo$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^would\+.*</expression>
+                    <expression>^would$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VVB" wnpos="v" description="The finite base form of lexical verbs e.g. forget, send, live, return [Including the imperative and present subjunctive]">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pres\+.*</expression>
+                    <expression>.*\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+no3sing\+.*</expression>
+                    <expression>.*\+no3sing$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VVD" wnpos="v" description="The past tense form of lexical verbs e.g. forgot, sent, lived, returned">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+past\+.*</expression>
+                    <expression>.*\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VVG" wnpos="v" description="The -ing form of lexical verbs e.g. forgetting, sending, living, returning">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+gerund\+.*</expression>
+                    <expression>.*\+gerund$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pres\+.*</expression>
+                    <expression>.*\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VVI" wnpos="v" description="The infinitive form of lexical verbs e.g. forget, send, live, return">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+infin\+.*</expression>
+                    <expression>.*\+infin$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pres\+.*</expression>
+                    <expression>.*\+pres$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VVN" wnpos="v" description="The past participle form of lexical verbs e.g. forgotten, sent, lived, returned">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+part\+.*</expression>
+                    <expression>.*\+part$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+past\+.*</expression>
+                    <expression>.*\+past$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="VVZ" wnpos="v" description="The -s form of lexical verbs e.g. forgets, sends, lives, returns">
+            <rules>
+                <rule>
+                    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+indic\+.*</expression>
+                    <expression>.*\+indic$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+pres\+.*</expression>
+                    <expression>.*\+pres$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+sing3\+.*</expression>
+                    <expression>.*\+sing3$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="XX0" wnpos="r" description="The negative particle not or n't">
+            <rules>
+                <rule operation="||">
+                    <expression>^not\+.*</expression>
+                    <expression>^not$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+            <rules>
+                <rule operation="||">
+                    <expression>^n\'t\+.*</expression>
+                    <expression>^n\'t$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+adv\+.*</expression>
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="ZZ0" wnpos="n" description="Alphabetical symbols e.g. A, a, B, b, c, d">
+            <rules>
+                <rule operation="||">
+                    <expression>^[a-zA-Z]\+.*</expression>
+                    <expression>^[a-zA-Z]$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+n\+.*</expression>
+                    <expression>.*\+n$</expression>
+                </rule>
+                <rule operation="||">
+                    <expression>.*\+sing\+.*</expression>
+                    <expression>.*\+sing$</expression>
+                </rule>
+            </rules>
+        </tag>
+    </tagset>
+    <tagset lang="fre">
+        <tag tagName="A" wnpos="a" description="Singular qualificative adjective: vera, grandissimo, migliore">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adj\+([mf_]|nil)\+(sing|plur|_|nil)(\+(pst|sup|_|nil|noun_adj))?.*</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="ADV" wnpos="r" description="Adverb: beaucoup, exactement">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+adv$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="CC" description="Conjunction: et, mais">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+conj$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="P+D" description="Singular articulated preposition: au, du">
+            <rules>
+                <rule operation="||">
+                    <expression>det\+art\+([mf_]|nil)\+(sing|plur)$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="P" description="Simple preposition: pour, dans">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+prep$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="I" description="Interjection: oh!">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+inter$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PRO" description="Singular pronoun: je, le">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pron\+(acc|dat|accdat|nom|gen|loc|_)\+([mf_]|nil)\+([123_]|nil)\+(sing|plur|_|nil).*</expression>
+                </rule>
+            </rules>
+        </tag>
+	<tag tagName="CL" description="clitics">
+	   <rules>
+		<rule operation="||">
+		    <expression>pro\+pron\+.*\+clit.*</expression>
+		</rule>
+	  </rules>
+	</tag>
+        <tag tagName="D" description="Singular article: le, un, des">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+art\+([mf_]|nil)\+(sing|plur|_|nil)$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="NC" wnpos="n" description="Singular noun: aereo, formula">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+n\+([mf_]|nil)\+sing$</expression>
+                    <expression>.*\+n\+([mf_]|nil)\+plur$</expression>
+                    <expression>.*\+n\+([mf_]|nil)\+(_|nil)$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="NP" wnpos="n" description="Proper noun">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+pn\+.*</expression>
+                    <expression>.*\+pn$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PONCT" description="Comma: ,">
+            <rules>
+                <rule operation="||">
+                    <expression>comma\+punc</expression>
+                    <expression>.*parenthesis.*\+punc$</expression>
+                    <expression>.*bracket.*\+punc$</expression>
+		    <expression>.*quote.*\+punc$</expression>
+	            <expression>.*\+punc$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="V" wnpos="v" description="Main verb, indicative, subjunctive, conditional: parle, vois, mangeront">
+            <rules>
+                <rule operation="||">
+                    <expression>.*\+v\+(indic|cong|cond)\+(pres|imperf|pass|fut).*\+nil\+([123_]|nil)\+(plur|sing|_|nil)$</expression>
+                    <expression>.*\+v\+infinito\+pres[^\/]*</expression>
+		    <expression>.*\+v\+part\+(pres|pass)\+([mf_]|nil)\+nil\+sing$</expression> 
+		    <expression>.*\+v\+gerundio\+pres[^\/]*</expression>
+ 		    <expression>.*\+v\+imp\+pres\+\nil\+([123_]|nil)\+(plur|sing|_|nil)$</expression>
+		    <expression>.*\+v$</expression>
+                </rule>
+            </rules>
+        </tag>
+        <tag tagName="PROREL" description="Singular relative pronoun: quanto, quanta">
+            <rules>
+                <rule operation="||">
+                    <expression>^quanto\+pron\+_\+([mf_]|nil)\+_\+(sing|plur).*</expression>
+                </rule>
+            </rules>
+        </tag>
+    </tagset>
+</tagsets>

@@ -1,0 +1,29 @@
+Models built with the following parameters:
+
+- 3 classes: ORG, LOC, PER
+- training: CoNLL03 training set (https://www.clips.uantwerpen.be/conll2003/ner/) 
+- Maxent
+- F:-2..1:3..13 T:-3..-1
+0: token
+1: tokennorm
+2: tokentype
+3: pos
+4: lemma
+5: coarseGrainedPos
+6: tokennormbis
+7: GPE
+8: ORG
+9: LOC
+10: PER
+11: orth
+12: sufBig
+13: prefBig
+
+- evaluation against CoNLL03 test set
+processed 46435 tokens with 4946 phrases; found: 4583 phrases; correct: 3927.
+accuracy:  96.41%; precision:  85.69%; recall:  79.40%; FB1:  82.42
+              LOC: precision:  86.80%; recall:  84.35%; FB1:  85.56
+              ORG: precision:  79.83%; recall:  68.15%; FB1:  73.53
+              PER: precision:  89.90%; recall:  85.84%; FB1:  87.82
+
+

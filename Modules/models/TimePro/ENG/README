@@ -1,0 +1,23 @@
+Models built with the following parameters:
+
+- training: Tempeval3 training set + some examples from tempeval3 silver dataset
+- maxent
+- F:-4..4:0..6 T:-4..-1
+0: token
+1: pos
+2: lemma
+3: chunk
+4: entity
+5: Rule1
+6: Rule2
+
+- evaluation against Tempeval3 test set
+processed 7005 tokens with 134 phrases; found: 113 phrases; correct: 94.
+accuracy:  98.99%; precision:  83.19%; recall:  70.15%; FB1:  76.11
+             DATE: precision:  85.87%; recall:  85.87%; FB1:  85.87
+         DURATION: precision:  73.68%; recall:  41.18%; FB1:  52.83
+              SET: precision:   0.00%; recall:   0.00%; FB1:   0.00
+             TIME: precision:  50.00%; recall:  25.00%; FB1:  33.33
+
+
+

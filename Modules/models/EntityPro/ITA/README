@@ -1,0 +1,30 @@
+Models built with the following parameters:
+
+- 3 classes: ORG, LOC, PER
+- training: training set of Evalita 2007 (http://www.evalita.it/2007)
+- svm
+- F:-1..1:0,3,6,7,8,9,10,11,12,13 T:-3..-1
+0: token
+1: tokennorm
+2: tokentype
+3: pos
+4: lemma
+5: coarseGrainedPos
+6: tokennormbis
+7: GPE
+8: ORG
+9: LOC
+10: PER
+11: orth
+12: sufBig
+13: prefBig
+
+- evaluation against the test set of Evalita 2007
+processed 79889 tokens with 3976 phrases; found: 3779 phrases; correct: 3128.
+accuracy:  97.87%; precision:  82.77%; recall:  78.67%; FB1:  80.67
+              LOC: precision:  83.98%; recall:  82.93%; FB1:  83.45
+              ORG: precision:  65.88%; recall:  56.05%; FB1:  60.57
+              PER: precision:  91.96%; recall:  91.29%; FB1:  91.62
+
+
+

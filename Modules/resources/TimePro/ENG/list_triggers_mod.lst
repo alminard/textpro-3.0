@@ -1,0 +1,42 @@
+about	APPROX
+couple	APPROX
+around	APPROX
+or so	APPROX
+or	APPROX
+round about	APPROX
+circa	APPROX
+some	APPROX
+approximately	APPROX
+no more than	EQUAL_OR_LESS
+up to	EQUAL_OR_LESS
+within	EQUAL_OR_LESS
+almost	LESS_THAN
+less than	LESS_THAN
+nearly	LESS_THAN
+at least	EQUAL_OR_MORE
+no less than	EQUAL_OR_MORE
+more than	MORE_THAN
+over	MORE_THAN
+mid-	MID
+mid	MID
+middle	MID
+and beyond	ON_OR_AFTER
+or later	ON_OR_AFTER
+or after	ON_OR_AFTER
+later this	ON_OR_AFTER
+post	AFTER
+or before	ON_OR_BEFORE
+or earlier	ON_OR_BEFORE
+earlier	START
+early	START
+beginning	START
+start	START
+first half	START
+dawn	START
+later	END
+late	END
+end	END
+last half	END
+end	END
+second half	END
+last quarter	END

@@ -1,0 +1,35 @@
+Models built with the following parameters:
+
+
+chunkpro.ita.evalita2009.svm.v1.0.model
+
+- training: evalita 2009 training set (http://www.evalita.it/2009/tasks/parsing)
+- SVM (linear kernel)
+- F:-2..2:1 F:0:0 T:-2..-1
+0: token
+1: pos
+
+- evaluation against the evalita 2009 test set
+
+processed 18142 tokens with 7444 phrases; found: 7467 phrases; correct: 6927.
+accuracy:  95.46%; precision:  92.77%; recall:  93.05%; FB1:  92.91
+               NP: precision:  89.96%; recall:  90.48%; FB1:  90.22
+               VP: precision:  99.86%; recall:  99.48%; FB1:  99.67
+
+
+
+chunkpro.ita.evalita2011.svm.v1.0.model
+
+- training: evalita 2011 training set (http://www.evalita.it/2011/tasks/parsing)
+- SVM (linear kernel)
+- F:-2..2:1 F:0:0 T:-2..-1
+0: token
+1: pos
+
+- evaluation against the evalita 2011 test set
+
+processed 6710 tokens with 3247 phrases; found: 3281 phrases; correct: 3038.
+accuracy:  96.33%; precision:  92.59%; recall:  93.56%; FB1:  93.08
+               NP: precision:  89.47%; recall:  90.50%; FB1:  89.98
+               VP: precision:  98.81%; recall:  99.63%; FB1:  99.22
+

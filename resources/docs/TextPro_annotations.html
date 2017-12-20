@@ -1,0 +1,766 @@
+﻿<html>
+<body>
+<center><h1><b>TextPro</b> Annotation Tool</h1>
+</center>
+
+TextPro (<a href="http://textpro.fbk.eu/">http://textpro.fbk.eu/</a>) is a set of NLP modules which perform Web page cleaning, tokenization, sentence detection, morphological analysis, pos-tagging, lemmatization, chunking and named-entity recognition. 
+<br><br>
+The input given to TextPro should contain only pure text (hub text, see the  CES guidelines for corpus encoding: <a href="http://www.cs.vassar.edu/CES/CES1-5.html#ToCOview">http://www.cs.vassar.edu/CES/CES1-5.html#ToCOview</a>).<br>
+If a text contains any markup, this should be removed (HTML files can be manage using -html option. All tags will be removed and the relevant text is kept as starting input text).<br>
+More generally, the Textpro tabular format is not meant to represent information about the structure of the text (e.g. titles, paragraphs, emphasis). 
+<br><br>
+The output file contains:
+<li> the <b>header lines</b>: some meta information, such as the name of the file, the document's creation date, the author, etc.., can be coded in the first lines. 
+These lines begin with the special character "# ", followed by the name of the field and then its value;
+<li> the <b>annotation lines</b> contain all information about each token of the input file using tabular format (the columns are separated by tabular space).
+<br><br>
+The end of sentence is marked with an empty line. If a module does not have an output to give, it provides the label __NULL__. 
+<p>
+
+
+Output example:
+<PRE>
+# FILE: /Volumes/DATA/Corpora/mycorpus/US6002654_A.txt
+# ID: 000055740
+# CY: US
+# DNUM: 06002654
+# DATE: 19991214
+# KIND: A
+# FIELDS: token	tokenstart	pos	lemma	chunk
+An      0       AT0     an      B-NP
+cdrom   3       NN1     __NULL__        I-NP
+is      9       VBZ     be      B-VP
+an      12      AT0     an      B-NP
+optical 15      AJ0     optical I-NP
+device  23      NN1     device  I-NP
+.       29      PUN     .       O
+
+It      31      PNP     it      B-NP
+is      34      VBZ     be      B-VP
+a       37      AT0     a       B-NP
+method  39      NN1     method  I-NP
+and     46      CJC     and     O
+an      50      AT0     an      B-NP
+apparatus       53      NN1     apparatus       I-NP
+for     63      PRP     for     B-PP
+disk    67      NN1     disk    B-NP
+reproduction    72      NN1     reproduction    I-NP
+.       84      PUN     .       O
+
+</PRE>
+
+<br><br>
+<h3>HTML CLEANER</h3>
+A specific module of TextPro, called CleanPro, removes mark-up tags and irrelevant text (i.e. words used as navigation menu, common header and footer, etc.) from HTML pages. 
+Using the option -html the input HTML file will be cleaned. The relevant text is kept as input text of the following modules.
+<br><br>
+
+<h3>COMPATIBLE MORPHOLOGICAL ANNOTATIONS</h3>
+Considering the line:<br>
+<PRE>
+ bearing   VVG   bear   bear+v+gerund+pres bearing+n+sing bearing+adj+zero 
+</PRE>
+
+First of all "bear+v+gerund+pres bearing+n+sing bearing+adj+zero" is one column (separators are spaces, not tabs).<br>
+<br>
+When TextPro is called the +full_morpho value for the -c option (see the textpro -help) this column contains all the possible morphological analysis for the token.<br>
+If you want to get only the morphological anlysis/es that is/are compatible with the selected POS tag, then use the +comp_morpho. Note that there can be more than one morpho analysis compatible with a certain PoS tag.
+
+
+<h3>POSTAGGING</h3>
+
+TextPro comes with two language models, Italian and English (see the column 'pos'). The Italian model is trained on a corpus using a subset of the ELRA tagset.
+<p>
+<TABLE CELLSPACING=1 BORDERCOLOR="#000000" CELLPADDING=2 WIDTH=70%>
+<COLGROUP><COL ALIGN=CENTER><COLGROUP><COL ALIGN=LEFT><COLGROUP><COL ALIGN=LEFT>
+<TBODY>
+<TR><TH VALIGN=BASELINE ALIGN=LEFT NOWRAP>
+Italian Tag </TH><TH VALIGN=BASELINE ALIGN=LEFT NOWRAP> Description </TH><TH VALIGN=BASELINE ALIGN=LEFT NOWRAP> Example </TH></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>XPS </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> punctuation </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> . ; : ? ! </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>XPW </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> comma </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> , </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>XPB </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> brakets </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> ( ) </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>XPO </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> quotation mark, ellipsis, hyphen </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> `` '' - ... _ </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>N </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> number </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> 1, 1999, '76, sei, sesto </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>RS </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> singular article </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> il, l', la, un, una </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>RP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> plural article </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> i, gli, gl', le </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>AS </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> singular qual. adj. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> vera, grandissimo, migliore </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>AP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> plural qual. adj. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> vere, grandissimi, maggiori </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>AN </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> qual. adj. neutral for number </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> rosa, pi&#249;, super, antincendio </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>DS </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> singular det. adj. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> quello, alcuna, mio, quale? </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>DP  </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> plural det. adj. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> quelli, alcune, miei, quali? </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>DN  </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> det. adj. neutral for number </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> qualsiasi </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>E </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> simple preposition </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> di, a, dopo, fino, nonostante </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>ES </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> singular articulated preposition </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> dal, sulla, nello </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>EP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> plural articulated preposition </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> dalle, sulle, negli, nei, ai </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>B </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> adverb </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> molto, invece, esattamente </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>C </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> conjunction </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> e, ma, bens&#305;, sia, perch&#233; </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>CCHE </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP>  che </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> che </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>CCHI </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP>  chi </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> chi </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>CADV </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> connettivo avverbiale </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> come, dove, quando </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>PS </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> singular pronoun </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> ciascuna, lo, mio </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>PP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> plural pronoun </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> costoro, esse, nostri, loro </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>PN </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> pronoun neutral for number </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> ci, cui, s&#233; </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>SS </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> singular noun </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> aereo, formula </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>SP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> plural noun </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> aerei, formule </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>SN </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> noun neutral for number </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> attivit&#224;, business, novit&#224; </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>SPN </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> proper noun </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> Alfredo, Ford, Piombino </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>QNS </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> singular relative pronoun </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> quanto, quanta </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>QNP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP>plural relative pronoun </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> quanti, quante </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>YA </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> acronym </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> ANSA, CEE, ONU </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>YF </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> foreign term </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> city, fiesta, Papier </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>I </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP>  interjection </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> oh! </TD></TR>
+
+<TR><TD VALIGN=BASELINE NOWRAP>
+VI </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> main verb, ind., subjunctive, cond. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> vedo, giungano, saprei </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VIY </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> aux. verb, ind., subjunctive, cond. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> ho, sia, avrebbe </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VF </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> main verb, inf. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> arrivare, vedere </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VFY </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> aux. verb, inf. </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> avere, essere </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VSP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP>  main verb, past part., singular </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> acquisito, interrotto </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VSPY </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP>  aux. verb, past part., singular </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> avente, stato, stata </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VPP </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> main verb, past part., plural </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> arrivati </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VPPY </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> aux. verb, past part., plural </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> state </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VG </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> main verb, gerund </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> cantando, ringraziando </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VGY </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> aux. verb, gerund </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> avendo, essendo </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VM </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> main verb, imperative </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> cercate, leggi </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>VMY </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> aux. verb, imperative </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> sia, abbia </TD></TR>
+</TBODY><TBODY>
+<TR><TD VALIGN=BASELINE NOWRAP>+E </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> clitic </TD><TD VALIGN=BASELINE ALIGN=LEFT NOWRAP> ne, ci </TD></TR>
+</TBODY>
+</TABLE>
+<br>
+
+The English model is trained using the BNC tagset.
+<p>
+<TABLE CELLSPACING=1 BORDERCOLOR="#000000" CELLPADDING=2 WIDTH=70%>
+
+<TR><TH WIDTH="14%" align=left VALIGN="TOP">
+
+<P>English Tag</TH>
+
+<TH WIDTH="86%" align=left VALIGN="TOP">
+
+<P>Description</TH>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">AJ0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Adjective (general or positive) (e.g. <I>good</I>, <I>old</I>, <I>beautiful</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">AJC</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Comparative adjective (e.g. <I>better</I>, <I>older</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">AJS</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Superlative adjective (e.g. <I>best</I>, <I>oldest</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">AT0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Article (e.g. <I>the</I>, <I>a</I>, <I>an</I>, <I>no</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">AV0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>General adverb: an adverb not subclassified as AVP or AVQ (see below) (e.g. <I>often</I>, <I>well</I>, <I>longer</I> (adv.), <I>furthest</I>.</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">AVP</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Adverb particle (e.g. <I>up</I>, <I>off</I>, <I>out</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">AVQ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Wh-adverb (e.g. <I>when</I>, <I>where</I>, <I>how</I>, <I>why</I>, <I>wherever</I>) </TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">CJC</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Coordinating conjunction (e.g. <I>and</I>, <I>or</I>, <I>but</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">CJS</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Subordinating conjunction (e.g. <I>although</I>, <I>when</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">CJT</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The subordinating conjunction <EM>that</EM> </TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">CRD</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Cardinal number (e.g. <I>one</I>, <I>3</I>, <I>fifty-five</I>, <I>3609</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">DPS</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Possessive determiner-pronoun (e.g. <I>your</I>, <I>their</I>, <I>his</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">DT0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>General determiner-pronoun: i.e. a determiner-pronoun which is not a DTQ or an AT0. </TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">DTQ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Wh-determiner-pronoun (e.g. <I>which</I>, <I>what</I>, <I>whose</I>, <I>whichever</I>) </TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">EX0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Existential there, i.e. <I>there</I> occurring in the <I>there is</I> ... or <I>there are</I> ... construction</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">ITJ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Interjection or other isolate (e.g. <I>oh</I>, <I>yes</I>, <I>mhm</I>, <I>wow</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">NN0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Common noun, neutral for number (e.g. <I>aircraft</I>, <I>data</I>, <I>committee</I>) </TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">NN1</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Singular common noun (e.g. <I>pencil</I>, <I>goose</I>, <I>time</I>, <I>revelation</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">NN2</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Plural common noun (e.g. <I>pencils</I>, <I>geese</I>, <I>times</I>, <I>revelations</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">NP0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Proper noun (e.g. <I>London</I>, <I>Michael</I>, <I>Mars</I>, <I>IBM</I>) </TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">ORD</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Ordinal numeral (e.g. <I>first</I>, <I>sixth</I>, <I>77th</I>, <I>last</I>) .</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">PNI</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Indefinite pronoun (e.g. <I>none</I>, <I>everything</I>, <I>one</I> [as pronoun], <I>nobody</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">PNP</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Personal pronoun (e.g. <I>I</I>, <I>you</I>, <I>them</I>, <I>ours</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">PNQ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Wh-pronoun (e.g. <I>who</I>, <I>whoever</I>, <I>whom</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">PNX</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Reflexive pronoun (e.g. <I>myself</I>, <I>yourself</I>, <I>itself</I>, <I>ourselves</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">POS</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The possessive or genitive marker <I>'s </I>or <I>'</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">PRF</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The preposition <I>of</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">PRP</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Preposition (except for <I>of</I>) (e.g. <I>about</I>, <I>at</I>, <I>in</I>, <I>on</I>, <I>on behalf of</I>, <I>with</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">
+
+<P>PUL</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Punctuation: left bracket - i.e. <I>( </I>or <I>[</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">
+
+<P>PUN</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Punctuation: general separating mark - i.e<I>. . , ! , : ; -</I> or <I>?</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">
+
+<P>PUQ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Punctuation: quotation mark - i.e. <I>' </I>or <I>"</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">
+
+<P>PUR</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Punctuation: right bracket - i.e. <I>)</I> or <I>]</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">TO0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Infinitive marker <I>to</I> </TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">UNC</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Unclassified items which are not appropriately considered as items of the English lexicon.</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VBB</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The present tense forms of the verb BE, except for <EM>is</EM>, <I>'s</I>: i.e. <I>am</I>, <I>are</I>, <I>'m</I>, <I>'re</I> and <I>be</I> [subjunctive or imperative]</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VBD</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past tense forms of the verb BE: <I>was</I> and <I>were</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VBG</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -ing form of the verb BE: <I>being</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VBI</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The infinitive form of the verb BE: <I>be</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VBN</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past participle form of the verb BE: <I>been</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VBZ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -s form of the verb BE: <EM>is</EM>, <I>'s</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VDB</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The finite base form of the verb BE: <I>do</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VDD</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past tense form of the verb DO: <I>did</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VDG</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -ing form of the verb DO: <I>doing</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VDI</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The infinitive form of the verb DO: <I>do</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VDN</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past participle form of the verb DO: <I>done</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VDZ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -s form of the verb DO: <I>does</I>, <I>'s</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VHB</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The finite base form of the verb HAVE: <I>have</I>, <I>'ve</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VHD</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past tense form of the verb HAVE: <I>had</I>, <I>'d</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VHG</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -ing form of the verb HAVE: <I>having</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VHI</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The infinitive form of the verb HAVE: <I>have</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VHN</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past participle form of the verb HAVE: <I>had</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VHZ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -s form of the verb HAVE: <I>has</I>, <I>'s</I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VM0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>Modal auxiliary verb (e.g. <I>will</I>, <I>would</I>, <I>can</I>, <I>could</I>, <I>'ll</I>, <I>'d</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VVB</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The finite base form of lexical verbs (e.g. <I>forget</I>, <I>send</I>, <I>live</I>, <I>return</I>) [Including the imperative and present subjunctive]</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VVD</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past tense form of lexical verbs (e.g. <I>forgot</I>, <I>sent</I>, <I>lived</I>, <I>returned</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VVG</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -ing form of lexical verbs (e.g. <I>forgetting</I>, <I>sending</I>, <I>living</I>, <I>returning</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VVI</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The infinitive form of lexical verbs (e.g. <I>forget</I>, <I>send</I>, <I>live</I>, <I>return</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VVN</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The past participle form of lexical verbs (e.g. <I>forgotten</I>, <I>sent</I>, <I>lived</I>, <I>returned</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">VVZ</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The -s form of lexical verbs (e.g. <I>forgets</I>, <I>sends</I>, <I>lives</I>, <I>returns</I>)</TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">XX0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+
+<P>The negative particle <I>not</I> or <I>n't </I></TD>
+
+</TR>
+
+<TR><TD WIDTH="14%" VALIGN="TOP">ZZ0</TD>
+
+<TD WIDTH="86%" VALIGN="TOP">
+<P>Alphabetical symbols (e.g. <I>A</I>, <I>a</I>, <I>B</I>, <I>b</I>, <I>c</I>, <I>d</I>)</TD>
+</TR>
+</TABLE>
+
+
+<h4>NAMED-ENTITY RECOGNITION</h4>
+The named-entity tagger (EntityPro) has recently been trained for Italian on the EVALITA (<a href="http://evalita.fbk.eu/">http://evalita.fbk.eu/</a>) development set (an Italian manually annotated corpus) and for English on the CONLL-2003 dataset. Named entities are represented in the IOB2 format. The data contains entities of four types: Person (PER), Organization (ORG), Location (LOC) and Geo-Political entity (GPE, but only for Italian).
+<br><br>
+
+At the *current stage* of development, the EntityPro module:
+<br><br>
+- only recognizes NAMED entities ("John"). It does not recognize other types of entity mentions ("he", "the guy");
+<br>
+- recognizes the extension and the type of a restricted set of named entities
+(persons, organizations, locations). It does not normalize named entities
+so as to recognize, that, for instance, "S. Berlusconi" and "Silvio Berlusconi"
+are the same person.
+<br><br>
+Output example:
+<PRE> 
+# FIELDS: token	pos	wnpos	lemma	entity
+Both	DT0		both	O
+Mary	NP0	n	mary	B-PER
+B.	PUN		b.	I-PER
+and	CJC		and	O
+George	NP0	n	george	B-PER
+W.	AV0	r	w.	I-PER
+went	VVD	v	go	O
+to	PRP		to	O
+London	NP0	n	london	B-LOC
+.	PUN		.	O
+
+</PRE>
+
+The entity annotation (the fourth column) consists of two parts: <br>
+<li> the IOB2 tag: “B” (for “begin”) denotes the first token of a Named Entity, I (for 
+“inside”) is used for all other tokens in a Named Entity, and  O (for “outside”) is 
+used for all other words;<br> 
+<li> the Entity type tag: PER (for Person), ORG (for Organization), LOC (for Location) and GPE (for Geo- 
+Political Entity). <br><br>
+</body>
+</html>
+
+<h4>CHUNKER</h4>
+Chunking for Italian annotates with 2 categories (using IOB-2 format like for named entity annotation): B-NP, B-VX.<br>
+The output of the chunker with the TextPro's output could be as following:<br>
+<PRE>
+# FIELDS: token	pos	chunk
+A       E       O
+Trento  SPN     B-NP
+,       XPW     O
+assaggi SP      B-NP
+di      E       O
+teatro  SS      B-NP
+da      E       O
+</PRE>
+
+For English there are a number of categories larger: B-ADJP, B-ADVP, B-CONJP, B-INTJ, B-LST, B-NP, B-PP, B-PRT, B-SBAR, B-UCP, B-VP<br>
+<br>
+Legend about the labels of the Penn Treebank Tags:
+<PRE>
+ADJP - Adjective Phrase.
+ADVP - Adverb Phrase.
+CONJP - Conjunction Phrase.
+INTJ - Interjection. Corresponds approximately to the part-of-speech tag UH.
+LST - List marker. Includes surrounding punctuation.
+NP - Noun Phrase. 
+PP - Prepositional Phrase.
+PRT - Particle. Category for words that should be tagged RP. 
+SBAR - Clause introduced by a (possibly empty) subordinating conjunction.
+UCP - Unlike Coordinated Phrase. 
+VP - Verb Phrase. 
+</PRE>
+
+
+<h4>KEYWORDS EXTRACTION</h4>
+In the header line "# KEYWORDS:" indicates the most important keywords of the document (in lower case). An example is the following:
+<PRE>
+# KEYWORDS: ahmed yassawi <44.53 6> vox populi <30 6> ermanno visintainer <29.93 5> centro studi <28.22 6> kazakhstan <17.92 
+7> pensiero filosofico <12.98 2> presidente di turno <11.92 1> osce <10.47 4> almaz khamzayev <10.42 2> ...
+</PRE>
+Each keyword is followed by "&lt;NUM1 NUM2&gt;". NUM1 indicates the relevance of keyword. NUM2 indicates the number of occurrences of the 
+keyword in the text.
+
+<br><br><br><br><br>
+

@@ -1,0 +1,18 @@
+Models built with the following parameters:
+
+- training: BNC_train.txt
+- Maxent
+- F:0:1..8 F:-1:2,6,7,8 F:1:2,6,7,8 T:-2..-1
+0: token
+1: tokennorm
+2: tokentype
+3: pref2
+4: pref3
+5: pref4
+6: suf2
+7: suf3
+8: suf4
+
+- evaluation against BNC_test.txt
+acc = 0.982714169711734
+

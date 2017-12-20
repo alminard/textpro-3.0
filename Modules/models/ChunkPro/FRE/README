@@ -1,0 +1,19 @@
+Models built with the following parameters:
+
+- training: sequoia corpus (80%) (https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia)
+- SVM (linear kernel)
+- F:-2..2:0,1 T:-2..-1
+0: token
+1: pos
+
+- evaluation against the sequoia corpus (20%)
+processed 13826 tokens with 6874 phrases; found: 6898 phrases; correct: 6449.
+accuracy:  95.61%; precision:  93.49%; recall:  93.82%; FB1:  93.65
+             ADJP: precision:  82.39%; recall:  79.05%; FB1:  80.69
+             ADVP: precision:  46.67%; recall:  35.00%; FB1:  40.00
+               NP: precision:  93.47%; recall:  93.83%; FB1:  93.65
+               PP: precision:  93.48%; recall:  94.85%; FB1:  94.16
+               VP: precision:  95.32%; recall:  94.95%; FB1:  95.14
+
+
+

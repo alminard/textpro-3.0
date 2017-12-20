@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    //APOSTROPHE normalize into \u0027 (')
+    <chars action="normalize">
+        <char hexcode="02BC" category="apostrophe" desc="MODIFIER LETTER APOSTROPHE">'</char>
+        <char hexcode="02C8" category="apostrophe" desc="MODIFIER LETTER VERTICAL LINE">'</char>
+        <char hexcode="030D" category="apostrophe" desc="COMBINING VERTICAL LINE ABOVE">'</char>
+        <char hexcode="055A" category="apostrophe" desc="ARMENIAN APOSTROPHE">'</char>
+        <char hexcode="FF07" category="apostrophe" desc="FULLWIDTH APOSTROPHE">'</char>
+        <char hexcode="02B9" category="apostrophe" desc="MODIFIER LETTER PRIME">'</char>
+        <char hexcode="0092" category="apostrophe" desc="CONTROL">'</char>
+        <char hexcode="2018" category="quote" desc="LEFT SINGLE QUOTATION MARK">'</char>
+        <char hexcode="2019" category="quote" desc="RIGHT SINGLE QUOTATION MARK">'</char>
+        <char hexcode="201A" category="quote" desc="RIGHT-BOTTOM SINGLE QUOTATION MARK">'</char>
+
+        <char hexcode="0060" category="accent" desc="GRAVE ACCENT">`</char>
+        <char hexcode="00B4" category="accent" desc="ACUTE ACCENT">`</char>
+        <char hexcode="02CA" category="accent" desc="MODIFIER LETTER ACUTE ACCENT">`</char>
+        <char hexcode="02CB" category="accent" desc="MODIFIER LETTER GRAVE ACCENT">`</char>
+        <char hexcode="02F4" category="accent" desc="MODIFIER LETTER MIDDLE GRAVE ACCENT">`</char>
+        <char hexcode="0300" category="accent" desc="COMBINING GRAVE ACCENT ">`</char>
+        <char hexcode="0301" category="accent" desc="COMBINING ACUTE ACCENT">`</char>
+
+        <char hexcode="02DD" category="quote" desc="DOUBLE ACUTE ACCENT">"</char>
+        <char hexcode="02BA" category="quote" desc="MODIFIER LETTER DOUBLE PRIME">"</char>
+        <char hexcode="02F5" category="quote" desc="MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT">"</char>
+        <char hexcode="02F6" category="quote" desc="MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT">"</char>
+        <char hexcode="030B" category="quote" desc="COMBINING DOUBLE ACUTE ACCENT">"</char>
+        <char hexcode="030E" category="quote" desc="COMBINING DOUBLE VERTICAL LINE ABOVE">"</char>
+        <char hexcode="1DC0" category="quote" desc="COMBINING DOTTED GRAVE ACCENT">"</char>
+        <char hexcode="1DC1" category="quote" desc="COMBINING DOTTED ACUTE ACCENT">"</char>
+        <char hexcode="201C" category="quote" desc="DOUBLE GRAVE ACCENT">"</char>
+        <char hexcode="201D" category="quote" desc="DOUBLE ACUTE ACCENT">"</char>
+        <char hexcode="02EE" category="quote" desc="MODIFIER LETTER DOUBLE APOSTROPHE">"</char>
+        <char hexcode="301E" category="quote" desc="DOUBLE PRIME QUOTATION MARK">"</char>
+        <char hexcode="301F" category="quote" desc="LOW DOUBLE PRIME QUOTATION MARK">"</char>
+
+        <char hexcode="0085" category="punctuation" desc="THREE DOTS"></char>
+        <char hexcode="2013" category="punctuation" desc="MINUS">-</char>
+        
+        <char hexcode="00AB" category="open_parenthes" desc="LEFT-POINTING DOUBLE ANGLE QUOTATION MARK">"</char>
+        <char hexcode="00BB" category="close_parenthes" desc="RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK">"</char>
+        <char hexcode="0093" category="open_parenthes" desc="CONTROL">"</char>
+        <char hexcode="0094" category="close_parenthes" desc="CONTROL">"</char>
+        <char hexcode="008B" category="open_parenthes" desc="CONTROL">"</char>
+        <char hexcode="009B" category="close_parenthes" desc="CONTROL">"</char>
+
+        //removing chars
+        <char hexcode="0308" category="diacritic" desc="UMLAUT" />
+        <char hexcode="00AF" desc="MACRON" />
+        <char hexcode="00B8" desc="CEDILLA"/>
+
+    </chars>
+</dictionary>

@@ -1,0 +1,29 @@
+Models built with the following parameters:
+
+- training: evalita 2007 training corpus
+- SVM
+- F:0:1..8 F:-1:2,6,7,8 F:1:2,6,7,8 F:0:9..19 T:-2..-1
+0: token
+1: tokennorm
+2: tokentype
+3: pref2
+4: pref3
+5: pref4
+6: suf2
+7: suf3
+8: suf4
+9: v
+10: nc
+11: adj
+12: adv
+13: prep
+14: det
+15: cl
+16: coo
+17: pres
+18: pron
+19: np
+
+- evaluation against the evalita 2007 test corpus
+acc = 0.940769990128332
+

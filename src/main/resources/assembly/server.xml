@@ -1,0 +1,83 @@
+<assembly>
+  <id>textpro</id>
+  <formats>
+    <format>tar.gz</format>
+  </formats>
+  <includeBaseDirectory>true</includeBaseDirectory>
+  <baseDirectory>textpro</baseDirectory>
+  <fileSets>
+    <fileSet>
+      <directory>..</directory>
+      <outputDirectory>/</outputDirectory>
+      <includes>
+      <include>README.txt</include>
+        <include>NOTICE.txt</include>
+        <include>LICENSE.txt</include> 
+      </includes>
+    </fileSet> 
+   <!--   <files>
+        <file>
+            <source>target/${project.artifactId}-${project.version}-jar-with-dependencies.jar</source>
+            <outputDirectory>lib</outputDirectory>
+        </file>
+    </files>-->
+    
+    <fileSet>
+        <directory>${project.build.directory}</directory>
+        <outputDirectory>lib</outputDirectory>
+        <includes>
+            <include>*with-dependencies.jar</include>
+        </includes>
+    </fileSet>
+    <!--  <fileSet>
+      <directory>src/main/resources/german_ner_v1</directory>
+      <outputDirectory>/</outputDirectory>
+      <fileMode>0755</fileMode>
+      <directoryMode>0755</directoryMode>
+      <lineEnding>unix</lineEnding>
+    </fileSet>-->
+    <fileSet>
+      <directory>resources/conf</directory>
+      <outputDirectory>/conf</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>resources/docs</directory>
+      <outputDirectory>/docs</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>resources/language_models</directory>
+      <outputDirectory>/dependencies</outputDirectory>
+    </fileSet>
+   <!--   <fileSet>
+      <directory>resources/modules</directory>
+      <outputDirectory>/modules</outputDirectory>
+    </fileSet>-->
+    <fileSet>
+      <directory>resources/licenses</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>resources/scripts</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+     <fileSet>
+      <directory>${basedir}/src/main/resources/lib/</directory>
+      <outputDirectory>/lib</outputDirectory>
+    </fileSet>
+     <fileSet>
+      <directory>${basedir}/Modules/models</directory>
+      <outputDirectory>/Modules/models</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>${basedir}/Modules/resources</directory>
+      <outputDirectory>/Modules/resources</outputDirectory>
+    </fileSet>
+  </fileSets>
+  <!--  <dependencySets>
+    <dependencySet>
+      <outputDirectory>/lib</outputDirectory>
+      <useStrictFiltering>true</useStrictFiltering>
+      <useTransitiveFiltering>true</useTransitiveFiltering>
+    </dependencySet>
+  </dependencySets>-->
+</assembly>

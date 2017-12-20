@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="NAF">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="text" minOccurs="0" maxOccurs="1">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="wf" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:simpleContent>
+                    <xsd:extension base="xsd:normalizedString">
+                      <xsd:attribute name="wid" type="xsd:normalizedString" use="required"/>
+                      <xsd:attribute name="offset" type="xsd:int" use="required"/>
+                      <xsd:attribute name="length" type="xsd:int" use="required"/>
+                      <xsd:attribute name="sent" type="xsd:int" use="required"/>
+                      <xsd:attribute name="para" type="xsd:int" use="required"/>
+                    </xsd:extension>
+                  </xsd:simpleContent>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="term" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="span" minOccurs="0" maxOccurs="1">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="target" maxOccurs="unbounded">
+                      <xsd:complexType>
+                        <xsd:simpleContent>
+                          <xsd:extension base="xsd:string">
+                            <xsd:attribute name="id" type="xsd:normalizedString" use="required"/>
+                          </xsd:extension>
+                        </xsd:simpleContent>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="id" type="xsd:normalizedString" use="required"/>
+            <xsd:attribute name="lemma" type="xsd:normalizedString" use="required"/>
+            <xsd:attribute name="netype" type="xsd:normalizedString" use="required"/>
+            <xsd:attribute name="pos" type="xsd:normalizedString" use="required"/>
+            <xsd:attribute name="type" type="xsd:normalizedString" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="timex3" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="span" minOccurs="0" maxOccurs="1">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="target" maxOccurs="unbounded">
+                      <xsd:complexType>
+                        <xsd:simpleContent>
+                          <xsd:extension base="xsd:string">
+                            <xsd:attribute name="id" type="xsd:normalizedString" use="required"/>
+                          </xsd:extension>
+                        </xsd:simpleContent>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="tmx3id" type="xsd:normalizedString" use="required"/>
+            <xsd:attribute name="type" type="xsd:normalizedString" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+      <xsd:attribute name="lang" type="xsd:normalizedString" use="required"/>
+      <xsd:attribute name="version" type="xsd:normalizedString" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

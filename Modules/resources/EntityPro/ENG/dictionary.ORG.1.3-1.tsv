@@ -1,0 +1,6174 @@
+&	PREFIX:6
+& c	TEO:1
+& c.	TEO:1
+& co.	TEO:1
+& company	TEO:1
+& f.lli	TEO:1
+& figli	TEO:1
+&c	TEO:1
+&c.	TEO:1
+'ndrangheta	ORG:1
++	PREFIX:1
++ 39	ORG:1
++39	ORG:1	PREFIX:1
++39 challenge	ORG:1
+101'ers	ORG:1
+113	ORG:1
+118	ORG:1
+3m	ORG:1
+5ive	ORG:1
+730	NIL:1
+740	NIL:1
+Daewo	PREFIX:1
+Daewo Matiz	NIL:1
+Daewoo	PREFIX:3
+Daewoo Matiz	NIL:1
+Daewoo Nexia	NIL:1
+Daewoo Nubira	NIL:1
+Maglierie	TSO:1
+Megane	PREFIX:2
+Megane Maxi	NIL:1
+Megane Scenic	NIL:1
+Mégane	PREFIX:2
+Mégane Classic	NIL:1
+Mégane SW	NIL:1
+a	PREFIX:1
+a toys	PREFIX:1
+a toys orchestra	ORG:1
+a&t	ORG:1
+a.c.a.t	ORG:1
+a.c.a.t.	ORG:1
+a.c.a.v	ORG:1
+a.c.a.v.	ORG:1
+a.c.c.d.	ORG:1
+a.c.i.	ORG:1
+a.c.l.i	ORG:1
+a.c.s.	ORG:1
+a.c.s.i.	ORG:1
+a.c.s.m.	ORG:1
+a.c.t.	ORG:1
+a.d.t	ORG:1
+a.ge	ORG:1
+a.ge.	ORG:1
+a.i.a.	ORG:1
+a.i.d.o.	ORG:1
+a.i.p.s.a	ORG:1
+a.l.p.i.	ORG:1
+a.n.e.d.	ORG:1
+a.s	TSO:1
+a.s.	ORG:1	TSO:1
+a.s.c.	ORG:1
+a.s.l.	ORG:1
+a.s.m.	ORG:1
+a.s.s.o.	ORG:1
+a.t.o.	ORG:1
+a.v.i.s.	ORG:1
+abacus	ORG:2
+abarth	ORG:1
+abasan	ORG:1	PREFIX:1
+abasan bari	ORG:1
+abbasciano	ORG:1
+abbott	ORG:1
+abf	ORG:1
+abi	NIL:1
+abn	PREFIX:1
+abn amro	ORG:1
+abnormal	PREFIX:1
+abnormal cherry	ORG:1
+above	PREFIX:1
+above &	PREFIX:1
+above & beyond	ORG:1
+ac	TSO:1
+ac.e.ga.s	ORG:1
+acat	ORG:1
+acav	ORG:1
+accademia	TSO:1
+accd	ORG:1
+accenture	ORG:1
+acciaierie	PREFIX:1
+acciaierie valsugana	ORG:1
+acco	ORG:1
+ace	PREFIX:1
+ace of	PREFIX:1
+ace of base	ORG:1
+acea	ORG:1
+acegas	ORG:1
+acer	ORG:1
+achilles	ORG:1
+aci	ORG:1
+acli	ORG:1
+acme	ORG:1
+acotel	ORG:1	PREFIX:1
+acotel group	ORG:1
+acqua	PREFIX:3
+acqua marcia	ORG:1
+acqua paradiso	ORG:1
+acqua pia	PREFIX:1
+acqua pia antica	PREFIX:1
+acqua pia antica marcia	ORG:1
+acquadolce	ORG:1
+acquafan	ORG:1
+acquarena	ORG:1
+acque	PREFIX:1
+acque potabili	ORG:1
+acquedotto	PREFIX:1
+acquedotto de	PREFIX:1
+acquedotto de ferrari	ORG:1
+acs	ORG:1
+acsi	ORG:1
+acsm	ORG:2	PREFIX:2
+acsm di	PREFIX:1
+acsm di primiero	ORG:1
+acsm primiero	ORG:1
+act.	ORG:1
+actelios	ORG:2
+action	PREFIX:3
+action aid	ORG:1	PREFIX:1
+action aid italia	ORG:1
+action pact	ORG:1
+actionadi	ORG:1
+actionaid	ORG:1
+acustar	ORG:1
+ada'	PREFIX:1
+ada' s	PREFIX:1
+ada' s verselets	ORG:1
+adanti	ORG:2
+adb	ORG:1
+adecco	ORG:1
+adetex	ORG:1
+adiconsum	ORG:1
+adidas	ORG:1
+adige	PREFIX:2
+adige bitumi	ORG:1
+adige sala	ORG:1
+adl	ORG:1
+admo	ORG:1
+adn	PREFIX:1
+adn krono	ORG:1
+adnkronos	ORG:1
+adobe	NIL:1
+adoc	ORG:1
+adr	ORG:1
+adria	PREFIX:1
+adria airways	ORG:1
+adsl	NIL:1
+aduc	ORG:1
+adusbef	ORG:1
+advanced	TSO:1	PREFIX:1
+advanced computer	PREFIX:1
+advanced computer systems	ORG:1
+advo	ORG:1
+aeaechnology	ORG:1
+aec	ORG:1
+aecm	ORG:1
+aedes	ORG:1
+aeg	ORG:1
+aek	PREFIX:1
+aek atene	ORG:1
+aekyung	ORG:1
+aem	ORG:1	PREFIX:1
+aem torino	ORG:1
+aemme	ORG:1
+aemsa	ORG:1
+aeneas	ORG:1
+aer	PREFIX:1
+aer lingus	ORG:1
+aeritalia	ORG:1
+aermacchi	ORG:1
+aero	PREFIX:2
+aero industries	ORG:1
+aero llyod	ORG:1
+aeroclub	ORG:1
+aerocomplex	ORG:1
+aerofirst	ORG:1
+aeroflot	ORG:1
+aeroleasing	ORG:1
+aerolinas	ORG:1
+aerolineas	ORG:1
+aeromar	ORG:1
+aeromexico	ORG:1
+aeronautica	ORG:1
+aeroporti	PREFIX:1
+aeroporti di	PREFIX:1
+aeroporti di roma	ORG:1
+aeroporto	PREFIX:2
+aeroporto caproni	ORG:1
+aeroporto g.	PREFIX:1
+aeroporto g. caproni	ORG:1
+aerosmith	ORG:1
+aeroterminal	PREFIX:1
+aeroterminal venezia	ORG:1
+aesse	ORG:1
+af	ORG:1
+afdvs	ORG:1
+afed	ORG:1
+affari	PREFIX:2
+affari italiani	ORG:1
+affari sociali	ORG:1
+afic	ORG:1
+afl	PREFIX:1
+afl -	PREFIX:1
+afl - cio	ORG:1
+afme	ORG:1
+afraid!	ORG:1
+afterhours	ORG:1
+ag	ORG:1
+ag.	ORG:1
+ag2r	ORG:1
+agamatic	ORG:1
+agca	ORG:1
+agcom	ORG:1
+age	ORG:1
+agenda	NIL:1
+agenzia	TSO:1	PREFIX:2
+agenzia dello	PREFIX:1
+agenzia dello sviluppo	ORG:1
+agenzia per	PREFIX:1
+agenzia per lo	PREFIX:1
+agenzia per lo sviluppo	ORG:1
+agenzie	TSO:1
+agesc	ORG:1
+agesci	ORG:1
+agi	ORG:1
+agiesse	ORG:1
+agim	ORG:1
+agimus	ORG:1
+agip	ORG:2
+agis	ORG:1
+agnelli	PREFIX:2
+agnelli metalli	ORG:1	PREFIX:1
+agnelli metalli bergamo	ORG:1
+ago	ORG:1
+agonistica	TSO:2
+agorà	ORG:1	PREFIX:1
+agorà telematica	ORG:1
+agpol	ORG:1
+agraria	PREFIX:1
+agraria trentina	ORG:1
+agri	ORG:1
+agricola	PREFIX:1
+agricola mantovana	ORG:1
+agriflor	ORG:1
+agriform	ORG:1
+agrim	ORG:1
+agrinord	ORG:1
+agriproject	ORG:1
+agrisense	ORG:1
+agritur	TSO:1
+agrofair	ORG:1
+ags	ORG:1
+agusta	ORG:1
+agv	ORG:1
+agway	ORG:1
+aiac	ORG:1
+aib	ORG:1
+aibes	ORG:1
+aibi	ORG:1
+aic	ORG:1
+aica	ORG:1
+aicc	ORG:1
+aido	ORG:1
+aids	PREFIX:1
+aids care	PREFIX:1
+aids care education	ORG:1
+aie	ORG:1
+aigle	ORG:1
+aiia	ORG:1
+aimc	ORG:1
+aipsa	ORG:1
+air	PREFIX:10
+air atlanta	ORG:1
+air avellino	ORG:1
+air bag	NIL:1
+air canada	ORG:1
+air dolomiti	ORG:1
+air europa	ORG:1
+air europe	ORG:1
+air france	ORG:1
+air malta	ORG:1
+air one	ORG:1
+airbus	ORG:1
+airfoyle	ORG:1
+airuk	PREFIX:1
+airuk -	PREFIX:1
+airuk - klm	ORG:1
+aism	NIL:1
+aisoftw@re	ORG:1
+aisoftware	ORG:2
+aitor	ORG:1
+aiutateci	PREFIX:1
+aiutateci a	PREFIX:1
+aiutateci a salvare	PREFIX:1
+aiutateci a salvare i	PREFIX:1
+aiutateci a salvare i bambini	ORG:1
+ajax	ORG:1
+ajinomoto	ORG:1
+akercocke	ORG:1
+akzo	ORG:1
+al	PREFIX:6
+al -	PREFIX:2
+al - jazira	ORG:1
+al - qaeda	ORG:1
+al jazira	ORG:1
+al qaeda	ORG:1
+al qaida	ORG:1
+al qaida'	ORG:1
+alaska	PREFIX:1
+alaska airlines	ORG:1
+albatros	ORG:1
+alberghi	PREFIX:1
+alberghi atesini	ORG:1
+albergo	TSO:1	PREFIX:1
+albergo ristorante	TSO:1
+albinoleffe	ORG:1
+albion	PREFIX:1
+albion band	ORG:1
+album	NIL:1
+alcatel	ORG:1	PREFIX:2
+alcatel -	PREFIX:1
+alcatel - bell	ORG:1
+alcatel alenia	PREFIX:1
+alcatel alenia space	ORG:1
+alchem	ORG:1
+alchemists	ORG:1
+alcoa	ORG:1	PREFIX:1
+alcoa italia	ORG:1
+alcom	ORG:1
+aldebra	ORG:1
+aldyl	ORG:1
+alenia	PREFIX:6
+alenia aeronautica	ORG:1
+alenia difesa	ORG:1
+alenia marconi	ORG:1	PREFIX:1
+alenia marconi systems	ORG:1
+alenia space	ORG:1
+alenia spazio	ORG:1
+alerion	PREFIX:1
+alerion industries	ORG:1
+alethes	ORG:1
+alfa	PREFIX:9
+alfa 147	NIL:1
+alfa 149	NIL:1
+alfa 156	NIL:1
+alfa 157	NIL:1
+alfa 159	NIL:1
+alfa 169	NIL:1
+alfa brera	NIL:1
+alfa gt	NIL:1
+alfa romeo	ORG:1
+alg	ORG:1
+algol	ORG:2
+algsu	ORG:1
+alhambra	ORG:1
+alien	PREFIX:1
+alien sex	PREFIX:1
+alien sex fiend	ORG:1
+alinghi	ORG:1
+alitalia	ORG:1	PREFIX:3
+alitalia airport	ORG:1
+alitalia express	ORG:1
+alitalia servizi	ORG:1
+all	PREFIX:2
+all about	PREFIX:1
+all about eve	ORG:1
+all saints	ORG:1
+alleanza	ORG:1	PREFIX:3
+alleanza assicurazioni	ORG:1
+alleanza del	PREFIX:1
+alleanza del nord	ORG:1
+alleanza nazionale	ORG:1
+allen	PREFIX:1
+allen -	PREFIX:1
+allen - bradley	ORG:1
+allenaza	PREFIX:1
+allenaza del	PREFIX:1
+allenaza del sud	ORG:1
+allergan	ORG:1
+allied	PREFIX:1
+allied -	PREFIX:1
+allied - signal	ORG:1
+almamegretta	ORG:1
+aloha	PREFIX:1
+aloha airlines	ORG:1
+alois	PREFIX:1
+alois lageder	PREFIX:1
+alois lageder vinoteque	ORG:1
+alpe	PREFIX:1
+alpe cermis	ORG:1
+alpefrutta	ORG:1
+alpen	ORG:1
+alpenbau	ORG:1
+alpenverein	ORG:1
+alpes	ORG:1
+alpha	ORG:1
+alphacan	ORG:1
+alphataurus	ORG:1
+alpicolor	ORG:1
+alpikom	ORG:2
+alpitour	TSO:1
+alstom	ORG:1	PREFIX:1
+alstom ferroviaria	ORG:1
+alta	PREFIX:1
+alta corte	ORG:1
+altavista	ORG:1
+alter	PREFIX:1
+alter bridge	ORG:1
+alto	PREFIX:3
+alto adige	PREFIX:1
+alto adige riscossioni	ORG:1
+alto commissariato	PREFIX:1
+alto commissariato rifugiati	ORG:1
+alto garda	PREFIX:1
+alto garda servizi	ORG:1
+altria	ORG:1
+altroconsumo	ORG:1
+alujain	ORG:1
+alusit	ORG:1
+amax	ORG:1
+amb	ORG:1
+amc	ORG:1
+amcol	ORG:1
+amd	ORG:1
+amdahl	ORG:1
+amea	ORG:1
+amebix	ORG:1
+america	PREFIX:1
+america west	PREFIX:1
+america west airlines	ORG:1
+american	PREFIX:2
+american airlines	ORG:1
+american trans	PREFIX:1
+american trans air	ORG:1
+amerihost	ORG:1
+ametek	ORG:1
+amga	ORG:1
+amgen	ORG:1
+ami	ORG:1
+amici	PREFIX:2
+amici della	PREFIX:2
+amici della neonatologia	PREFIX:1
+amici della neonatologia trentina	ORG:1
+amici della terra	ORG:1
+amicidellaterra	ORG:1
+amnesty	ORG:1	PREFIX:1
+amnesty international	ORG:1
+amnu	ORG:1
+amoco	ORG:1
+amoco.	ORG:1
+amoskeag	ORG:1
+amp	ORG:2
+amplifier	ORG:1
+amplifon	ORG:1
+amref	ORG:1
+amsa	ORG:2
+amsc	ORG:1
+amstel	PREFIX:2
+amstel -	PREFIX:1
+amstel - gold	PREFIX:1
+amstel - gold -	PREFIX:1
+amstel - gold - race	ORG:1
+amstel gold	PREFIX:1
+amstel gold race	ORG:1
+amt	ORG:1
+amtrak	ORG:1
+an	ORG:1
+ana	ORG:1
+anaal	PREFIX:1
+anaal nathrakh	ORG:1
+anaci	ORG:1
+anacomp	ORG:1
+anagrafe	ORG:1	PREFIX:1
+anagrafe tributaria	ORG:1
+analogic	ORG:1
+anas	ORG:1
+anathema	ORG:1
+anaune	PREFIX:1
+anaune tassullo	ORG:1
+anaunia	ORG:1
+anci	ORG:1
+and	PREFIX:1
+and also	PREFIX:1
+and also the	PREFIX:1
+and also the trees	ORG:1
+anderlecht	ORG:1
+anderson	PREFIX:1
+anderson bruford	PREFIX:1
+anderson bruford wakeman	PREFIX:1
+anderson bruford wakeman howe	ORG:1
+andrangheta	ORG:1
+aned	ORG:1
+anelva	ORG:1
+anffas	ORG:1
+anfup	ORG:1
+angel	PREFIX:2
+angel of	PREFIX:1
+angel of mercy	ORG:1
+angel witch	ORG:1
+angelic	PREFIX:1
+angelic upstarts	ORG:1
+anheuser	PREFIX:1
+anheuser -	PREFIX:1
+anheuser - busch	ORG:1
+animal	PREFIX:1
+animal soul	ORG:1
+anip	ORG:1
+anlaids	ORG:1
+anntaylor	PREFIX:1
+anntaylor stores	ORG:1
+anonima	PREFIX:1
+anonima sound	ORG:1
+another	PREFIX:1
+another sunny	PREFIX:1
+another sunny day	ORG:1
+anp	ORG:1
+anpcat	ORG:1
+ansa	ORG:1
+ansaldi	ORG:1
+ansaldo	ORG:1
+ansaldobreda	ORG:1
+antares	ORG:1
+anthesi	ORG:1
+anti	PREFIX:1
+anti -	PREFIX:1
+anti - nowhere	PREFIX:1
+anti - nowhere league	ORG:1
+antichi	PREFIX:1
+antichi pellettieri	ORG:1
+antimafia	ORG:1
+antimatter	ORG:1
+antinea	ORG:1
+antisystem	ORG:1
+antitrust	ORG:1
+antonveneta	ORG:1	PREFIX:1
+antonveneta padova	ORG:1
+antropofagus	ORG:1
+anutel	ORG:1
+anva	ORG:1
+anythink	ORG:1
+anzco	ORG:1
+anzco.	ORG:1
+aogot	ORG:1
+aoki	ORG:1
+aol	ORG:1
+aom	ORG:1
+aon	ORG:1
+apas	ORG:1
+apat	ORG:1
+apcat	ORG:1
+apdai	ORG:1
+aphton	ORG:1
+api	ORG:1
+apibimi	ORG:1
+apicoltura	TSO:1
+apm	ORG:2
+apogeo	ORG:1
+appa	ORG:1
+appm	ORG:1	PREFIX:1
+appm onlus	ORG:1
+apram	ORG:1
+apran	ORG:1
+après	PREFIX:1
+après la	PREFIX:1
+après la classe	ORG:1
+apss	ORG:1
+apt	ORG:1
+apulia	PREFIX:1
+apulia prontoprestito	ORG:1
+aqua	ORG:1
+aquadolce	ORG:1
+aquafil	ORG:1
+aquaspace	PREFIX:1
+aquaspace di	PREFIX:1
+aquaspace di rovereto	ORG:1
+aran	ORG:1
+arancia	PREFIX:1
+arancia sonora	ORG:1
+arc	ORG:1
+arcadian	ORG:1
+arcc	ORG:1
+arcese	PREFIX:1
+arcese trasporti	ORG:1
+archer	PREFIX:1
+archer -	PREFIX:1
+archer - daniels	PREFIX:1
+archer - daniels -	PREFIX:1
+archer - daniels - midland	ORG:1
+arci	ORG:1
+arcidiocesi	ORG:1	PREFIX:1
+arcidiocesi di	PREFIX:1
+arcidiocesi di trento	ORG:1
+arctic	PREFIX:2
+arctic air	ORG:1
+arctic monkeys	ORG:1
+areva	ORG:1	PREFIX:1
+areva challenge	ORG:1
+arg	ORG:1
+argonne	ORG:1
+argos	ORG:1
+arianespace	ORG:1
+ariete	ORG:1
+ariston	ORG:1
+arkimedica	ORG:1
+arlington	ORG:1
+arma	ORG:1
+armani	PREFIX:3
+armani jeans	ORG:2	PREFIX:1
+armani jeans milano	ORG:1
+armco	ORG:1
+armstorng	ORG:1
+arnoldo	ORG:1	PREFIX:2
+arnoldo mondadori	ORG:1	PREFIX:1
+arnoldo mondadori editore	ORG:1
+arpa	ORG:1	PREFIX:1
+arpa -	PREFIX:1
+arpa - appa	ORG:1
+arpacom	ORG:1
+arpam	ORG:1
+arpt	ORG:1
+arquati	ORG:1
+arredamenti	TSO:1
+arredo	PREFIX:2
+arredo bagno	TSO:1
+arredo cucina	TSO:1
+arriflex	ORG:1
+arrows	ORG:1
+ars	ORG:1
+arsenal	ORG:1
+art	NIL:1	PREFIX:1
+art of	PREFIX:1
+art of fighters	ORG:1
+art'	PREFIX:1
+art' e'	ORG:1
+art.	NIL:1
+artesia	ORG:1
+articolo	PREFIX:1
+articolo 31	ORG:1
+artigiancassa	ORG:1
+artsana	ORG:1
+art´	PREFIX:1
+art´ è	ORG:1
+art´è	ORG:1
+as	TSO:1
+asaf	ORG:1
+asag	ORG:1
+asahi	ORG:1
+asar	ORG:1
+asarco	ORG:1
+asarco.	ORG:1
+asat	ORG:1
+asc	ORG:1
+ascom	ORG:1
+ascu	ORG:1
+asd	ORG:1
+asea	ORG:1
+asean	ORG:1
+asem	ORG:1
+asetco	ORG:1
+asetco.	ORG:1
+asfaltedil	ORG:1
+asha	ORG:1
+ashen	PREFIX:1
+ashen mortality	ORG:1
+ashland	ORG:1
+ashurst	ORG:1
+asi	ORG:1
+asiasat	ORG:1
+asics	ORG:1
+asif	ORG:1
+asis	ORG:2
+asja	PREFIX:1
+asja ambiente	PREFIX:1
+asja ambiente italia	ORG:1
+asl	ORG:1
+asm	ORG:3	PREFIX:2
+asm brescia	ORG:2
+aspiag	ORG:1
+asr	ORG:1
+asri	ORG:1
+assap	ORG:1
+assemblea	TSO:1	PREFIX:1
+assemblea nazionale	ORG:1
+assenzio	ORG:1
+assessorato	ORG:1
+assi	ORG:1
+assicuratrice	PREFIX:1
+assicuratrice valpiave	ORG:1
+assicurazioni	PREFIX:1
+assicurazioni generali	ORG:1
+assimoco	ORG:2
+assindustria	ORG:1
+assinform	ORG:1
+association	TEO:1
+associazione	TSO:1
+associvile	ORG:1
+assocomunicazione	ORG:1
+assoconsumatori	ORG:1
+ast	ORG:1
+astaldi	ORG:2
+asternovas	ORG:1
+aston	PREFIX:2
+aston martin	ORG:1
+aston villa	ORG:1
+astropizza	ORG:1
+at&t	ORG:1
+ata	ORG:1
+atacksya	ORG:1
+ataf	ORG:1
+atala	ORG:1
+atas	ORG:1	PREFIX:1
+atas onlus	ORG:1
+ateq	ORG:1
+atesina	ORG:1
+athebustop	ORG:1
+athesia	PREFIX:1
+athesia druck	ORG:1
+athlete	ORG:1
+ati	ORG:1
+aticarta	ORG:1
+atl	ORG:1
+atletico	TSO:1
+atm	ORG:1	PREFIX:1
+atm torino	ORG:1
+atmar	ORG:1
+ato	ORG:1
+atochem	ORG:1
+atomic	PREFIX:1
+atomic rooster	ORG:1
+atp	ORG:1
+atr	ORG:1
+atromitos	ORG:1
+attac	ORG:1
+atvidabergs	ORG:1
+atz	ORG:1
+atzwanger	ORG:1
+audi	PREFIX:5
+audi a2	NIL:1
+audi a3	NIL:1
+audi a4	NIL:1
+audi a6	NIL:1
+audi tt	NIL:1
+audiradio	ORG:1
+augat	ORG:1
+auser	ORG:1
+ausl	ORG:1
+austria	PREFIX:2
+austria salisburgo	ORG:1
+austria vienna	ORG:1
+austrian	PREFIX:1
+austrian airlines	ORG:1
+autechre	ORG:1
+auto	PREFIX:1
+auto in	ORG:1
+autobianchi	ORG:1
+autobruschetti	ORG:1
+autoexportimport	ORG:1
+autogrill	ORG:1
+autoindustriale	ORG:1
+autokonszern	ORG:1
+autolatina	ORG:1
+autonomisti	ORG:1
+autonova	ORG:1
+autostrada	PREFIX:3
+autostrada del	PREFIX:1
+autostrada del brennero	ORG:1
+autostrada torino	PREFIX:2
+autostrada torino -	PREFIX:1
+autostrada torino - milano	ORG:1
+autostrada torino milano	ORG:1
+autostrade	ORG:1
+auxerre	ORG:1
+aventis	ORG:1
+aviaco	ORG:1
+avialat	ORG:1
+avion	PREFIX:1
+avion travel	ORG:1
+avis	ORG:1
+avisio	PREFIX:1
+avisio energia	ORG:1
+avvocatura	TSO:1
+axia	ORG:1
+ayala	ORG:1
+ayer	ORG:1
+az	PREFIX:1
+az alkmaar	ORG:1
+azienda	TSO:1	PREFIX:10
+azienda di	PREFIX:2
+azienda di soggiorno	ORG:1
+azienda di turismo	ORG:1
+azienda elettrica	PREFIX:1
+azienda elettrica municipalizzata	ORG:1
+azienda energetica	ORG:1
+azienda municipale	PREFIX:1
+azienda municipale sviluppo	PREFIX:1
+azienda municipale sviluppo arco	ORG:1
+azienda per	PREFIX:2
+azienda per il	PREFIX:2
+azienda per il turismo	ORG:2
+azienda sanitaria	ORG:1
+azienda segagione	ORG:1	PREFIX:1
+azienda segagione legnami	ORG:1
+azimut	ORG:1	PREFIX:2
+azimut consulenza	PREFIX:1
+azimut consulenza sim	ORG:1
+azimut holding	ORG:1
+azionario	NIL:1
+b.c.c	ORG:1
+b1	ORG:1
+b2	ORG:1
+baba	PREFIX:1
+baba man	PREFIX:1
+baba man dub	ORG:1
+babolna	ORG:1
+babylon	PREFIX:1
+babylon zoo	ORG:1
+babyshambles	ORG:1
+back	PREFIX:1
+back street	PREFIX:1
+back street boys	ORG:1
+backstreet	PREFIX:1
+backstreet boys	ORG:1
+bailo	ORG:1
+balair	ORG:1
+balance	PREFIX:1
+balance of	PREFIX:1
+balance of power	ORG:1
+balkan	PREFIX:1
+balkan bulgarian	PREFIX:1
+balkan bulgarian airlines	ORG:1
+bananarama	ORG:1
+banca	TSO:1	PREFIX:6
+banca bovio	PREFIX:1
+banca bovio calderari	ORG:1
+banca di	PREFIX:2
+banca di intermediazione	PREFIX:1
+banca di intermediazione mobiliare	PREFIX:1
+banca di intermediazione mobiliare imi	ORG:1
+banca di trento	PREFIX:1
+banca di trento e	PREFIX:1
+banca di trento e bolzano	ORG:1
+banca intesa	ORG:1
+banca opi	ORG:1
+banca sella	ORG:1
+banco	TSO:1
+banda	TSO:1
+bandag	ORG:1
+banhana	PREFIX:1
+banhana sapiens	ORG:1
+bank	ORG:1
+bansigu	PREFIX:1
+bansigu big	PREFIX:1
+bansigu big band	ORG:1
+banta	ORG:1
+bapindo	ORG:1
+bar	TSO:1	PREFIX:2
+bar duomo	ORG:1
+bar meeting	ORG:1
+baraban	ORG:1
+barclays	ORG:1
+bard	ORG:1
+barilla	ORG:1
+barisera	ORG:1
+barlaston	ORG:1
+baroid	ORG:1
+bartolini	ORG:1
+bartók	ORG:1
+barum	ORG:1	PREFIX:1
+barum -	PREFIX:1
+barum - otrokovice	ORG:1
+basement	PREFIX:1
+basement jaxx	ORG:1
+basf	ORG:1
+basic	PREFIX:1
+basic net	ORG:1
+basket	TSO:1	PREFIX:1
+basket livorno	ORG:1
+basley	PREFIX:1
+basley click	ORG:1
+bastard	PREFIX:1
+bastard sons	PREFIX:1
+bastard sons of	PREFIX:1
+bastard sons of dioniso	ORG:1
+bastogi	ORG:1
+bauer	ORG:1
+bauflex	ORG:1
+bauhaus	ORG:1
+bauli	ORG:1
+baumaniere	ORG:1
+baustelle	ORG:1
+baxter	ORG:1
+bayer	ORG:1
+bayerische	ORG:1
+bayern	PREFIX:1
+bayern monaco	ORG:1
+bb	PREFIX:1
+bb biotech	ORG:1
+bbc	ORG:1
+bbdo	ORG:1
+bbt	ORG:1	PREFIX:1
+bbt progettazione	ORG:1
+bca	ORG:1
+bcbs	ORG:1
+bce	ORG:1
+beach	PREFIX:1
+beach volley	ORG:1
+beatles	ORG:1
+bechtel	ORG:1
+bee	PREFIX:1
+bee gees	ORG:1
+beerbong	ORG:1
+beghelli	ORG:1
+believer	ORG:1
+belintesta	ORG:1
+bellcore	ORG:1
+belle	PREFIX:1
+belle and	PREFIX:1
+belle and sebastian	ORG:1
+bellsouth	ORG:1
+bemis	ORG:1
+benelli	ORG:1
+benetton	ORG:1	PREFIX:4
+benetton beni	PREFIX:1
+benetton beni stabili	ORG:1
+benetton group	ORG:2
+benetton treviso	ORG:1
+benfica	ORG:1
+beni	PREFIX:1
+beni stabili	ORG:1
+bennet	ORG:1
+beppe	PREFIX:1
+beppe starnazza	PREFIX:1
+beppe starnazza e	PREFIX:1
+beppe starnazza e i	PREFIX:1
+beppe starnazza e i vortici	ORG:1
+beretta	ORG:1	PREFIX:1
+beretta armi	ORG:1
+bergamasco	ORG:1
+berisford	ORG:1
+berloni	ORG:1
+bermax	ORG:1
+bernabè	PREFIX:1
+bernabè industries	ORG:1
+bertani	PREFIX:1
+bertani trasporti	ORG:1
+bertone	ORG:1
+besiktas	ORG:1
+bet	ORG:1
+beta	PREFIX:1
+beta motor	ORG:1
+beton	PREFIX:1
+beton asfalti	ORG:1
+bfgoodrich	ORG:1
+bhc	ORG:1
+bhp	ORG:1
+bibbia	NIL:1
+biblioteca	TSO:1
+bic	ORG:1
+biennale	ORG:1
+biesse	ORG:1
+big	PREFIX:1
+big audio	PREFIX:1
+big audio dynamite	ORG:1
+bii	ORG:1
+biin	ORG:1
+bike	TEO:1
+bilanciato	NIL:1
+bild	ORG:1
+billa	ORG:1
+billionaire	ORG:1
+bim	ORG:1	PREFIX:1
+bim distribuzione	ORG:1
+bimota	ORG:1
+binter	PREFIX:1
+binter canarias	ORG:1
+bio	PREFIX:1
+bio energia	ORG:1
+biochemie	ORG:1
+bioenergy	ORG:1	PREFIX:1
+bioenergy anaunia	ORG:1
+bioera	PREFIX:1
+bioera expandi	ORG:1
+biofiemme	ORG:1
+bionergia	PREFIX:1
+bionergia fiemme	ORG:1
+biorendena	ORG:1
+biosearch	PREFIX:1
+biosearch italia	ORG:1
+biotech	ORG:1
+bipielle	PREFIX:1
+bipielle investimenti	ORG:1
+bipop	PREFIX:4
+bipop -	PREFIX:1
+bipop - carire	ORG:1
+bipop carire	ORG:1	PREFIX:2
+bipop carire r.emilia	ORG:1
+bipop carire reggio	PREFIX:1
+bipop carire reggio emilia	ORG:1
+birgenair	ORG:1
+birra	PREFIX:1
+birra moretti	ORG:1
+bitic	ORG:1
+bitumcalor	ORG:1
+black	PREFIX:5
+black &	PREFIX:1
+black & decker	ORG:1
+black entertainment	ORG:1
+black ivory	ORG:1
+black sabbath	ORG:1
+black widow	ORG:1
+black&decker	ORG:1
+blackburn	ORG:1	PREFIX:1
+blackburn rovers	ORG:1
+blackfield	ORG:1
+blackstar	ORG:1
+blancmange	ORG:1
+blitzkrieg	ORG:1
+blm	ORG:2
+bloc	PREFIX:1
+bloc party	ORG:1
+blockbuster	ORG:1
+bloody	PREFIX:1
+bloody riot	ORG:1
+bloom	PREFIX:1
+bloom 06	ORG:1
+bloomingdale	ORG:1
+blossom	PREFIX:1
+blossom toes	ORG:1
+blount	ORG:1
+blu	PREFIX:1
+blu hotels	ORG:1
+blue	PREFIX:3
+blue -	PREFIX:1
+blue - ray	NIL:1
+blue chip	ORG:1
+blue ray	NIL:1
+blueblur	ORG:1
+blueray	NIL:1
+bluetooth	NIL:1
+blur	ORG:1
+bluvertigo	ORG:1
+bmg	ORG:1
+bmw	PREFIX:9
+bmw -	PREFIX:2
+bmw - oracle	ORG:1
+bmw - sauber	ORG:1
+bmw 320	NIL:1
+bmw 520	NIL:1
+bmw b3	NIL:1
+bmw oracle	ORG:1	PREFIX:1
+bmw oracle racing	ORG:1
+bmw serie	NIL:1
+bmw x5	NIL:1
+bnfl	ORG:1
+bni	ORG:1
+bnl	ORG:1
+bnp	ORG:1	PREFIX:1
+bnp paribas	ORG:1
+boc	ORG:1
+boctc	ORG:1
+boeing	ORG:1
+boero	ORG:1	PREFIX:1
+boero bartolomeo	ORG:1
+bollati	PREFIX:1
+bollati boringhieri	ORG:1
+bolt	PREFIX:1
+bolt thrower	ORG:1
+bolton	ORG:1
+bolzoni	ORG:1
+bombardier	ORG:1
+bompiani	ORG:1
+bonifica	PREFIX:1
+bonifica emiliana	PREFIX:1
+bonifica emiliana veneta	ORG:1
+bonomi	PREFIX:1
+bonomi prefabbricati	PREFIX:1
+bonomi prefabbricati ille	ORG:1
+boop	PREFIX:1
+boop sisters	ORG:1
+boots	ORG:1
+borden	ORG:1
+bordignon	ORG:1
+borgosesia	ORG:1
+borile	ORG:1
+boringhieri	ORG:1
+borsa	ORG:1
+borsalino	ORG:1
+borse	ORG:1
+boscarol	PREFIX:1
+boscarol production	ORG:1
+bosch	ORG:1
+bosh	ORG:1
+botteghe	PREFIX:1
+botteghe oscure	ORG:1
+bovis	ORG:1
+bowater	ORG:1
+boyzone	ORG:1
+bozell	ORG:1
+bp	ORG:1
+bpi	ORG:1
+bpl	ORG:1
+br	ORG:1
+braathens	PREFIX:1
+braathens safe	ORG:1
+braintree	ORG:1
+braspetro	ORG:1
+bratislava	ORG:1
+breda	ORG:1
+breil	ORG:1
+brembo	ORG:1
+brennercom	ORG:1
+bresciaoggi	ORG:1
+brico	ORG:1
+bridgeston	ORG:1
+bridgestone	ORG:1
+brigantini	ORG:1
+brigata	TSO:1
+brigate	PREFIX:1
+brigate rosse	ORG:1
+brinson	ORG:1
+brionvega	ORG:1
+brioschi	PREFIX:1
+brioschi finanziaria	ORG:1
+british	PREFIX:4
+british airways	ORG:1
+british midland	ORG:1
+british sea	PREFIX:1
+british sea power	ORG:1
+british whale	ORG:1
+brizzi	PREFIX:1
+brizzi big	PREFIX:1
+brizzi big band	ORG:1
+broken	PREFIX:1
+broken bones	ORG:1
+brondby	ORG:1
+brondi	ORG:1
+bronski	PREFIX:1
+bronski beat	ORG:1
+brotherhood	PREFIX:1
+brotherhood of	PREFIX:1
+brotherhood of man	ORG:1
+browbeat	ORG:1
+brown	PREFIX:1
+brown -	PREFIX:1
+brown - forman	ORG:1
+bruges	ORG:1
+brunorock	ORG:1
+brunswick	ORG:1
+bs	PREFIX:1
+bs crewz	ORG:1
+bskyb	ORG:1
+bt	ORG:1	PREFIX:1
+bt roseto	ORG:1
+btb	ORG:1
+bti	ORG:1
+bucks	PREFIX:1
+bucks fizz	ORG:1
+buffaure	ORG:1
+buick	ORG:1
+bulgari	ORG:1
+bullet	PREFIX:1
+bullet for	PREFIX:1
+bullet for my	PREFIX:1
+bullet for my valentine	ORG:1
+bullets	ORG:1
+bundesbank	ORG:1
+buongiorno	PREFIX:1
+buongiorno vitaminic	ORG:1
+burda	ORG:1
+burdines	ORG:1
+burger	PREFIX:1
+burger king	ORG:1
+burlon	ORG:1
+burmah	ORG:1
+burnet	ORG:1
+burr	PREFIX:1
+burr -	PREFIX:1
+burr - brown	ORG:1
+burroughs	ORG:1
+bussola	ORG:1
+busted	ORG:1
+butcher	PREFIX:1
+butcher mind	PREFIX:1
+butcher mind collapse	ORG:1
+buzz	PREFIX:1
+buzz it	ORG:1
+buzzcocks	ORG:1
+buzzi	ORG:1	PREFIX:2
+buzzi unicem	ORG:2
+c.a.l.p.	ORG:1
+c.c	NIL:1
+c.d.u.	ORG:1
+c.e.l.i.	ORG:1
+c.e.m.e.a.	ORG:1
+c.i.r.	ORG:1
+c.r.a	ORG:1
+c.r.a.d.	ORG:1
+c.r.i.	ORG:1
+c.r.t	ORG:1
+c.s.p.a.	ORG:1
+c.t.a.	ORG:1
+c.u.s	TSO:1
+c1	ORG:1
+c2	ORG:1
+caaf	ORG:1
+cab	NIL:1
+cabot	ORG:1	PREFIX:2
+cabot italiana	ORG:2
+cad	PREFIX:3
+cad cairo	ORG:1
+cad it	ORG:1
+cad it.	ORG:1
+cadaveria	ORG:1
+cadillac	ORG:1
+caf	ORG:1
+caffaro	PREFIX:1
+caffaro energia	ORG:1
+caffè	TSO:1	PREFIX:1
+caffè mozart	ORG:1
+cagiva	ORG:1
+cahners	ORG:1
+cai	ORG:1
+cairo	ORG:1	PREFIX:3
+cairo communication	ORG:1
+cairo editore	ORG:1
+cairo editori	ORG:1
+cairocommunication	ORG:1
+calabruzi	ORG:1
+calcestruzzi	TSO:1
+calcio	TSO:1
+calderari	ORG:1
+caleffi	ORG:1
+caleppiovinil	ORG:1
+califfo	PREFIX:1
+califfo de	PREFIX:1
+califfo de luxe	ORG:1
+calliope	ORG:1
+caltagirone	ORG:2	PREFIX:1
+caltagirone editore	ORG:1
+calzaturificio	TSO:1
+calze	PREFIX:1
+calze malerba	ORG:1
+camaleonti	ORG:1
+camera	ORG:1	PREFIX:2
+camera dei	PREFIX:1
+camera dei deputati	ORG:1
+camera di	PREFIX:1
+camera di commercio	ORG:1
+camfin	ORG:1
+camorra	ORG:1
+campari	ORG:1
+campeau	ORG:1
+campionato	TSO:1
+canadian	PREFIX:1
+canadian airlines	PREFIX:1
+canadian airlines international	ORG:1
+canadiens	ORG:1
+candies	ORG:1
+candy	ORG:1
+canfor	ORG:1
+canoa	TSO:1
+canon	ORG:1	PREFIX:1
+canon italia	ORG:1
+canzoniere	PREFIX:1
+canzoniere delle	PREFIX:1
+canzoniere delle lame	ORG:1
+capitalia	ORG:1
+capomonster	ORG:1
+capsicum	PREFIX:1
+capsicum red	ORG:1
+carbide	ORG:1
+carcass	ORG:1
+cardi	ORG:1
+cardiologia	ORG:1
+cardnet	ORG:1
+carena	ORG:1
+carifac	ORG:1
+carige	ORG:1
+cariparma	ORG:1
+cariplo	ORG:1
+carismas	ORG:1
+carispa	ORG:1
+caritas	ORG:1
+cariverona	PREFIX:1
+cariverona banca	ORG:1
+carmen	PREFIX:1
+carmen show	ORG:1
+carmignano	ORG:1
+carnica	ORG:1
+carolco	ORG:1
+carolco.	ORG:1
+carpet	PREFIX:1
+carpet backing	ORG:1
+carpisa	ORG:1	PREFIX:1
+carpisa napoli	ORG:1
+carrefour	ORG:1
+carrera	ORG:1
+carrian	ORG:1
+carroccio	ORG:1
+carrozzeria	TSO:1
+carta	NIL:1
+carter	PREFIX:1
+carter -	PREFIX:1
+carter - wallace	ORG:1
+cartiera	TSO:1	PREFIX:1
+cartiera carmignano	ORG:1
+cartiere	TEO:1	TSO:1
+cartoleria	TSO:1
+cartolerie	TSO:1
+cartolibreria	ORG:1
+cartotecnica	ORG:1
+casa	PREFIX:1
+casa girelli	ORG:1
+cascades	ORG:1
+casearia	PREFIX:1
+casearia monti	PREFIX:1
+casearia monti trentini	ORG:1
+caseificio	ORG:1	TSO:1	PREFIX:3
+caseificio sociale	ORG:1	TSO:1	PREFIX:1
+caseificio sociale val	PREFIX:1
+caseificio sociale val di	PREFIX:1
+caseificio sociale val di fiemme	ORG:1
+casillo	ORG:1
+casino	PREFIX:1
+casino royale	ORG:1
+casio	ORG:1
+cassa	PREFIX:2
+cassa di	PREFIX:1
+cassa di risparmio	TSO:1
+cassa rurale	TSO:1
+cassazione	ORG:1
+casse	TSO:1	PREFIX:2
+casse di	PREFIX:1
+casse di risparmio	ORG:1
+casse rurali	ORG:1
+castrol	ORG:1
+catapilla	ORG:1
+catarrhal	PREFIX:1
+catarrhal noise	ORG:1
+caterpillar	ORG:1
+cathay	ORG:1
+catherine	PREFIX:1
+catherine wheel	ORG:1
+catic	ORG:1
+catoleum	ORG:1
+cattivi	PREFIX:1
+cattivi pensieri	ORG:1
+cattoi	PREFIX:1
+cattoi legno	ORG:1
+cattolica	PREFIX:1
+cattolica assicurazioni	ORG:1
+catullo	ORG:1
+cavit	ORG:1
+cba	ORG:1
+cbenes	ORG:1
+cbs	ORG:1
+cc	NIL:1
+ccc	ORG:1
+cccp	ORG:1
+ccd	ORG:1
+cci	ORG:1
+cd	NIL:1
+cda	ORG:1
+cdb	ORG:1	PREFIX:2
+cdb web	ORG:1	PREFIX:1
+cdb web tech	ORG:1
+cdc	ORG:1	PREFIX:1
+cdc point	ORG:1
+cdl	ORG:1
+cdm	ORG:1
+cdp	ORG:1
+cdr	ORG:1
+cdu	ORG:1
+cedam	ORG:1
+cedas	ORG:1
+cederna	PREFIX:1
+cederna fodere	ORG:1
+cee	ORG:1
+cefsa	ORG:1
+ceii	ORG:1
+cell	PREFIX:1
+cell therapeutics	ORG:1
+celta	PREFIX:1
+celta vigo	ORG:1
+celtic	PREFIX:1
+celtic glasgow	ORG:1
+cementerie	ORG:1
+cementir	ORG:1	PREFIX:1
+cementir cementerie	ORG:1
+cemin	PREFIX:1
+cemin legnami	PREFIX:1
+cemin legnami primiero	ORG:1
+cenibra	ORG:1
+censis	ORG:1
+centel	ORG:1
+centostazioni	ORG:1
+central	PREFIX:1
+central park	ORG:1
+centrale	PREFIX:3
+centrale del	PREFIX:2
+centrale del latte	ORG:1	PREFIX:1
+centrale del latte trento	ORG:1
+centrale finanziaria	PREFIX:1
+centrale finanziaria del	PREFIX:1
+centrale finanziaria del nord	PREFIX:1
+centrale finanziaria del nord est	ORG:1
+centro	TSO:1	PREFIX:12
+centro cristiano	PREFIX:1
+centro cristiano democratico	ORG:1
+centro destra	ORG:1
+centro di	PREFIX:1
+centro di ricerca	ORG:1
+centro pensioni	PREFIX:1
+centro pensioni complementari	PREFIX:1
+centro pensioni complementari regionali	ORG:1
+centro per	PREFIX:1
+centro per l'	PREFIX:1
+centro per l' impiego	ORG:1
+centro ricerche	PREFIX:1
+centro ricerche fiat	ORG:1
+centro sinistra	ORG:1
+centro tecnofin	ORG:1	PREFIX:1
+centro tecnofin servizi	ORG:1
+centro unico	PREFIX:1
+centro unico di	PREFIX:1
+centro unico di prenotazione	ORG:1
+centro universitario	TSO:1
+centro vacanze	PREFIX:1
+centro vacanze veronza	ORG:1
+centrum	PREFIX:1
+centrum pensplan	ORG:1
+centunion	ORG:1
+centurion	ORG:1
+cep	ORG:1
+ceramica	PREFIX:1
+ceramica valverde	ORG:1
+ceramiche	PREFIX:1
+ceramiche ricchetti	ORG:1
+cesarini	PREFIX:1
+cesarini sforza	ORG:1
+cesi	ORG:1
+cessna	ORG:1
+cfp	PREFIX:1
+cfp -	PREFIX:1
+cfp - total	ORG:1
+cgil	ORG:1	PREFIX:1
+cgil fp	ORG:1
+cgl	ORG:1
+chain	PREFIX:1
+chain reaction	ORG:1
+challenge	PREFIX:1
+challenge +	PREFIX:1
+challenge + 39	ORG:1
+challenge+39	ORG:1
+champion	ORG:1
+champions	ORG:1	PREFIX:2
+champions -	PREFIX:1
+champions - league	ORG:1
+champions league	ORG:1
+chantal	PREFIX:1
+chantal thomass	ORG:1
+charged	PREFIX:1
+charged gbh	ORG:1
+charitas	ORG:1
+charlton	ORG:1
+charmant	ORG:1
+checkers	ORG:1
+chelsea	ORG:1
+chernomoretz	PREFIX:1
+chernomoretz odessa	ORG:1
+chesterfield	ORG:1
+chevrolet	ORG:1
+chevron	ORG:1
+chief	PREFIX:1
+chief &	PREFIX:1
+chief & soci	ORG:1
+chiesi	PREFIX:1
+chiesi farmaceutici	ORG:1
+china	PREFIX:3
+china -	PREFIX:1
+china - team	ORG:1
+china crisis	ORG:1
+china team	ORG:1
+chinasky	ORG:1
+chini	ORG:1	PREFIX:1
+chini costruzioni	ORG:1
+chiyoda	ORG:1
+chl	ORG:1
+chori	ORG:1
+chromosomes	ORG:1
+chrysler	ORG:1
+chugai	ORG:1
+chujitsuya	ORG:1
+chumbawamba	ORG:1
+chunghwa	ORG:1
+chunghwaak	ORG:1
+cia	ORG:1
+ciampac	ORG:1
+ciaspegada	ORG:1
+ciaspolada	ORG:1
+ciba	PREFIX:2
+ciba -	PREFIX:2
+ciba - geigy	ORG:1
+ciba - vision	ORG:1
+cibavision	ORG:1
+ciccolella	ORG:1
+cicli	TSO:1
+cicloamatori	ORG:1
+cid	ORG:1
+cide	ORG:1
+cifrem	ORG:1
+cigatam	ORG:1
+cigil	ORG:1
+cigl	ORG:1
+cimo	ORG:1
+cimone	PREFIX:1
+cimone modena	ORG:1
+cin	NIL:1
+cinema	TSO:1
+cip	ORG:1
+cipe	ORG:1
+ciputra	ORG:1
+cir	ORG:1
+cirio	ORG:1	PREFIX:1
+cirio finanziaria	ORG:1
+cirm	ORG:1
+cis	ORG:2
+cisal	ORG:1
+cisas	ORG:1
+cisem	ORG:1
+cisi	ORG:1
+cisl	ORG:1	PREFIX:1
+cisl ps	ORG:1
+cisnal	ORG:1
+citibanb	ORG:1
+citibank	ORG:1
+citicorp	ORG:1
+citicorp.	ORG:1
+citizen	PREFIX:1
+citizen fish	ORG:1
+citroen	ORG:1	PREFIX:9
+citroen ax	NIL:1
+citroen c2	NIL:1
+citroen c3	NIL:1
+citroen cx	NIL:1
+citroen saxo	NIL:1
+citroen xantia	NIL:1
+citroen xm	NIL:1
+citroen xsara	NIL:1
+citroen zx	NIL:1
+citroën	PREFIX:6
+citroën c2	NIL:1
+citroën c3	NIL:1
+citroën saxo	NIL:1
+citroën xm	NIL:1
+citroën xsara	NIL:1
+citroën zx	NIL:1
+cittadinanzattiva	ORG:1
+claiborne	ORG:1
+clam	ORG:1
+clarion	ORG:1
+class	ORG:1	PREFIX:1
+class editori	ORG:1
+claudio	PREFIX:1
+claudio lancinhouse	ORG:1
+clesid	ORG:1
+cliffs	ORG:1
+climamio	ORG:1	PREFIX:1
+climamio bologna	ORG:1
+clinica	TSO:1
+clm	ORG:1
+cln	ORG:1
+club	TSO:1	PREFIX:1
+club dogo	ORG:1
+cm	ORG:1
+cmb	ORG:1
+cmc	ORG:1
+cmf	ORG:1
+cmi	ORG:1
+cmp	ORG:1
+cmr	ORG:1
+cms	ORG:1
+cmv	ORG:1
+cnaic	ORG:1
+cnb	ORG:1
+cnbc	ORG:1
+cnca	ORG:1
+cncdc	ORG:1
+cncpt	ORG:1
+cnd	ORG:1
+cngei	ORG:1
+cnhtc	ORG:1
+cnipa	ORG:1
+cnn	ORG:1
+cnr	ORG:1
+co'	PREFIX:1
+co' sang	ORG:1
+co.	TSO:1
+coalport	ORG:1
+coastal	ORG:1
+coats	PREFIX:1
+coats cucirini	ORG:1
+cobas	ORG:1
+coca	PREFIX:2
+coca -	PREFIX:1
+coca - cola	ORG:1
+coca cola	ORG:1
+cocacola	ORG:1
+cock	PREFIX:1
+cock sparrer	ORG:1
+cockney	PREFIX:1
+cockney rejects	ORG:1
+codacons	ORG:1
+codelfa	ORG:1
+codes	ORG:1
+codess	ORG:1
+codyeco	ORG:1	PREFIX:1
+codyeco s.croce	ORG:1
+coestra	ORG:1
+cofacet	PREFIX:1
+cofacet trac	ORG:1
+cofas	ORG:1
+cofav	ORG:1
+coffee	PREFIX:1
+coffee mug	ORG:1
+cofide	ORG:1
+cofidis	ORG:1
+cofim	ORG:1
+coger	ORG:1
+coges	ORG:1
+coil	ORG:1
+coin	ORG:1
+coisp	ORG:1
+coldiretti	ORG:1
+coldplay	ORG:1
+colgate	ORG:1	PREFIX:1
+colgate -	PREFIX:1
+colgate - palmolive	ORG:1
+collage	ORG:1
+collagen	ORG:1
+college	TEO:1
+collegio	TSO:1
+colmar	ORG:1
+colnago	ORG:1
+colonna	PREFIX:1
+colonna infame	PREFIX:1
+colonna infame skinhead	ORG:1
+colosseum	ORG:1	PREFIX:1
+colosseum ii	ORG:1
+comair	ORG:1
+comalco	ORG:1
+comalco.	ORG:1
+combellga	ORG:1
+combipel	ORG:1
+comedy	PREFIX:1
+comedy central	ORG:1
+comincom	ORG:1
+comitato	TSO:1
+commerciale	PREFIX:1
+commerciale italiana	ORG:1
+commissariato	PREFIX:1
+commissariato del	PREFIX:1
+commissariato del governo	ORG:1
+commissione	TSO:1	PREFIX:2
+commissione regionale	ORG:1
+commissione tributaria	ORG:1
+commodore	ORG:1
+compagnia	TSO:1	PREFIX:2
+compagnia di	PREFIX:1
+compagnia di sviluppo	ORG:1
+compagnia immobiliare	PREFIX:1
+compagnia immobiliare azionaria	ORG:1
+compagnie	PREFIX:1
+compagnie industriali	PREFIX:1
+compagnie industriali riunite	ORG:1
+compuserve	ORG:1
+comtrain	ORG:1
+comunication	ORG:1	TEO:1	PREFIX:1
+comunication team	ORG:1
+comunisti	ORG:1	PREFIX:2
+comunisti italiani	ORG:1
+comunisti unitari	ORG:1
+comunità	TSO:1
+conagra	ORG:1
+concido	ORG:1
+concilio	PREFIX:1
+concilio vini	ORG:1
+condominio	NIL:1
+condor	ORG:1
+conductus	ORG:1
+conf	PREFIX:1
+conf -	PREFIX:1
+conf - sal	ORG:1
+confartigianato	ORG:1
+confcommercio	ORG:1
+confederazione	ORG:1	TSO:1
+conferenza	TSO:1
+confesercenti	ORG:1
+confidi	ORG:1
+confindustria	ORG:1
+confraternita	TSO:1
+confservizi	ORG:1
+confusional	PREFIX:1
+confusional quartet	ORG:1
+congregazione	TSO:1
+coni	ORG:1
+conrail	ORG:1
+consap	ORG:1
+consat	ORG:1
+conservatorio	TSO:1
+conserve	PREFIX:1
+conserve italia	ORG:1
+consiglio	TSO:1	PREFIX:7
+consiglio amministrativo	ORG:1
+consiglio circoscrizionale	ORG:1
+consiglio comunale	ORG:1
+consiglio di	PREFIX:1
+consiglio di amministrazione	ORG:1
+consiglio nazionale	PREFIX:1
+consiglio nazionale delle	PREFIX:1
+consiglio nazionale delle ricerche	ORG:1
+consiglio provinciale	ORG:1
+consiglio regionale	ORG:1
+consip	ORG:1
+consob	ORG:1
+consortium	TEO:1
+conspiracy	ORG:1
+consult	TEO:1
+consultant	TSO:1
+consulting	TEO:1
+continental	ORG:1	PREFIX:1
+continental airlines	ORG:1
+continuo	PREFIX:1
+continuo rilasso	ORG:1
+contrin	ORG:1
+contro	PREFIX:1
+contro senso	ORG:1
+conus	ORG:1
+convesco	ORG:1
+coop.va	TSO:1
+coop.ve	TSO:1
+cooperativa	TSO:1
+cooperative	PREFIX:1
+cooperative rosse	ORG:1
+coors	ORG:1
+coperative	PREFIX:1
+coperative rosse	ORG:1
+cor	PREFIX:1
+cor veleno	ORG:1
+coradai	ORG:1
+cordenons	ORG:1
+corecom	ORG:1
+coredo	ORG:1
+corerat	ORG:1
+corning	ORG:1
+coro	TSO:1
+corona	PREFIX:1
+corona calcestruzzi	ORG:1
+corpo	TSO:1
+corporation	TEO:1
+corriere	PREFIX:3
+corriere della	PREFIX:1
+corriere della sera	ORG:1
+corriere dello	PREFIX:2
+corriere dello sport	PREFIX:2
+corriere dello sport sradio	ORG:1
+corriere dello sport stadio	ORG:1
+corte	TSO:1	PREFIX:6
+corte d'	PREFIX:2
+corte d' appello	ORG:1
+corte d' assise	ORG:1
+corte dei	PREFIX:2
+corte dei conti	ORG:1
+corte dei miracoli	ORG:1
+corte di	PREFIX:1
+corte di cassazione	ORG:1
+corte federale	ORG:1
+coryo	ORG:1
+cosa	PREFIX:1
+cosa nostra	ORG:1
+cosbau	ORG:1
+cosmogas	ORG:1
+cossi	PREFIX:1
+cossi costruzioni	ORG:1
+costa	PREFIX:1
+costa crociere	ORG:1
+costerplast	ORG:1
+costruzioni	TSO:1	PREFIX:4
+costruzioni grassi	ORG:1
+costruzioni grosselli	ORG:1
+costruzioni paisoli	ORG:1
+costruzioni sacramati	ORG:1
+cotonificio	TSO:1
+courage	ORG:1
+courier	ORG:1
+cousteau	ORG:1
+cpm	ORG:1
+cpn	ORG:1
+cpt	ORG:1
+cr	ORG:1	PREFIX:1
+cr firenze	ORG:1
+cra	ORG:1
+crad	ORG:1
+cradle	PREFIX:1
+cradle of	PREFIX:1
+cradle of filth	ORG:1
+crai	ORG:1
+cral	ORG:1
+cranberries	ORG:1
+crange	ORG:1
+crash	PREFIX:1
+crash box	ORG:1
+crass	ORG:1
+crazy	PREFIX:1
+crazy world	ORG:1
+crcs	ORG:1
+cream	ORG:1
+credem	ORG:1
+credito	TSO:1	PREFIX:1
+credito veronese	ORG:1
+cremogen	ORG:1
+cremonini	ORG:1
+crespi	ORG:1
+cressida	ORG:1
+cri	ORG:1
+cricca	PREFIX:1
+cricca dei	PREFIX:1
+cricca dei balordi	ORG:1
+crif	ORG:1
+crimson	ORG:1
+cripple	PREFIX:1
+cripple bastards	ORG:1
+cristalleria	PREFIX:1
+cristalleria artistica	ORG:1
+cristiani	PREFIX:2
+cristiani democratici	ORG:1	PREFIX:1
+cristiani democratici uniti	ORG:1
+crm	ORG:1
+crmi	ORG:1
+croce	PREFIX:2
+croce rossa	ORG:1	PREFIX:1
+croce rossa croce	ORG:1
+crossair	ORG:1
+crown	ORG:1
+crt	ORG:1
+crummy	PREFIX:1
+crummy stuff	ORG:1
+cs	TSO:1
+csa	ORG:1	PREFIX:1
+csa -	PREFIX:1
+csa - cisal	ORG:1
+csc	ORG:1
+csen	ORG:1
+csfb	ORG:1
+cshs	ORG:1
+csi	ORG:1
+cska	ORG:1	PREFIX:2
+cska mosca	ORG:1
+cska sofia	ORG:1
+csm	ORG:1
+csoa	ORG:1
+csp	ORG:1	PREFIX:2
+csp international	ORG:1
+csp nova	ORG:1
+cspa	ORG:1
+cst	ORG:1
+csu	ORG:1
+csv	ORG:1
+cta	ORG:1
+cte	TSO:1
+cti	ORG:1
+cto	ORG:1
+ctt	ORG:1
+cub	ORG:1	PREFIX:1
+cub -	PREFIX:1
+cub - scuola	ORG:1
+cuba	PREFIX:1
+cuba libre	NIL:1
+cud	NIL:1
+cudam	ORG:1
+cugini	PREFIX:1
+cugini di	PREFIX:1
+cugini di campagna	ORG:1
+cullum	ORG:1
+culture	PREFIX:1
+culture club	ORG:1
+culver	PREFIX:1
+culver franchising	PREFIX:1
+culver franchising system	ORG:1
+cumi	ORG:1
+cummins	ORG:1
+curee	ORG:1
+cus	TSO:1
+cvrd	ORG:1
+cyanco	ORG:1
+cyanco.	ORG:1
+cycling	TSO:1
+cyclo	TSO:1
+cydonia	ORG:1
+cypress	ORG:1
+czech	PREFIX:1
+czech airlines	ORG:1
+càvit	ORG:1
+dada	ORG:1
+daedalus	ORG:1
+daewoo	ORG:1
+daf	ORG:1
+daft	PREFIX:1
+daft punk	ORG:1
+dagh	ORG:1
+daicel	ORG:1
+daihatsu	ORG:1
+daily	ORG:1	PREFIX:1
+daily mirror	ORG:1
+daimler	ORG:1	PREFIX:3
+daimler -	PREFIX:2
+daimler - benz	ORG:1
+daimler - chrysler	ORG:1
+daimler chrysler	ORG:1
+daimlerchrysler	ORG:1
+daishinku	ORG:1
+daiwa	ORG:1	PREFIX:1
+daiwa -	PREFIX:1
+daiwa - mkb	ORG:1
+dakar	ORG:1
+dal	PREFIX:1
+dal negro	ORG:1
+dalle	PREFIX:3
+dalle carbonare	ORG:2
+dalle nogare	ORG:1
+dalmec	ORG:1
+dalmine	ORG:1
+dana	PREFIX:1
+dana italia	ORG:1
+danaher	ORG:1
+daniel	PREFIX:1
+daniel sentacruz	PREFIX:1
+daniel sentacruz ensemble	ORG:1
+darchin	ORG:1
+dark	PREFIX:1
+dark lunacy	ORG:1
+darkness	ORG:1
+darpa	ORG:1
+dartmoor	ORG:1
+data	PREFIX:1
+data service	ORG:1
+datacube	ORG:1
+datakill	ORG:1
+datalogic	ORG:1
+datamat	ORG:1
+datura	ORG:1
+davide	PREFIX:1
+davide campari	ORG:1
+davis	ORG:1
+day	PREFIX:1
+day hospital	NIL:1
+dc	ORG:1
+ddl	NIL:1
+ddp	ORG:1
+de	PREFIX:5
+de crew	ORG:1
+de de	PREFIX:1
+de de lind	ORG:1
+de longhi	ORG:1
+de manincor	ORG:1
+de tomaso	ORG:1
+de'	PREFIX:1
+de' longhi	ORG:1
+dead	PREFIX:1
+dead can	PREFIX:1
+dead can dance	ORG:1
+deasonika	ORG:1
+debartolo	ORG:1
+dedalum	PREFIX:1
+dedalum taete	ORG:1
+dedalus	ORG:1
+dedratz	ORG:1
+deep	PREFIX:1
+deep purple	ORG:1
+deere	ORG:1
+def	PREFIX:1
+def leppard	ORG:1
+deftones	ORG:1
+degremont	PREFIX:1
+degremont italia	ORG:1
+degussa	ORG:1
+delco	ORG:1
+delegazione	TSO:1
+delirium	ORG:1
+delisa	ORG:1
+dell	ORG:1
+dellagiacoma	ORG:1
+delonghi	ORG:1
+delphi	ORG:1
+delta	ORG:1	PREFIX:4
+delta air	PREFIX:1
+delta air lines	ORG:1
+delta informatica	ORG:2
+delta v	ORG:1
+deltadator	ORG:1
+deluxe	ORG:1
+democratica	PREFIX:1
+democratica di	PREFIX:1
+democratica di centro	ORG:1
+democratici	PREFIX:1
+democratici di	PREFIX:1
+democratici di sinistra	ORG:1
+democrazia	PREFIX:1
+democrazia cristiana	ORG:1
+denovo	ORG:1
+dentsu	ORG:1
+depeche	PREFIX:1
+depeche mode	ORG:1
+derozer	ORG:1
+derry	PREFIX:1
+derry city	ORG:1
+dersut	ORG:1
+dervit	ORG:1
+desafio	ORG:1	PREFIX:1
+desafio espanol	ORG:1
+desafío	ORG:1	PREFIX:2
+desafío español	ORG:1	PREFIX:1
+desafío español 2007	ORG:1
+desaru	ORG:1
+despar	ORG:1	PREFIX:1
+despar gorizia	ORG:1
+desperado	ORG:1
+deutsche	PREFIX:5
+deutsche -	PREFIX:2
+deutsche - bank	ORG:1
+deutsche - telekom	ORG:1
+deutsche ba	ORG:1
+deutsche bank	ORG:1
+deutsche telekom	ORG:1
+devil	PREFIX:1
+devil doll	ORG:1
+dexter	ORG:1
+dgba	ORG:1
+dgbap	ORG:1
+dgm	ORG:1
+dhamm	ORG:1
+dhl	ORG:1
+dia	ORG:1
+diafoil	ORG:1
+dial	ORG:2
+diamond	PREFIX:2
+diamond -	PREFIX:1
+diamond - star	ORG:1
+diamond head	ORG:1
+diatec	ORG:2	PREFIX:2
+diatec cles	ORG:1
+diatec holding	ORG:1
+diatex	ORG:2
+dic	ORG:1
+diebold	ORG:1
+diessegi	ORG:1
+digicast	ORG:1
+digital	PREFIX:4
+digital bros	ORG:1
+digital bros.	ORG:1
+digital multimedia	ORG:1	PREFIX:1
+digital multimedia technologies	ORG:1
+digitale	PREFIX:1
+digitale terrestre	NIL:1
+digos	ORG:1
+dik	PREFIX:1
+dik dik	ORG:1
+dinamo	PREFIX:2
+dinamo bucarest	ORG:1
+dinamo zagabria	ORG:1
+dingo	ORG:1
+diorrhea	ORG:1
+dipartimento	TSO:1
+dire	PREFIX:1
+dire straits	ORG:1
+direzione	TSO:1
+dirotta	PREFIX:1
+dirotta su	PREFIX:1
+dirotta su cuba	ORG:1
+dirsb	ORG:1
+dirty	PREFIX:2
+dirty dixx	ORG:1
+dirty pretty	PREFIX:1
+dirty pretty things	ORG:1
+disarmonia	PREFIX:1
+disarmonia mundi	ORG:1
+disciplinare	ORG:1
+disciplinatha	ORG:1
+disco	TSO:1	PREFIX:3
+disco -	PREFIX:1
+disco - pub	TSO:1
+disco drive	ORG:1
+disco pub	TSO:1
+discorevolver	ORG:1
+discovery	PREFIX:1
+discovery enterprise	ORG:1
+disetronic	ORG:1
+disney	ORG:1	PREFIX:1
+disney channel	ORG:1
+ditta	TSO:1
+diva	PREFIX:1
+diva futura	ORG:1
+divisione	TSO:1
+dj	PREFIX:1
+dj war	ORG:1
+dlh	PREFIX:1
+dlh posse	ORG:1
+dmail	ORG:1	PREFIX:1
+dmail group	ORG:1
+dmt	ORG:1
+do.it	ORG:1
+doc	NIL:1
+doctor	PREFIX:1
+doctor jazz's	PREFIX:1
+doctor jazz's universal	PREFIX:1
+doctor jazz's universal remedy	ORG:1
+dodge	ORG:1
+dodi	PREFIX:1
+dodi &	PREFIX:1
+dodi & i	PREFIX:1
+dodi & i monodi	ORG:1
+dodskammer	ORG:1
+dofasco	ORG:1
+dofasco.	ORG:1
+dogs	PREFIX:1
+dogs d'amour	ORG:1
+dolomiten	ORG:1
+dolomiti	PREFIX:2
+dolomiti energia	ORG:1
+dolomiti meteo	ORG:1
+dolomitica	ORG:1
+domine	ORG:1
+dominion	ORG:1
+domtar	ORG:1
+donohue	ORG:1
+doomsword	ORG:1
+doors	ORG:1
+doppio	PREFIX:1
+doppio quintetto	PREFIX:1
+doppio quintetto vocale	ORG:1
+doria	ORG:1
+dorigoni	ORG:1
+dos	PREFIX:1
+dos de	PREFIX:1
+dos de picos	ORG:1
+doskocil	ORG:1
+double	PREFIX:1
+double dee	ORG:1
+dow	ORG:1
+doxa	ORG:1
+dpr	NIL:1
+dragonforce	ORG:1
+draugr	PREFIX:1
+draugr band	ORG:1
+dreamworks	ORG:1	PREFIX:1
+dreamworks skg	ORG:1
+dresser	ORG:1	PREFIX:1
+dresser -	PREFIX:1
+dresser - rand	ORG:1
+drunken	PREFIX:1
+drunken butterfly	ORG:1
+ds	ORG:1
+dsm	ORG:1
+ducati	PREFIX:2
+ducati motor	ORG:1	PREFIX:1
+ducati motor holding	ORG:1
+dunhill	ORG:1
+dunlop	ORG:1
+duo	PREFIX:2
+duo alterno	ORG:1
+duo fasano	ORG:1
+dupont	ORG:1
+duran	PREFIX:1
+duran duran	ORG:1
+dvd	NIL:1	PREFIX:2
+dvd -	PREFIX:1
+dvd - rom	NIL:1
+dvd rom	NIL:1
+dvix	NIL:1
+dwg	ORG:1
+dwl	ORG:1
+dynaire	ORG:1
+dynamo	PREFIX:1
+dynamo kiev	ORG:1
+d´	PREFIX:1
+d´ aste	ORG:1
+e	PREFIX:4
+e -	PREFIX:4
+e - biscom	ORG:1
+e - pdci	ORG:1
+e - solutions	ORG:1
+e - systems	ORG:1
+e.biscom	ORG:1
+eagle	ORG:1	PREFIX:1
+eagle pictures	ORG:1
+earthwinds	ORG:1
+eastman	ORG:1
+eastpak	ORG:1
+eater	ORG:1
+eaton	ORG:1
+ebara	PREFIX:1
+ebara pumps	PREFIX:1
+ebara pumps europe	ORG:1
+ebf	ORG:1
+ec	ORG:1
+echlin	ORG:1
+echo	PREFIX:1
+echo &	PREFIX:1
+echo & the	PREFIX:1
+echo & the bunnymen	ORG:1
+eco	PREFIX:1
+eco di	PREFIX:1
+eco di bergamo	ORG:1
+ecolag	ORG:1
+ecomuseo	TSO:1
+ecoplast	ORG:1
+ecoradio	ORG:1
+ecotermica	ORG:1	PREFIX:1
+ecotermica san	PREFIX:1
+ecotermica san martino	ORG:1
+ect	ORG:1
+ecureil	ORG:1
+ecureuil	ORG:1
+edf	ORG:1
+edil	TSO:1
+edilbaldo	ORG:1
+edilbattisti	ORG:1
+edilbeton	ORG:1	PREFIX:1
+edilbeton trento	ORG:1
+edilbren	ORG:1
+edilcomm	ORG:1
+edilegno	ORG:1
+edilesse	ORG:1	PREFIX:2
+edilesse cavriago	ORG:1	PREFIX:1
+edilesse cavriago s.e.c.	ORG:1
+edilia	ORG:1
+edilmac	ORG:1
+edilmat	ORG:1
+edilmec	ORG:1
+edilnova	ORG:1
+edilpavimentazioni	ORG:1
+edilscavi	ORG:1
+ediltione	ORG:1
+edilvanzo	ORG:1
+edison	ORG:2	PREFIX:1
+edison rete	ORG:1
+editoriale	PREFIX:1
+editoriale l´	PREFIX:1
+editoriale l´ espresso	ORG:1
+edizioni	TSO:1
+eec	ORG:1
+eems	ORG:1
+eeroporto	ORG:1
+effe	ORG:1
+effjohn	ORG:1
+effoa	ORG:1
+effrem	ORG:1
+efibanca	ORG:1
+efisa	ORG:1
+eg&g	ORG:1
+egmont	PREFIX:1
+egmont soa	ORG:1
+eiar	ORG:1
+eiffel	PREFIX:1
+eiffel 65	ORG:1
+eintracht	ORG:1	PREFIX:1
+eintracht francoforte	ORG:1
+eire	PREFIX:1
+eire nua	ORG:1
+ejip	ORG:1
+ejv	ORG:1
+el	PREFIX:1
+el mundo	ORG:1
+el.en.	ORG:1
+elasis	ORG:1
+elastogran	ORG:1
+elaz	ORG:1
+elders	ORG:1
+eldo	PREFIX:1
+eldo napoli	ORG:1
+eldritch	ORG:1
+eleca	ORG:1
+electric	PREFIX:2
+electric light	PREFIX:1
+electric light orchestra	ORG:1
+electric wizard	ORG:1
+electro	TSO:1
+electrolux	ORG:1
+elettro	PREFIX:1
+elettro casa	ORG:1
+elettrocasa	ORG:1
+elettrojoyce	ORG:1
+elettronica	TSO:1
+elettronoir	ORG:1
+elettrorava	ORG:1
+elettrotecnica	TSO:1
+elio	PREFIX:1
+elio e	PREFIX:1
+elio e le	PREFIX:1
+elio e le storie	PREFIX:1
+elio e le storie tese	ORG:1
+elion	ORG:1
+elsag	ORG:1
+elscint	ORG:1
+elxsi	ORG:1
+emak	ORG:1
+emcore	ORG:1
+emergency	ORG:1
+emerson	PREFIX:1
+emerson lake	PREFIX:1
+emerson lake and	PREFIX:1
+emerson lake and palmer	ORG:1
+eminflex	ORG:1
+emini	PREFIX:1
+emini costruzioni	ORG:1
+emirates	PREFIX:2
+emirates team	ORG:1	PREFIX:1
+emirates team new	PREFIX:1
+emirates team new zealand	ORG:1
+emmeci	PREFIX:1
+emmeci group	ORG:1
+emporio	TSO:1
+enaip	ORG:1
+enal	ORG:1
+enasa	ORG:1
+enav	ORG:1
+enceratec	ORG:1
+enciclopedia	NIL:1
+enciclopedie	NIL:1
+endesa	ORG:1
+enea	ORG:1
+eneco	ORG:1
+enel	ORG:2	PREFIX:4
+enel distribuzione	ORG:1
+enel hydro	ORG:1
+enel produzione	ORG:1
+enel real	PREFIX:1
+enel real estate	ORG:1
+enerconsult	ORG:1
+enertad	ORG:1
+engelhard	ORG:1
+engineering	ORG:1	TSO:1
+enginsoft	ORG:1
+eni	ORG:2
+enichem	ORG:1
+enigma	ORG:1
+enimont	ORG:1
+enpals	ORG:1
+ensable	ORG:1
+ensemble	ORG:1
+ente	TSO:1
+epic	ORG:1
+epicor	ORG:1
+episode	PREFIX:1
+episode six	ORG:1
+epitronics	ORG:1
+eplanet	ORG:1
+eppaa	ORG:1
+equipe	TSO:1
+erasure	ORG:1
+erboristeria	TSO:1
+erder	ORG:1
+erg	ORG:1
+ergo	ORG:1	PREFIX:1
+ergo previdenza	ORG:1
+ericsson	ORG:2	PREFIX:1
+ericsson telecomunicazioni	ORG:1
+erre	ORG:1
+ervis	ORG:1
+esaote	ORG:1
+esat	ORG:1
+esoteric	ORG:1
+esp	NIL:1
+espanyol	ORG:1
+espresso	ORG:1
+esprinet	ORG:1
+esse	PREFIX:3
+esse -	PREFIX:3
+esse - ti	ORG:1	PREFIX:2
+esse - ti carilo	ORG:1	PREFIX:1
+esse - ti carilo loreto	ORG:1
+essedi	ORG:1
+esselunga	ORG:1
+essepi	ORG:1
+eta	ORG:1
+etec	ORG:1
+ethnikos	PREFIX:1
+ethnikos achnas	ORG:1
+ethyl	ORG:1
+eti	ORG:2
+etinera	ORG:1
+etonwood	ORG:1
+etra	ORG:1
+etx	ORG:1
+eu	ORG:1
+euphon	ORG:1
+euregio	ORG:1
+euribor	NIL:1
+eurispes	ORG:1
+eurobanca	PREFIX:1
+eurobanca privata	ORG:1
+eurobau	PREFIX:1
+eurobau home	ORG:1
+eurobrico	ORG:1
+eurocar	ORG:1	TSO:1
+eurocoating	ORG:2
+eurocom	ORG:1
+eurodynamics	ORG:1
+eurofighter	ORG:1
+eurofly	ORG:1
+euromix	ORG:1	PREFIX:1
+euromix motors	ORG:1
+euronics	ORG:1
+europa	PREFIX:1
+europa steel	ORG:1
+europadiesel	ORG:1
+europol	ORG:1
+europorfidi	ORG:1
+eurospar	ORG:1
+eurospin	ORG:1
+eurostandard	ORG:2
+eurotec	ORG:1
+eurotech	ORG:2
+eurovision	PREFIX:1
+eurovision partecipazioni	ORG:1
+eurowings	ORG:1
+eurythmics	ORG:1
+eutelia	ORG:1
+evc	ORG:1
+evergreen	ORG:1
+everton	ORG:1
+everything	PREFIX:1
+everything but	PREFIX:1
+everything but the	PREFIX:1
+everything but the girl	ORG:1
+ex	NIL:1
+exide	ORG:1
+exodus	ORG:1
+exploited	ORG:1
+explonaft	ORG:1
+expo	ORG:1
+exprivia	ORG:1
+extreme	PREFIX:1
+extreme noise	PREFIX:1
+extreme noise terror	ORG:1
+exxon	ORG:1
+eztn	ORG:1
+f	PREFIX:2
+f 1	ORG:1
+f 3000	ORG:1
+f.	PREFIX:1
+f. c.	TSO:1
+f.a.o.	ORG:1
+f.a.u.	ORG:1
+f.i.c.s.f.	ORG:1
+f.i.d.a.l.	ORG:1
+f.i.d.a.s.c.	ORG:1
+f.lli	ORG:1	TSO:1
+f.s.	ORG:1
+f1	ORG:1
+f3000	ORG:1
+fabbrica	PREFIX:3
+fabbrica d'	PREFIX:1
+fabbrica d' armi	ORG:1
+fabbrica italiana	ORG:1
+fabbrica macchine	ORG:1
+faber	ORG:1
+fabi	ORG:1
+facoltà	TSO:1
+fairchild	ORG:1
+fairport	PREFIX:1
+fairport convention	ORG:1
+falck	ORG:2
+falegnameria	TSO:1
+fam	PREFIX:1
+fam coop	ORG:1
+famatec	ORG:2
+family	ORG:1
+familymart	ORG:1
+fantic	PREFIX:1
+fantic motor	ORG:1
+fanuc	ORG:1
+fao	ORG:1
+far	PREFIX:1
+far west	NIL:1
+farmabiagini	ORG:1
+farmacia	TSO:1
+fascismo	ORG:1
+fashion	ORG:1	TSO:1
+fastway	ORG:1
+fastweb	ORG:1
+fau	ORG:1
+fbi	ORG:1
+fc	TSO:1
+fc.	TSO:1
+fci	ORG:1
+fcie	ORG:1
+fcmi	ORG:1
+fcp	ORG:1
+fdb	ORG:1
+fdp	ORG:1
+fed	PREFIX:2
+fed coop	ORG:1
+fed cup	ORG:1
+fedcoop	ORG:1
+fedcup	ORG:1
+federal	PREFIX:1
+federal -	PREFIX:1
+federal - mogul	ORG:1
+federatletica	ORG:1
+federazione	TSO:1	PREFIX:3
+federazione dei	PREFIX:1
+federazione dei verdi	ORG:1
+federazione delle	PREFIX:1
+federazione delle coperative	ORG:1
+federazione laburista	ORG:1
+federcaccia	ORG:1
+federcalcio	ORG:1
+federciclismo	ORG:1
+federcultura	ORG:1
+federfarma	ORG:1
+federgasacqua	ORG:1
+federmeccanica	ORG:1
+federnotai	ORG:1
+federpensionati	ORG:1
+federsci	ORG:1
+federtennis	ORG:1
+federturismo	ORG:1
+fedrigoni	PREFIX:1
+fedrigoni cartiere	ORG:1
+feeder	ORG:1
+felix	PREFIX:1
+felix and	PREFIX:1
+felix and arty	ORG:1
+fem	ORG:1
+fen	PREFIX:1
+fen energia	ORG:1
+fenacom	ORG:1
+fenalt	ORG:1
+fenap	ORG:1
+feneal	ORG:1
+feneral	ORG:1
+fenerbahce	ORG:1
+feralpi	ORG:1
+feredil	ORG:1
+ferramenta	TSO:1
+ferraresi	ORG:1
+ferrari	ORG:1
+ferrero	ORG:1
+ferrovia	PREFIX:6
+ferrovia centrale	ORG:1
+ferrovia trento	PREFIX:5
+ferrovia trento -	PREFIX:2
+ferrovia trento - malè	ORG:1
+ferrovia trento - malé	ORG:1
+ferrovia trento malè	ORG:1
+ferrovia trento malé	ORG:2
+ferrovie	PREFIX:1
+ferrovie dello	PREFIX:1
+ferrovie dello stato	ORG:1
+fesco	ORG:1
+fesco.	ORG:1
+festina	ORG:1
+feyenoord	ORG:1
+fhi	ORG:1
+fia	ORG:1
+fiab	ORG:1
+fiaip	ORG:1
+fials	ORG:1
+fiamma	PREFIX:1
+fiamma tricolore	ORG:1
+fiat	ORG:1	PREFIX:12
+fiat 500	NIL:1
+fiat bravo	NIL:1
+fiat cinquecento	NIL:1
+fiat croma	NIL:1
+fiat grande	PREFIX:1
+fiat grande punto	NIL:1
+fiat panda	NIL:1
+fiat privilegiate	NIL:1
+fiat punto	NIL:1
+fiat risparmio	NIL:1
+fiat ritmo	NIL:1
+fiat seicento	NIL:1
+fiat stilo	NIL:1
+fiatallis	ORG:1
+ficsf	ORG:1
+fiction	PREFIX:1
+fiction plane	ORG:1
+fidal	ORG:1
+fidasc	ORG:1
+fidelity	ORG:1
+fiderbim	ORG:1
+fideuram	ORG:1
+fidia	ORG:1
+fieg	ORG:1
+fields	PREFIX:1
+fields of	PREFIX:1
+fields of the	PREFIX:1
+fields of the nephilim	ORG:1
+fiemme	PREFIX:1
+fiemme servizi	ORG:1
+fiera	PREFIX:2
+fiera milano	ORG:2
+fierecongressi	ORG:1
+fifa	ORG:1
+figc	ORG:1
+figisc	ORG:1
+fila	ORG:1
+filatura	PREFIX:1
+filatura di	PREFIX:1
+filatura di pollone	ORG:1
+filodoro	ORG:1
+filt	PREFIX:1
+filt -	PREFIX:1
+filt - cgil	ORG:1
+filtrona	ORG:1
+fim	ORG:1
+fima	ORG:1
+fimaa	ORG:1
+fimmg	ORG:1
+fina	ORG:1
+finance	TEO:1	TSO:1
+financial	PREFIX:1
+financial times	ORG:1
+finanziaria	PREFIX:4
+finanziaria btb	ORG:1
+finanziaria nettuno	ORG:1
+finanziaria trentina	ORG:1
+finanziaria valsugana	ORG:1
+finarte	PREFIX:2
+finarte casa	PREFIX:2
+finarte casa d'	PREFIX:1
+finarte casa d' aste	ORG:1
+finarte casa d´	PREFIX:1
+finarte casa d´ aste	ORG:1
+fincantieri	ORG:1
+fineco	ORG:1
+finenergy	ORG:1
+fingeo	ORG:1
+finimeg	ORG:1
+fininvest	ORG:2
+finmatica	ORG:1
+finmeccanica	ORG:1
+finnair	ORG:1
+finnat	PREFIX:1
+finnat euramerica	ORG:1
+finsider	ORG:1
+finsiel	ORG:1
+finstral	ORG:2
+fintecna	ORG:1
+finvals	ORG:1
+fioesa	ORG:1
+fiom	ORG:1	PREFIX:1
+fiom cgil	ORG:1
+fiorentina	ORG:1
+fiorese	ORG:2	PREFIX:1
+fiorese bassano	ORG:1
+fip	ORG:1	PREFIX:1
+fip industriale	ORG:1
+fipe	ORG:1
+fipt	ORG:1
+firestone	ORG:1
+fisac	ORG:1
+fisascat	ORG:1
+fisco	NIL:1
+fisi	ORG:1
+fisiatria	ORG:1
+fisons	ORG:1
+fit	ORG:1	PREFIX:1
+fit -	PREFIX:1
+fit - cisl	ORG:1
+flai	ORG:1
+flametal	ORG:1
+fleetwood	PREFIX:1
+fleetwood mac	ORG:1
+flight	PREFIX:1
+flight directors	ORG:1
+fluor	ORG:1
+fluormine	ORG:1
+fluorocarbon	ORG:1
+flux	PREFIX:1
+flux of	PREFIX:1
+flux of pink	PREFIX:1
+flux of pink indians	ORG:1
+flying	PREFIX:1
+flying enterprise	ORG:1
+fmc	ORG:1
+fnm	ORG:1
+fnn	ORG:1
+fnp	ORG:1
+foen	ORG:1
+fokker	ORG:1
+folgarida	PREFIX:1
+folgarida marilleva	ORG:1
+fondazione	ORG:1	PREFIX:1
+fondazione kessler	ORG:1
+fonderia	PREFIX:1
+fonderia marchesi	ORG:1
+fondiaria	ORG:1	PREFIX:2
+fondiaria -	PREFIX:1
+fondiaria - sai	ORG:1
+fondiaria sai	ORG:1
+fondo	TSO:1
+football	PREFIX:1
+football club	TSO:1
+ford	PREFIX:4
+ford fiesta	NIL:1
+ford focus	NIL:1
+ford mondeo	NIL:1
+ford motor	ORG:1
+forestale	ORG:1
+forinvest	ORG:1
+formula	PREFIX:2
+formula 1	ORG:1
+formula uno	ORG:1
+formula1	ORG:1
+fornasari	ORG:1
+fortglas	ORG:1
+forza	PREFIX:1
+forza italia	ORG:1
+fotostudio	TSO:1
+foundation	TEO:1
+fox	ORG:1	PREFIX:1
+fox international	PREFIX:1
+fox international channels	ORG:1
+fps	PREFIX:2
+fps -	PREFIX:1
+fps - cisl	ORG:1
+fps cisl	ORG:1
+fraierscavi	ORG:1
+framasil	PREFIX:2
+framasil cucine	ORG:1	PREFIX:1
+framasil cucine pineto	ORG:1
+framatome	ORG:1
+france	PREFIX:1
+france telecom	ORG:1
+franco	PREFIX:1
+franco -	PREFIX:1
+franco - canadienne	ORG:1
+frankie	PREFIX:1
+frankie goes	PREFIX:1
+frankie goes to	PREFIX:1
+frankie goes to hollywood	ORG:1
+franz	PREFIX:1
+franz ferdinand	ORG:1
+fratelli	PREFIX:2
+fratelli azzolini	ORG:1
+fratelli gazzini	ORG:1
+freedomland	ORG:1	PREFIX:1
+freedomland -	PREFIX:1
+freedomland - itn	ORG:1
+freemasons	ORG:1
+freeport	PREFIX:1
+freeport -	PREFIX:1
+freeport - mcmoran	ORG:1
+frito	PREFIX:1
+frito -	PREFIX:1
+frito - lay	ORG:1
+fromula	PREFIX:2
+fromula 1	ORG:1
+fromula uno	ORG:1
+fromula1	ORG:1
+frontier	PREFIX:1
+frontier airlines	ORG:1
+fs	ORG:1
+fs.	ORG:1
+fsm	ORG:1
+fso	ORG:1
+ftp	NIL:1
+fugees	ORG:1
+fuji	ORG:1
+fujikoshi	ORG:1
+fujisawa	ORG:1
+fujitsu	ORG:1
+fulham	ORG:1
+fuller	ORG:1
+fullsix	ORG:1
+funiviari	PREFIX:1
+funiviari lusia	ORG:1
+funivie	ORG:1	TSO:1	PREFIX:14
+funivie alpe	PREFIX:1
+funivie alpe cermis	ORG:1
+funivie buffaure	ORG:1
+funivie campiglio	ORG:1
+funivie campiglio.	ORG:1
+funivie folgarida	ORG:1	PREFIX:2
+funivie folgarida marileva	ORG:1
+funivie folgarida marilleva	ORG:1
+funivie lagorai	ORG:1
+funivie madonna	PREFIX:1
+funivie madonna di	PREFIX:1
+funivie madonna di campiglio	ORG:1
+funivie molveno	PREFIX:1
+funivie molveno pradel	ORG:1
+funivie pejo	ORG:1
+funivie pinzolo	ORG:1
+funivie seggiovie	PREFIX:1
+funivie seggiovie san	PREFIX:1
+funivie seggiovie san martino	ORG:1
+funivie val	PREFIX:1
+funivie val rendena	ORG:1
+fuori	PREFIX:1
+fuori rotta	ORG:1
+furukawa	ORG:1
+futsal	ORG:1
+g.e.	ORG:1
+g.m.	ORG:1
+g7	ORG:1
+g8	ORG:1
+gabeca	PREFIX:1
+gabeca montichiari	ORG:1
+gabetti	ORG:1	PREFIX:1
+gabetti property	PREFIX:1
+gabetti property solutions	ORG:1
+gaf	ORG:1
+galbani	ORG:1
+galena	PREFIX:1
+galena air	PREFIX:1
+galena air service	ORG:1
+galleria	TSO:1
+gallox	ORG:1
+galopera	ORG:1
+gama	ORG:1
+gamesa	ORG:1
+gand	PREFIX:2
+gand -	PREFIX:1
+gand - wevelgem	ORG:1
+gand wevelgem	ORG:1
+gandalf	ORG:1
+gang	PREFIX:1
+gang of	PREFIX:1
+gang of four	ORG:1
+gannett	ORG:1
+ganz	PREFIX:1
+ganz -	PREFIX:1
+ganz - ansaldo	ORG:1
+garbari	ORG:1
+garboli	ORG:1	PREFIX:1
+garboli conicos	ORG:1
+garda	PREFIX:1
+garda trentino	PREFIX:1
+garda trentino fiere	ORG:1
+gardaland	ORG:1
+gas	PREFIX:1
+gas avisio	ORG:1
+gasoline	ORG:1	PREFIX:1
+gasoline road	PREFIX:1
+gasoline road pub	ORG:1
+gasonics	ORG:1
+gathering	ORG:1
+gatx	ORG:1
+gazebo	PREFIX:1
+gazebo penguins	ORG:1
+gazprom	ORG:1
+gazzetta	PREFIX:3
+gazzetta dello	PREFIX:1
+gazzetta dello sport	ORG:1
+gazzetta di	PREFIX:2
+gazzetta di mantova	ORG:1
+gazzetta di modena	ORG:1
+gazzettino	ORG:1
+gc	TSO:1
+gca	ORG:1
+ge	ORG:1
+geas	ORG:1
+gec	ORG:1
+gefinor	ORG:1
+gefran	ORG:1
+gemina	ORG:1
+gencorp	ORG:1
+general	PREFIX:2
+general electric	ORG:1
+general motors	ORG:1
+generali	ORG:1	PREFIX:1
+generali assicurazioni	ORG:1
+generalpietre	ORG:1
+generation	PREFIX:1
+generation x	ORG:1
+genesis	ORG:1
+genoa	ORG:1
+genrad	ORG:1
+gente	PREFIX:1
+gente motori	ORG:1
+gentilini	PREFIX:1
+gentilini costruzioni	ORG:1
+gentle	PREFIX:1
+gentle giant	ORG:1
+genus	ORG:1
+geo	PREFIX:1
+geo rock	ORG:1
+geodata	ORG:1
+georgia	PREFIX:1
+georgia -	PREFIX:1
+georgia - pacific	ORG:1
+geox	ORG:1
+gespi	PREFIX:1
+gespi industries	ORG:1
+gestore	TSO:1
+getac	ORG:1
+getters	ORG:1
+gewiss	ORG:1
+gfl	ORG:1
+ghia	ORG:1
+giacomelli	ORG:1	PREFIX:2
+giacomelli sport	ORG:2
+gianesini	PREFIX:1
+gianesini f.lli	ORG:1
+gianni	PREFIX:1
+gianni versace	ORG:1
+giemme	TSO:1
+giesse	TSO:1
+gigantissimo	ORG:1
+gilda	ORG:1
+gildemeister	ORG:1	PREFIX:1
+gildemeister italiana	ORG:1
+gilera	ORG:1
+gillette	ORG:1
+ginori	ORG:1
+giochimpara	ORG:1
+gioielleria	TSO:1
+giorgio	PREFIX:1
+giorgio armani	ORG:1
+giornale	PREFIX:1
+giornale di	PREFIX:1
+giornale di sicilia	ORG:1
+giovane	PREFIX:1
+giovane italia	ORG:1
+giovani	PREFIX:2
+giovani imprenditori	ORG:1
+giovani industriali	ORG:1
+giovannini	PREFIX:1
+giovannini materiali	PREFIX:1
+giovannini materiali elettrici	ORG:1
+gipsi	PREFIX:1
+gipsi kings	ORG:1
+girlschool	ORG:1
+girone	TSO:1	PREFIX:12
+girone a	ORG:1
+girone a1	ORG:1
+girone a2	ORG:1
+girone b	ORG:1
+girone b1	ORG:1
+girone b2	ORG:1
+girone c	ORG:1
+girone c1	ORG:1
+girone c2	ORG:1
+girone d	ORG:1
+girone d1	ORG:1
+girone d2	ORG:1
+gironi	TSO:1
+giubbe	PREFIX:1
+giubbe rosse	ORG:1
+giudicarie	PREFIX:1
+giudicarie gas	ORG:1
+giugiaro	PREFIX:2
+giugiaro design	ORG:2
+giunta	PREFIX:3
+giunta comunale	ORG:1
+giunta provinciale	ORG:1
+giunta regionale	ORG:1
+giv	ORG:1
+gkn	ORG:1
+glacier	ORG:1
+glatfelter	ORG:1
+glaxo	ORG:1
+globex	ORG:1
+gm	ORG:1
+gmb	ORG:1
+gmfanuc	ORG:1
+gmo	ORG:1
+gnu	NIL:1
+goddard	ORG:1
+godflesh	ORG:1
+gogmagog	ORG:1
+golden	PREFIX:1
+golden share	NIL:1
+goldfrapp	ORG:1
+goldstar	ORG:1
+goldwell	ORG:1
+goletta	PREFIX:1
+goletta verde	ORG:1
+gong	ORG:1
+goodrich	ORG:1
+goodyear	ORG:1
+google	ORG:1
+gorerotted	ORG:1
+gorillaz	ORG:1
+gourmet	PREFIX:1
+gourmet italia	ORG:1
+gp	NIL:1
+gp1	ORG:1
+gp2	ORG:1
+gpa	ORG:1
+graffer	ORG:1	PREFIX:1
+graffer seggiovie	ORG:1
+grafil	ORG:1
+granarolo	ORG:1
+grand	PREFIX:1
+grand -	PREFIX:1
+grand - met	ORG:1
+grande	PREFIX:1
+grande punto	NIL:1
+grandi	PREFIX:4
+grandi magazzini	PREFIX:1
+grandi magazzini regina	ORG:1
+grandi navi	ORG:1	PREFIX:1
+grandi navi veloci	ORG:1
+grandi viaggi	ORG:1
+grandmet	ORG:1
+granitifiandre	ORG:1
+grant	ORG:1
+grasshoppers	ORG:1
+green	PREFIX:2
+green day	ORG:1
+green tower	ORG:1
+greenlandair	ORG:1
+greenpeace	ORG:1
+greenplast	ORG:1	PREFIX:1
+greenplast italia	ORG:1
+greenslade	ORG:1
+greenvision	PREFIX:1
+greenvision ambiente	ORG:1
+greyhound	ORG:1
+grim	PREFIX:1
+grim reaper	ORG:1
+groningen	ORG:1
+group	ORG:1	TSO:1
+grtn	ORG:1
+grumman	ORG:1
+grundig	ORG:2	PREFIX:1
+grundig italiana	ORG:1
+grunding	ORG:1
+gruppo	TSO:1	PREFIX:10
+gruppo adige	PREFIX:1
+gruppo adige bitumi	ORG:1
+gruppo coin	ORG:1
+gruppo editoriale	PREFIX:1
+gruppo editoriale l'	PREFIX:1
+gruppo editoriale l' espresso	ORG:1
+gruppo italiano	PREFIX:1
+gruppo italiano vini	ORG:1
+gruppo l'	PREFIX:1
+gruppo l' espresso	ORG:1
+gruppo pam	ORG:1
+gruppo partecipazioni	PREFIX:1
+gruppo partecipazioni industriali	ORG:1
+gruppo rigotti	ORG:1
+gruppo sportivo	TSO:1
+gruppo volare	ORG:1
+gryphon	ORG:1
+gs	ORG:1	TSO:1
+gs.	TSO:1
+gte	ORG:1
+gtt	ORG:1
+guala	PREFIX:1
+guala closures	ORG:1
+guaradia	PREFIX:1
+guaradia medica	ORG:1
+guardia	PREFIX:3
+guardia di	PREFIX:1
+guardia di finanza	ORG:1
+guardia forestale	ORG:1
+guardia nazionale	ORG:1
+gucci	ORG:1
+guns	PREFIX:1
+guns n'	PREFIX:1
+guns n' roses	ORG:1
+gunungcermai	ORG:1
+guzzi	ORG:1
+gwsc	ORG:1
+gymnasium	TSO:1
+h3g	ORG:1	PREFIX:1
+h3g italia	ORG:1
+habitat	ORG:1
+hajdusaj	ORG:1
+hakuhodo	ORG:1
+halifax	ORG:1
+halliburton	ORG:1
+hamas	ORG:1
+hampshire	ORG:1
+hanil	ORG:1
+hapag	PREFIX:1
+hapag -	PREFIX:1
+hapag - lloyd	ORG:1
+hapoel	PREFIX:1
+hapoel tel	PREFIX:1
+hapoel tel aviv	ORG:1
+hard	PREFIX:1
+hard -	PREFIX:1
+hard - fi	ORG:1
+harley	PREFIX:2
+harley -	PREFIX:1
+harley - davidson	ORG:1
+harley davidson	ORG:1
+harsco	ORG:1
+hartleys	ORG:1
+hartmarx	ORG:1
+harvard	ORG:1
+hasbro	ORG:1
+hastenia	ORG:1
+hatfield	PREFIX:1
+hatfield and	PREFIX:1
+hatfield and the	PREFIX:1
+hatfield and the north	ORG:1
+havana	PREFIX:1
+havana 3	PREFIX:1
+havana 3 a.m	ORG:1
+hawkwind	ORG:1
+hc	TSO:1
+hcm	ORG:1
+hdm	ORG:1
+hearts	PREFIX:1
+hearts of	PREFIX:1
+hearts of midlothian	ORG:1
+heaven	PREFIX:1
+heaven and	PREFIX:1
+heaven and hell	ORG:1
+heerenveen	ORG:1
+hellas	ORG:1	PREFIX:2
+hellas -	PREFIX:1
+hellas - verona	ORG:1
+hellas verona	ORG:1
+helmut	PREFIX:1
+helmut marsoner	ORG:1
+hem	ORG:1
+hemlo	ORG:1
+hemodynamics	ORG:1
+henkel	ORG:1
+henry	PREFIX:1
+henry cow	ORG:1
+hera	ORG:1
+herald	PREFIX:1
+herald tribune	ORG:1
+hertha	PREFIX:1
+hertha berlino	ORG:1
+hertz	ORG:1
+hewlett	PREFIX:1
+hewlett -	PREFIX:1
+hewlett - packard	ORG:1
+hexatec	ORG:1
+hicom	ORG:1
+high	PREFIX:1
+high tecnology	PREFIX:1
+high tecnology cables	ORG:1
+himont	ORG:1
+hino	ORG:1
+history	PREFIX:1
+history channel	ORG:1
+hitachi	ORG:1
+hnsx	ORG:1
+hoechst	ORG:1
+hogg	PREFIX:1
+hogg -	PREFIX:1
+hogg - robinson	ORG:1
+hoist	ORG:1
+holding	TSO:1	PREFIX:1
+holding valrendena	ORG:1
+holnam	ORG:1
+holzhof	ORG:1
+honda	PREFIX:9
+honda cb	NIL:1
+honda cbr	NIL:1
+honda cbr1000	NIL:1
+honda cbr600	NIL:1
+honda cbr900	NIL:1
+honda civic	NIL:1
+honda nsr	NIL:1
+honda nsr500	NIL:1
+honda sh	NIL:1
+honeywell	ORG:1
+hopa	ORG:1
+horizon	PREFIX:1
+horizon air	ORG:1
+hormel	ORG:1
+hospital	TEO:1
+hotel	TSO:1
+hotelecopy	ORG:1
+hoya	ORG:1
+hp	ORG:1	PREFIX:1
+hp laserjet	NIL:1
+hsbc	ORG:1
+http	NIL:1
+http:	NIL:1
+hubbard	ORG:1
+hubbell	ORG:1
+huck	ORG:1
+huels	ORG:1
+huffy	ORG:1
+hughes	ORG:1
+humpuss	ORG:1
+hungarhotels	ORG:1
+hungaria	PREFIX:1
+hungaria -	PREFIX:1
+hungaria - oberoi	ORG:1
+hussman	ORG:1
+hypres	ORG:1
+hyundai	ORG:1	PREFIX:3
+hyundai athos	NIL:1
+hyundai atos	NIL:1
+hyundai coupé	NIL:1
+i	PREFIX:6
+i -	PREFIX:1
+i - tal	ORG:1
+i cavalieri	PREFIX:1
+i cavalieri del	PREFIX:1
+i cavalieri del re	ORG:1
+i democratici	ORG:1
+i grandi	PREFIX:1
+i grandi viaggi	ORG:1
+i verdi	ORG:1
+i viaggi	PREFIX:1
+i viaggi del	PREFIX:1
+i viaggi del ventaglio	ORG:1
+i.b.m.	ORG:1
+i.c.p.	ORG:1
+i.m.a.	ORG:1
+i.m.p.a.	ORG:1
+i.n.a.i.l.	ORG:1
+i.n.p.s.	ORG:1
+i.net	ORG:1
+i.t.e.a	ORG:1
+i.t.e.a.	ORG:1
+iaaf	ORG:1
+iacp	ORG:1
+iar	PREFIX:1
+iar siltal	ORG:1
+iberia	ORG:1
+ibfin	ORG:1
+ibm	ORG:1	PREFIX:1
+ibm italia	ORG:1
+ibusz	ORG:1
+ica	ORG:2
+icam	ORG:1
+iccrea	PREFIX:1
+iccrea holding	ORG:1
+ice	PREFIX:1
+ice climbing	PREFIX:1
+ice climbing world	PREFIX:1
+ice climbing world cup	ORG:1
+icelandair	ORG:1
+icem	ORG:1
+ici	NIL:1
+icis	ORG:1
+icom	ORG:1
+idealporfidi	ORG:1
+idemitsu	ORG:1
+idlewild	ORG:1
+idraulica	TSO:1
+if	PREFIX:1
+if tomorrow	PREFIX:1
+if tomorrow ever	PREFIX:1
+if tomorrow ever comes	ORG:1
+ifi	ORG:1
+ifil	ORG:2	PREFIX:1
+ifil risparmi	ORG:1
+ifis	ORG:1
+igd	ORG:1
+igp	NIL:1
+ikarus	ORG:1
+il	PREFIX:15
+il balletto	PREFIX:1
+il balletto di	PREFIX:1
+il balletto di bronzo	ORG:1
+il corriere	PREFIX:1
+il corriere della	PREFIX:1
+il corriere della sera	ORG:1
+il denaro	ORG:1
+il divo	ORG:1
+il foglio	ORG:1
+il gazzettino	ORG:1
+il manifesto	ORG:1
+il mattino	ORG:1
+il messaggero	ORG:1	PREFIX:1
+il messaggero veneto	ORG:1
+il mulino	ORG:1
+il sole	PREFIX:3
+il sole 24	ORG:1	PREFIX:1
+il sole 24 ore	ORG:1
+il sole 24ore	ORG:1
+il venerdì	PREFIX:1
+il venerdì di	PREFIX:1
+il venerdì di repubblica	ORG:1
+ilfo	ORG:1
+ille	PREFIX:1
+ille prefabbricati	ORG:1
+illi	ORG:1
+ilmor	ORG:1
+ilva	ORG:1
+ima	ORG:1
+imam	ORG:1
+imar	ORG:1
+imc	PREFIX:1
+imc trade	ORG:1
+imec	ORG:1
+imeg	ORG:1
+imi	ORG:1
+immobiliare	TSO:1
+immsi	ORG:1
+immunex	ORG:1
+imperial	ORG:1
+impianti	TSO:1	PREFIX:3
+impianti colfosco	ORG:1
+impianti maso	ORG:1
+impianti polsa	ORG:1
+imposta	NIL:1
+impregilo	ORG:1
+ina	ORG:1
+inacomp	ORG:1
+inail	ORG:1
+inam	ORG:1
+inarcheck	ORG:1
+inblu	ORG:1
+inbus	ORG:1
+inc.	TSO:1
+incacao	ORG:1
+inco	ORG:2
+indap	ORG:1
+indesit	ORG:1	PREFIX:1
+indesit company	ORG:1
+industria	TSO:1	PREFIX:1
+industria italiana	PREFIX:1
+industria italiana porfido	ORG:1
+ineos	PREFIX:1
+ineos films	ORG:1
+infa	PREFIX:1
+infa -	PREFIX:1
+infa - riot	ORG:1
+inferentia	ORG:1
+informatica	PREFIX:1
+informatica dolomit	ORG:1
+infostrada	ORG:1
+infostrutture	ORG:1
+infrastrutture	ORG:1
+ingarda	ORG:2	PREFIX:1
+ingarda trentino	ORG:1
+ingersoll	PREFIX:1
+ingersoll -	PREFIX:1
+ingersoll - rand	ORG:1
+iniziative	PREFIX:1
+iniziative urbane	ORG:1
+injener	ORG:1
+inkubus	PREFIX:1
+inkubus sukkubus	ORG:1
+inme	ORG:1
+innotech	ORG:1
+innovpharm	ORG:1
+inoco	ORG:1
+inpdap	ORG:1
+inps	ORG:1
+inser	ORG:1
+insilco	ORG:1
+institut	TEO:1	TSO:1
+intek	ORG:1
+intel	ORG:1
+intendenza	PREFIX:1
+intendenza di	PREFIX:1
+intendenza di finanza	ORG:1
+interamics	ORG:1
+interbanca	ORG:1
+interbold	ORG:1
+interbrennero	ORG:1
+intercantieri	PREFIX:1
+intercantieri vittadello	ORG:1
+interco	ORG:1
+intergraph	ORG:1
+interlake	ORG:1
+intermet	ORG:1
+intermobiliare	ORG:1
+international	ORG:1	TSO:1	PREFIX:1
+international suplay	PREFIX:1
+international suplay of	PREFIX:1
+international suplay of spare	PREFIX:1
+international suplay of spare parts	ORG:1
+internazionali	PREFIX:1
+internazionali d'	PREFIX:1
+internazionali d' italia	ORG:1
+internet	NIL:1
+interpol	ORG:1
+interpore	ORG:1
+interpump	ORG:1	PREFIX:1
+interpump group	ORG:1
+interserv	ORG:1
+intesa	ORG:1
+intesabci	ORG:1
+intifada	ORG:1
+investimenti	PREFIX:1
+investimenti e	PREFIX:1
+investimenti e sviluppo	ORG:1
+invexco	ORG:1
+invexco.	ORG:1
+invicta	ORG:1
+ipc	TSO:1
+ipcs	TSO:1
+iperal	ORG:1
+ipi	ORG:1
+ipm	ORG:1
+ipost	ORG:1
+ips	ORG:1
+ipsa	ORG:1
+ipse	ORG:1
+ipsos	ORG:1
+iraklis	PREFIX:1
+iraklis salonicco	ORG:1
+irap	NIL:1
+irce	ORG:1
+ires	NIL:1
+iri	ORG:1
+irish	PREFIX:1
+irish helicopters	ORG:1
+iron	PREFIX:1
+iron maiden	ORG:1
+irpef	NIL:1	PREFIX:1
+irpef -	PREFIX:1
+irpef - irap	NIL:1
+irpeg	NIL:1
+irst	ORG:1
+isa	ORG:2
+isaf	ORG:1
+isap	ORG:1
+isec	ORG:1
+ises	ORG:1
+isetan	ORG:1
+isfin	ORG:1
+isig	ORG:1
+isles	PREFIX:1
+isles of	PREFIX:1
+isles of scilly	PREFIX:1
+isles of scilly skybus	ORG:1
+iso	NIL:1
+isobel	ORG:1
+isocolor	ORG:1
+isoradio	ORG:1
+ispel	ORG:1
+ispettorato	ORG:1	PREFIX:1
+ispettorato del	PREFIX:1
+ispettorato del lavoro	ORG:1
+ist.	TSO:1	PREFIX:1
+ist. naz.	TSO:1
+istat	ORG:1
+istituto	TSO:1	PREFIX:3
+istituto agrario	TSO:1
+istituto atesino	PREFIX:1
+istituto atesino di	PREFIX:1
+istituto atesino di sviluppo	ORG:1
+istituto nazionale	TSO:1
+istituzione	TSO:1
+istituzioni	TSO:1
+isuzu	ORG:1
+isvap	ORG:1
+it	PREFIX:2
+it holding	ORG:1
+it way	ORG:1
+italcementi	ORG:2
+italclem	ORG:1
+italconsult	ORG:1
+italdesign	ORG:1	PREFIX:1
+italdesign giugiaro	ORG:1
+italdiscount	ORG:1
+italdriver	ORG:1
+italease	ORG:1
+italferr	ORG:1
+italgas	ORG:1
+italia	PREFIX:3
+italia dei	PREFIX:1
+italia dei valori	ORG:1
+italia marittima	ORG:1
+italia nostra	ORG:1
+italia1	ORG:1
+italiaoggi	ORG:1
+italiauno	ORG:1
+italscania	ORG:2
+italspurgo	ORG:1
+itap	ORG:1
+itas	ORG:2	PREFIX:4
+itas assicurazioni	ORG:1
+itas diatec	ORG:1	PREFIX:1
+itas diatec trentino	ORG:1
+itas vita	ORG:1
+itc	ORG:1	PREFIX:1
+itc -	PREFIX:1
+itc - irst	ORG:1
+itcg	ORG:1
+itea	ORG:2
+itf	ORG:1
+iti	ORG:1
+itis	ORG:1
+itri	ORG:1
+itt	ORG:1
+iva	NIL:1
+ivaco	ORG:1
+iveco	ORG:1
+izvestia	ORG:1
+j.p.	PREFIX:1
+j.p. morgan	ORG:1
+jaguar	ORG:1	PREFIX:1
+jaguar italia	ORG:1
+jaido	ORG:1
+jal	ORG:1
+james	PREFIX:1
+james taylor	PREFIX:1
+james taylor quartet	ORG:1
+jamiroquai	ORG:1
+janeselli	PREFIX:1
+janeselli porte	ORG:1
+japex	ORG:1
+jelcz	ORG:1
+jeol	ORG:1
+jersey	PREFIX:1
+jersey european	PREFIX:1
+jersey european airways	ORG:1
+jessi	ORG:1
+jet	PREFIX:1
+jet club	ORG:1
+jetborne	ORG:1
+jethro	PREFIX:1
+jethro tull	ORG:1
+joe	PREFIX:1
+joe strummer	PREFIX:1
+joe strummer and	PREFIX:1
+joe strummer and the	PREFIX:1
+joe strummer and the mescaleros	ORG:1
+jolly	TSO:1
+joy	PREFIX:1
+joy division	ORG:1
+judas	PREFIX:1
+judas priest	ORG:1
+judo	TSO:1
+juliusbana	ORG:1
+jumpo	PREFIX:1
+jumpo market	ORG:1
+jurassic	PREFIX:1
+jurassic park	NIL:1
+just	PREFIX:1
+just another	PREFIX:1
+just another illusion	ORG:1
+juve	ORG:1
+jvc	ORG:1
+k	PREFIX:1
+k -	PREFIX:1
+k - swiss	ORG:1
+kaitech	ORG:1
+kajima	ORG:1
+kaman	ORG:1
+kanebo	ORG:1
+kappa	ORG:1	PREFIX:1
+kappa sport	ORG:1
+kayex	ORG:1
+kayserispor	ORG:1
+kdd	ORG:1
+keener	ORG:1
+kellogg	ORG:1
+kellwood	ORG:1
+kelly	ORG:1
+kelme	ORG:1	PREFIX:1
+kelme -	ORG:1
+kenmare	ORG:1
+kennametal	ORG:1
+kerr	PREFIX:1
+kerr -	PREFIX:1
+kerr - mcgee	ORG:1
+kerself	ORG:1
+kfc	ORG:1
+kftcic	ORG:1
+kgb	ORG:1
+khashoggi	ORG:1
+kia	ORG:1
+kiic	ORG:1
+kimberly	PREFIX:1
+kimberly -	PREFIX:1
+kimberly - clark	ORG:1
+kiss	PREFIX:1
+kiss kiss	ORG:1
+kitagawa	ORG:1
+kiwi	PREFIX:1
+kiwi international	PREFIX:1
+kiwi international air	PREFIX:1
+kiwi international air lines	ORG:1
+kline	ORG:1
+klm	ORG:1
+kmart	ORG:1
+kme	PREFIX:1
+kme la	PREFIX:1
+kme la doria	ORG:1
+knight	PREFIX:2
+knight -	PREFIX:2
+knight - ridder	ORG:1	PREFIX:1
+knight - ridder -	PREFIX:1
+knight - ridder - tribune	ORG:1
+knoll	ORG:1
+kodak	ORG:1
+kodarna	ORG:1
+komarek	ORG:1
+komatsu	ORG:1
+komatsubara	ORG:1
+konoike	ORG:1
+kopin	ORG:1
+kpmg	ORG:2
+kpn	ORG:1
+krakatau	ORG:1
+kriegsmaler	ORG:1
+kristiansand	ORG:1
+krupp	ORG:1
+krypton	ORG:1
+kubota	ORG:1
+kufpec	ORG:1
+kuhlman	ORG:1
+kuozoi	ORG:1
+kyocera	ORG:1
+kyowa	ORG:1
+kässbohrer	PREFIX:1
+kässbohrer geländeefahrzeug	ORG:1
+l.a.r.a.	ORG:1
+l.a.v.	ORG:1
+la	PREFIX:14
+la 7	ORG:1
+la banda	PREFIX:1
+la banda bassotti	ORG:1
+la fenice	ORG:1
+la fondiaria	ORG:1
+la gaiana	ORG:1
+la giaiana	ORG:1
+la ginori	ORG:1
+la nuova	PREFIX:1
+la nuova sardegna	ORG:1
+la padania	ORG:1
+la pergola	ORG:1
+la repubblica	ORG:1
+la sette	ORG:1
+la sportiva	ORG:1
+la stampa	ORG:1
+la7	ORG:1
+lachema	ORG:1
+lacos	ORG:1
+lacufa	ORG:1
+lafarge	ORG:1
+lamb	PREFIX:1
+lamb -	PREFIX:1
+lamb - weston	ORG:1
+lambda	ORG:1
+lamborghini	ORG:1
+lamela	ORG:1
+lamet	PREFIX:1
+lamet international	ORG:1
+lampre	ORG:1
+lancia	PREFIX:1
+lancia ypsilon	NIL:1
+lanificio	PREFIX:1
+lanificio f.lli	PREFIX:1
+lanificio f.lli dalsasso	ORG:1
+latemar	PREFIX:1
+latemar 2200	ORG:1
+latte	PREFIX:1
+latte trento	ORG:1
+lattemiele	ORG:1
+lauda	PREFIX:1
+lauda air	ORG:1
+laudaair	ORG:1
+lauga	ORG:1
+laura	PREFIX:1
+laura biagiotti	ORG:1
+lavanderia	PREFIX:1
+lavanderia manini	ORG:1
+lavazza	ORG:1
+lavorwash	ORG:1
+lazio	ORG:1
+lcac	ORG:1
+le	PREFIX:2
+le figaro	ORG:1
+le pietre	PREFIX:1
+le pietre focaie	ORG:1
+league	ORG:1
+leasinvest	ORG:1
+lega	ORG:1	PREFIX:2
+lega anti	PREFIX:1
+lega anti vivisezione	ORG:1
+lega italiana	PREFIX:1
+lega italiana protezione	PREFIX:1
+lega italiana protezione uccelli	ORG:1
+legadue	ORG:1
+legambiente	ORG:1
+legea	PREFIX:1
+legea scafati	ORG:1
+legia	ORG:1
+legnami	ORG:1	PREFIX:1
+legnami giovannini	ORG:1
+legno	ORG:1
+lego	ORG:1
+legoprint	ORG:1
+leica	ORG:1
+leiti	ORG:1
+lenovo	ORG:1	PREFIX:2
+lenovo -	PREFIX:1
+lenovo - ibm	ORG:1
+lenovo ibm	ORG:1
+lens	ORG:1
+lepton	ORG:1
+lesieur	PREFIX:1
+lesieur -	PREFIX:1
+lesieur - cotelle	ORG:1
+levadia	PREFIX:1
+levadia tallin	ORG:1
+levico	PREFIX:1
+levico acque	PREFIX:1
+levico acque minerali	ORG:1
+levicofin	ORG:1
+levski	PREFIX:1
+levski sofia	ORG:1
+lg	ORG:1
+liabel	PREFIX:1
+liabel maglieria	PREFIX:1
+liabel maglieria intima	ORG:1
+liberali	ORG:1
+liberazione	ORG:1
+libertas	ORG:1
+libreria	PREFIX:1
+libreria universitaria	ORG:1
+licensintorg	ORG:1
+lidl	ORG:1
+lido	PREFIX:1
+lido riva	ORG:1
+liegi	PREFIX:2
+liegi -	PREFIX:1
+liegi - bastogne	PREFIX:1
+liegi - bastogne -	PREFIX:1
+liegi - bastogne - liegi	ORG:1
+liegi bastogne	PREFIX:1
+liegi bastogne liegi	ORG:1
+liem	ORG:1
+liga	PREFIX:2
+liga veneta	ORG:1	PREFIX:1
+liga veneta repubblica	ORG:1
+lincoln	ORG:1
+linee	PREFIX:1
+linee aeree	PREFIX:1
+linee aeree italiane	ORG:1
+lineltex	ORG:1
+linux	NIL:1
+lipu	ORG:1
+liquigas	ORG:2
+lista	TSO:1	PREFIX:1
+lista pannella	ORG:1
+liteks	PREFIX:1
+liteks lovech	ORG:1
+litfiba	ORG:1
+litografia	TSO:1
+litografica	TSO:1
+litopat	ORG:1
+liturgia	NIL:1
+litus	ORG:1
+liverpool	ORG:1
+livolsi	PREFIX:1
+livolsi &	PREFIX:1
+livolsi & partners	ORG:1
+livorno	ORG:1
+lloyd'	PREFIX:1
+lloyd' s	ORG:1
+lloyds	ORG:1
+locafit	ORG:1
+locat	ORG:1
+lockheed	ORG:1
+loctite	ORG:1
+loewe	ORG:1
+logovaz	ORG:1
+lokomotiv	ORG:1	PREFIX:2
+lokomotiv mosca	ORG:1
+lokomotiv sofia	ORG:1
+lombarda	ORG:1
+lombardi	PREFIX:1
+lombardi reico	PREFIX:1
+lombardi reico ingegneria	ORG:1
+longines	ORG:1
+longman	ORG:1
+longmans	ORG:1
+lonrho	ORG:1
+loral	ORG:1
+los	PREFIX:1
+los angeles	PREFIX:1
+los angeles times	ORG:1
+lot	ORG:1
+lotta	PREFIX:1
+lotta continua	ORG:1
+lottomatica	ORG:1	PREFIX:1
+lottomatica roma	ORG:1
+lottomaticauil	ORG:1
+louis	PREFIX:3
+louis -	PREFIX:1
+louis - vuitton	PREFIX:1
+louis - vuitton -	PREFIX:1
+louis - vuitton - cup	ORG:1
+louis vuitton	ORG:1	PREFIX:1
+louis vuitton cup	ORG:1
+louisiana	PREFIX:1
+louisiana -	PREFIX:1
+louisiana - pacific	ORG:1
+lovable	ORG:1
+ltcb	ORG:1
+ltu	ORG:1
+lube	PREFIX:1
+lube banca	PREFIX:1
+lube banca marche	PREFIX:1
+lube banca marche macerata	ORG:1
+lubrizol	ORG:1
+lucchese	ORG:1
+lucida	PREFIX:1
+lucida follia	ORG:1
+lucky	PREFIX:1
+lucky -	PREFIX:1
+lucky - goldstar	ORG:1
+lufthansa	ORG:1
+lukens	ORG:1
+luna	PREFIX:3
+luna -	PREFIX:1
+luna - rossa	ORG:1
+luna rossa	ORG:1	PREFIX:1
+luna rossa challenge	ORG:1
+lunarossa	ORG:1
+lunelli	ORG:1
+luxair	ORG:1
+luxottica	ORG:1	PREFIX:1
+luxottica group	ORG:1
+mac	PREFIX:1
+mac os	NIL:1
+maccabi	PREFIX:1
+maccabi haifa	ORG:1
+macos	NIL:1
+mafia	ORG:1
+maggiora	PREFIX:1
+maggiora latina	ORG:1
+maglificio	TSO:1	PREFIX:1
+maglificio bellia	ORG:1
+magma	ORG:1
+magneti	PREFIX:1
+magneti marelli	ORG:1
+magni	ORG:1
+magnifica	PREFIX:1
+magnifica comunità	PREFIX:1
+magnifica comunità di	PREFIX:1
+magnifica comunità di fiemme	PREFIX:1
+magnifica comunità di fiemme azienda	PREFIX:1
+magnifica comunità di fiemme azienda segagione	ORG:1
+mago	NIL:1
+magsistem	ORG:1
+mail	PREFIX:2
+mail service	ORG:1	PREFIX:1
+mail service corigliano	ORG:1
+makro	ORG:1
+mal'	PREFIX:1
+mal' ombra	ORG:1
+malev	ORG:1
+maltauro	ORG:1
+mammi	ORG:1
+manchester	PREFIX:4
+manchester city	ORG:1
+manchester united	ORG:1
+manchester unt	ORG:1
+manchester utd	ORG:1
+manetek	ORG:1
+manfrini	PREFIX:1
+manfrini arti	PREFIX:1
+manfrini arti grafiche	PREFIX:1
+manfrini arti grafiche vallagarina	ORG:1
+manifattura	ORG:1	TSO:1	PREFIX:1
+manifattura pergine	ORG:1
+manifatture	TSO:1
+manpower	ORG:2
+manuli	PREFIX:1
+manuli rubber	ORG:1
+manville	ORG:1
+manx	PREFIX:1
+manx airlines	ORG:1
+manzardo	ORG:1
+mapco	ORG:1
+mapei	ORG:1
+marabese	PREFIX:1
+marabese design	ORG:1
+marangoni	ORG:1	PREFIX:1
+marangoni pneumatici	ORG:1
+marazzi	ORG:1	PREFIX:1
+marazzi group	ORG:1
+marcolin	ORG:1
+marelli	ORG:1
+marflet	ORG:1
+margherita	ORG:1
+margoni	ORG:1	PREFIX:1
+margoni auto	ORG:1
+mariella	PREFIX:2
+mariella burani	ORG:1	PREFIX:1
+mariella burani fashion	ORG:1
+marietta	ORG:1
+marines	ORG:1
+marlboro	ORG:1
+marmi	PREFIX:3
+marmi lanza	ORG:1	PREFIX:2
+marmi lanza verona	ORG:1	PREFIX:1
+marmi lanza verona sparkling	PREFIX:1
+marmi lanza verona sparkling milano	ORG:1
+marr	ORG:1
+marriott	ORG:1
+marsilli	ORG:1
+marsoner	ORG:1
+marstellar	ORG:1
+marubeni	ORG:1
+mary'	PREFIX:1
+mary' s	PREFIX:1
+mary' s jail	ORG:1
+marzotto	ORG:1
+mascalzone	PREFIX:3
+mascalzone -	PREFIX:1
+mascalzone - latino	ORG:1
+mascalzone latino	ORG:1	PREFIX:1
+mascalzone latino -	PREFIX:1
+mascalzone latino - capitalia	PREFIX:1
+mascalzone latino - capitalia team	ORG:1
+masco	ORG:1
+maserati	ORG:1	PREFIX:1
+maserati quattroporte	NIL:1
+maso	PREFIX:1
+maso impianti	ORG:1
+massive	PREFIX:1
+massive attack	ORG:1
+massoneria	ORG:1
+massport	ORG:1
+mastercard	ORG:1
+masters	ORG:1
+materdomini	ORG:1	PREFIX:1
+materdomini volley.it	PREFIX:1
+materdomini volley.it castellana	PREFIX:1
+materdomini volley.it castellana grotte	ORG:1
+matra	ORG:1
+matsuhsita	ORG:1
+matsushita	ORG:1
+mattel	ORG:1
+mattra	ORG:1
+mav	ORG:1
+maxell	ORG:1
+maxicare	ORG:1
+maxtopix	ORG:1
+maxtor	ORG:1
+maxwell	ORG:1
+maxxam	ORG:1
+maytag	ORG:1
+mazda	ORG:1
+mb	ORG:1
+mbac	ORG:1
+mbda	ORG:1
+mbp	ORG:1
+mc	PREFIX:1
+mc donalds	ORG:1
+mc.	PREFIX:1
+mc. donalds	ORG:1
+mc.donalds	ORG:1
+mccormick	ORG:1
+mcdermott	ORG:1
+mcdonald'	PREFIX:1
+mcdonald' s	ORG:1
+mcdonalds	ORG:1
+mcdonnell	PREFIX:1
+mcdonnell -	PREFIX:1
+mcdonnell - douglas	ORG:1
+mcgraw	ORG:1	PREFIX:1
+mcgraw -	PREFIX:1
+mcgraw - hill	ORG:1
+mci	ORG:1
+mclaren	ORG:1	PREFIX:1
+mclaren -	PREFIX:1
+mclaren - mercedes	ORG:1
+mcnc	ORG:1
+mead	ORG:1
+mec	ORG:1	PREFIX:2
+mec &	PREFIX:2
+mec & gregory'	PREFIX:1
+mec & gregory' s	ORG:1
+mec & gregorys	ORG:1
+media	PREFIX:2
+media inferiore	NIL:1
+media superiore	NIL:1
+mediaset	ORG:1
+medici	PREFIX:1
+medici senza	PREFIX:1
+medici senza frontiere	ORG:1
+medicina	PREFIX:1
+medicina del	PREFIX:1
+medicina del lavoro	ORG:1
+mediobanca	ORG:1
+mediocredito	ORG:1	PREFIX:1
+mediocredito trentino	PREFIX:1
+mediocredito trentino alto	PREFIX:1
+mediocredito trentino alto adige	ORG:1
+mediolanum	ORG:1
+mediterranea	PREFIX:1
+mediterranea delle	PREFIX:1
+mediterranea delle acque	ORG:1
+medserv	ORG:1
+medtronic	ORG:1
+meeting	TSO:1
+megadata	ORG:1
+melinda	ORG:1
+meliorbanca	ORG:1
+menarini	ORG:1
+mentadent	ORG:1
+mentrix	ORG:1
+mercati	PREFIX:2
+mercati generali	ORG:1
+mercati riuniti	ORG:1
+mercatone	PREFIX:2
+mercatone -	PREFIX:1
+mercatone - uno	ORG:1
+mercatone uno	ORG:1
+mercatoneuno	ORG:1
+mercedes	ORG:1	PREFIX:11
+mercedes -	PREFIX:1
+mercedes - benz	ORG:1
+mercedes C	PREFIX:1
+mercedes C 220	NIL:1
+mercedes benz	ORG:1
+mercedes c	PREFIX:1
+mercedes c 200k	NIL:1
+mercedes c200k	NIL:1
+mercedes classe	PREFIX:3
+mercedes classe a	NIL:1
+mercedes classe b	NIL:1
+mercedes classe e	NIL:1
+mercedes clk	NIL:1
+mercedes cls	NIL:1
+mercedes slk	NIL:1
+merck	ORG:1
+mercury	ORG:1
+meredith	ORG:1
+meridian	ORG:1
+meridiana	ORG:1
+merloni	ORG:1	PREFIX:1
+merloni elettrodomestici	ORG:1
+messaggero	ORG:1
+messerschmitt	PREFIX:1
+messerschmitt -	PREFIX:1
+messerschmitt - bolkow	PREFIX:1
+messerschmitt - bolkow -	PREFIX:1
+messerschmitt - bolkow - blohm	ORG:1
+metallgesellschaft	ORG:1
+metalsistem	ORG:2
+metalurg	PREFIX:1
+metalurg zaporizhya	ORG:1
+metaphor	ORG:1
+metbelosa	ORG:1
+meteotrentino	ORG:1
+methode	ORG:1
+metrika	ORG:1
+metro	PREFIX:1
+metro goldwin	PREFIX:1
+metro goldwin mayer	ORG:1
+metropolis	ORG:1
+metropolitan	ORG:1
+mexicana	PREFIX:1
+mexicana airlines	ORG:1
+mf	ORG:1
+mg	ORG:1
+mgk	ORG:1
+mgm	ORG:1
+mia	PREFIX:1
+mia holding	ORG:1
+mibac	ORG:1
+michelin	ORG:1	PREFIX:1
+michelin italiana	ORG:1
+microsoft	ORG:1	PREFIX:2
+microsoft office	NIL:1
+microsoft word	NIL:1
+microsost	ORG:1
+middlesbrough	ORG:1
+midland	ORG:1
+midlothian	ORG:1
+midwest	PREFIX:1
+midwest express	ORG:1
+milano	PREFIX:4
+milano assicurazioni	ORG:2
+milano city	PREFIX:1
+milano city marathon	ORG:1
+milano finanza	ORG:1
+millegrobbe	ORG:1
+millipore	ORG:1
+minebea	ORG:1
+mini	NIL:1	PREFIX:1
+mini cooper	NIL:1
+minimed	ORG:1
+ministero	TSO:1
+minnie'	PREFIX:1
+minnie' s	ORG:1
+minorco	ORG:1
+mips	ORG:1
+mirabilandia	ORG:1
+miramax	ORG:1
+misconel	ORG:1
+mit	ORG:1
+mitac	ORG:1
+mitas	ORG:1
+mitsubisci	PREFIX:1
+mitsubisci lancer	NIL:1
+mitsubishi	ORG:1	PREFIX:2
+mitsubishi lancer	NIL:1
+mitsubishi wrc	NIL:1
+mitsui	ORG:1
+mittel	ORG:1
+mivar	ORG:1
+mlada	PREFIX:1
+mlada boleslav	ORG:1
+mmg	ORG:1
+mobil	ORG:1
+mobilificio	TSO:1
+moby	PREFIX:1
+moby lines	ORG:1
+modello	NIL:1	PREFIX:2
+modello 730	NIL:1
+modello unico	NIL:1
+modofood	ORG:1
+modugno	PREFIX:1
+modugno volley	PREFIX:1
+modugno volley ba	ORG:1
+molde	ORG:1
+molex	ORG:1
+momento	PREFIX:1
+momento sera	ORG:1
+momo	ORG:1
+mondadori	ORG:1	PREFIX:2
+mondadori editore	ORG:1
+mondadori printing	ORG:1
+mondial	PREFIX:2
+mondial moto	ORG:1
+mondial porfidi	ORG:1
+mondialfiemme	ORG:1
+mondo	PREFIX:2
+mondo home	PREFIX:1
+mondo home entertainment	ORG:1
+mondo tv	ORG:1
+monini	ORG:1	PREFIX:1
+monini spoleto	ORG:1
+monrif	ORG:1
+montabondone	ORG:1
+monte	PREFIX:3
+monte -	PREFIX:1
+monte - bondone	ORG:1
+monte baldo	PREFIX:1
+monte baldo servizi	ORG:1
+monte dei	PREFIX:1
+monte dei paschi	PREFIX:1
+monte dei paschi di	PREFIX:1
+monte dei paschi di siena	ORG:1
+montebondone	ORG:1
+montedison	ORG:2
+montefibre	ORG:1
+montepaschi	PREFIX:1
+montepaschi siena	ORG:1
+monti	PREFIX:1
+monti ascensori	ORG:1
+moody'	PREFIX:1
+moody' s	ORG:1
+moovida	ORG:1
+moraedil	ORG:1
+morcheeba	ORG:1
+morfea	ORG:1
+morini	ORG:1
+moro	PREFIX:1
+moro di	PREFIX:1
+moro di venezia	ORG:1
+morphisio	ORG:1
+mortorola	ORG:1
+mossad	ORG:1
+mossoviet	ORG:1
+moto	PREFIX:2
+moto guzzi	ORG:1
+moto morini	ORG:1
+motorizzazione	PREFIX:2
+motorizzazione civile	ORG:1
+motorizzazione civili	ORG:1
+motorola	ORG:1
+motorsport	ORG:1
+mottura	ORG:1
+mountain	NIL:1
+movimento	TSO:1	PREFIX:4
+movimento monarchico	ORG:1	PREFIX:1
+movimento monarchico italiano	ORG:1
+movimento per	PREFIX:2
+movimento per l'	ORG:1	PREFIX:1
+movimento per l' ulivo	ORG:1
+mp3	NIL:1
+mpeg	NIL:1
+mps	ORG:1
+msc	ORG:1	PREFIX:1
+msc crociere	ORG:1
+msci	ORG:1
+msn	ORG:1
+mtb	ORG:1
+mtex	ORG:1
+mtv	ORG:1
+mtv2	ORG:1
+mujahidin	ORG:1
+mulinex	ORG:1
+muller	PREFIX:1
+muller turgau	NIL:1
+murderwewrote	ORG:1
+museo	TSO:1
+mutuo	NIL:1
+mv	PREFIX:1
+mv agusta	ORG:1
+n'	PREFIX:1
+n' drangheta	ORG:1
+n.h.s.	ORG:1
+nacco	ORG:1
+nacional	PREFIX:1
+nacional madeira	ORG:1
+nalco	ORG:1
+nalfloc	ORG:1
+nalhoe	PREFIX:1
+nalhoe holdings	ORG:1
+nancy	ORG:1
+nas	ORG:1
+nascivera	ORG:1
+nasco	ORG:1
+nasdaq	NIL:1	ORG:1
+nastra	ORG:1
+national	TSO:1	PREFIX:2
+national geographic	ORG:1
+national instruments	ORG:1
+nato	ORG:1
+navale	PREFIX:1
+navale assicurazioni	ORG:1
+navigazione	PREFIX:1
+navigazione montanari	ORG:1
+navigo.it	PREFIX:1
+navigo.it teramo	ORG:1
+nba	ORG:1
+nbc	ORG:1
+nchip	ORG:1
+ndrangheta	ORG:1
+nec	ORG:1
+necchi	ORG:1
+negri	PREFIX:1
+negri bossi	ORG:1
+nerco	ORG:1
+neste	ORG:1
+nestle	ORG:1
+nestlè	ORG:1
+nestlé	PREFIX:1
+nestlé italiana	ORG:1
+net	ORG:2
+netcom	ORG:1
+networld	ORG:1
+neuricam	ORG:1
+neuro	PREFIX:1
+neuro star	ORG:1
+neurologia	ORG:1
+new	PREFIX:3
+new -	PREFIX:1
+new - zealand	ORG:1
+new york	PREFIX:1
+new york times	ORG:1
+new zealand	ORG:1
+newbridge	ORG:1
+newcastle	ORG:1	PREFIX:1
+newcastle united	ORG:1
+newell	ORG:1
+news	PREFIX:1
+news -	PREFIX:1
+news - corp.	ORG:1
+newsweek	ORG:1
+newzealand	ORG:1
+nexas	ORG:1
+nfl	ORG:1
+ngt	ORG:1
+nhs	ORG:1
+nice	ORG:1
+nichimen	ORG:1
+nichirin	ORG:1
+nick	PREFIX:1
+nick at	PREFIX:1
+nick at nite	ORG:1
+nickelodeon	ORG:1
+nike	ORG:1
+nikkei	ORG:1
+nikon	ORG:1
+nioc	ORG:1
+nipro	ORG:1
+nirvana	ORG:1
+nissan	ORG:1	PREFIX:7
+nissan micra	NIL:1
+nissan pajero	NIL:1
+nissan pickup	NIL:1
+nissan primera	NIL:1
+nissan primiera	NIL:1
+nissan terraneo	NIL:1
+nissan terrano	PREFIX:1
+nissan terrano II	NIL:1
+nissei	ORG:1
+nissin	ORG:1
+nitta	PREFIX:1
+nitta -	PREFIX:1
+nitta - moore	ORG:1
+nivac	ORG:1
+nkk	ORG:1
+no	PREFIX:2
+no -	PREFIX:1
+no - global	ORG:1
+no global	ORG:1
+noarna	ORG:1
+nobel	NIL:1
+noemalife	ORG:1
+nofra	ORG:1
+noicom	ORG:1
+noise	PREFIX:1
+noise keeper	ORG:1
+nokia	ORG:1	PREFIX:2
+nokia corporation	ORG:1
+nokia italia	ORG:1
+nomansland	ORG:1
+nomura	ORG:1
+noraduto	ORG:1
+noranda	ORG:1
+nord	PREFIX:1
+nord vetri	ORG:1
+nordauto	ORG:1
+nordeco	ORG:1
+nordic	ORG:1
+nordica	ORG:1
+nordiko	ORG:1
+norinco	ORG:1
+noritake	ORG:1
+norplex	ORG:1
+nortek	ORG:1
+northrop	ORG:1
+northwest	PREFIX:1
+northwest airlines	ORG:1
+norticanta	ORG:1
+norton	ORG:1
+nosio	ORG:1
+novellus	ORG:1
+novespace	ORG:1
+novurania	ORG:1
+novuspharma	ORG:1
+ntt	ORG:1
+ntv	ORG:1
+nucleo	TSO:1
+nucor	ORG:1
+nummi	ORG:1
+nuova	PREFIX:1
+nuova rosalpina	ORG:1
+nuove	PREFIX:1
+nuove participazioni	PREFIX:1
+nuove participazioni industriali	ORG:1
+nurtanio	ORG:1
+nutkao	ORG:1
+nvidia	ORG:1
+nvryan	ORG:1
+nwa	ORG:1
+nynex	ORG:1
+nyse	ORG:1
+o.n.l.u.s.	ORG:1
+o.n.u.	ORG:1
+o.p.e.c.	ORG:1
+o.r.v.e.a	ORG:1
+oak	PREFIX:1
+oak -	PREFIX:1
+oak - mitsui	ORG:1
+oasis	ORG:1
+obbligazionario	NIL:1
+oberoi	ORG:1
+oberosler	ORG:2
+obi	ORG:1
+occidental	ORG:1
+ocse	ORG:1
+odense	PREFIX:1
+odense bk	ORG:1
+office	NIL:1
+officina	PREFIX:1
+officina brennero	ORG:1
+officine	ORG:1	PREFIX:2
+officine galileo	ORG:1
+officine meccaniche	ORG:1
+offspring	ORG:1
+ogilvy	ORG:1
+ogm	NIL:1
+okamoto	ORG:1
+olamtel	ORG:1
+olcese	ORG:2
+old	PREFIX:1
+old bar	ORG:1
+oldsmobile	ORG:1
+olidata	ORG:1
+olimpaidi	PREFIX:2
+olimpaidi estive	ORG:1
+olimpaidi invernali	ORG:1
+olimpia	ORG:1
+olin	ORG:1
+olivetti	ORG:1
+olot	PREFIX:1
+olot bv	ORG:1
+olp	ORG:1
+olympiakos	PREFIX:1
+olympiakos pireo	ORG:1
+olympic	PREFIX:1
+olympic airways	ORG:1
+olympique	PREFIX:1
+olympique marsiglia	ORG:1
+omega	ORG:1
+omnicom	ORG:1
+omniscom	ORG:1
+omnitel	ORG:1
+omr	ORG:1
+omron	ORG:1
+oms	ORG:1
+onama	ORG:1
+onbanca	ORG:1
+ondeo	PREFIX:1
+ondeo degremont	ORG:1
+one	PREFIX:1
+one -	PREFIX:1
+one - o	PREFIX:1
+one - o -	PREFIX:1
+one - o - one	ORG:1
+onex	ORG:1
+onlus	ORG:1
+onoda	ORG:1
+onu	ORG:1
+opa	NIL:1
+opec	ORG:1
+opel	ORG:1	PREFIX:6
+opel astra	NIL:1
+opel calibra	NIL:1
+opel corsa	NIL:1
+opel franceschi	ORG:1
+opel kadett	NIL:1
+opel tigra	NIL:1
+open	NIL:1
+opengate	ORG:1
+opera	PREFIX:1
+opera universitaria	ORG:1
+opus	PREFIX:1
+opus dei	ORG:1
+opusdei	ORG:1
+opv	NIL:1
+or.ba.ri.	ORG:1
+or.ve.a.	ORG:1
+oracle	ORG:1
+orange	ORG:1
+oratorio	TSO:1
+orbari	ORG:1
+orbis	ORG:1
+orchestra	TSO:1
+ordine	TSO:1	PREFIX:1
+ordine degli	PREFIX:1
+ordine degli avvocati	ORG:1
+orient	PREFIX:1
+orient avia	ORG:1
+orioles	ORG:1
+orion	ORG:1
+orogel	ORG:1
+orogil	ORG:1
+orsa	ORG:1
+ortho	ORG:1
+orvea	ORG:2
+osasuna	ORG:1
+osservatore	PREFIX:1
+osservatore romano	ORG:1
+ossicolor	ORG:1
+ostetricia	ORG:1
+otis	ORG:1
+oto	PREFIX:1
+oto melara	ORG:1
+outcry	ORG:1
+outline	ORG:1
+owens	ORG:1
+oxfam	ORG:1
+oxiquimica	ORG:1
+oxychem	ORG:1
+p.a.t	ORG:1
+p.c.i.	ORG:1
+p.d.s.	ORG:1
+p.r.i.	ORG:1
+p.s.d.i.	ORG:1
+p.s.i.	ORG:1
+paccar	ORG:1
+pacific	PREFIX:1
+pacific coastal	PREFIX:1
+pacific coastal airlines	ORG:1
+pacificorp	ORG:1
+pactel	ORG:1
+paganella	PREFIX:1
+paganella 2001	ORG:1
+pagnossin	ORG:1
+painewebber	ORG:1
+pall	ORG:1
+pallacanestro	PREFIX:2
+pallacanestro cantÙ	ORG:1
+pallacanestro cantù	ORG:1
+palmar	ORG:1
+palmco	ORG:1
+palmco.	ORG:1
+pam	ORG:1
+pama	ORG:1
+panamsat	ORG:1
+panariagroup	ORG:1	PREFIX:1
+panariagroup industrie	PREFIX:1
+panariagroup industrie ceramiche	ORG:1
+panarotta	PREFIX:1
+panarotta 2002	ORG:1
+panasonic	ORG:1
+panathinaikos	ORG:1	PREFIX:1
+panathinaikos atene	ORG:1
+panavia	ORG:1
+panificio	PREFIX:1
+panificio vivaldelli	ORG:1
+panini	ORG:1
+paninvest	PREFIX:1
+paninvest finance	ORG:1
+panorama	ORG:1
+papst	ORG:1
+paramount	ORG:1	PREFIX:2
+paramount pictures	ORG:1
+paramount tv	ORG:1
+paravision	ORG:1
+parco	TSO:1
+paris	PREFIX:1
+paris saint	PREFIX:1
+paris saint germain	ORG:1
+parlamento	PREFIX:1
+parlamento europeo	ORG:1
+parmalat	ORG:1	PREFIX:2
+parmalat finanziaria	ORG:2
+parsytec	ORG:1
+partecipazioni	PREFIX:1
+partecipazioni italiane	ORG:1
+partito	TSO:1	PREFIX:9
+partito comunista	ORG:1
+partito della	PREFIX:1
+partito della rifondazione	PREFIX:1
+partito della rifondazione comunista	ORG:1
+partito di	PREFIX:1
+partito di rifondazione	PREFIX:1
+partito di rifondazione comunista	ORG:1
+partito popolare	ORG:1	PREFIX:1
+partito popolare italiano	ORG:1
+partito repubblicano	ORG:1	PREFIX:1
+partito repubblicano italiano	ORG:1
+partito sardo	PREFIX:1
+partito sardo d'	PREFIX:1
+partito sardo d' azione	ORG:1
+partito umanista	ORG:1
+partizan	PREFIX:1
+partizan belgrado	ORG:1
+pas	ORG:1
+pasquazzo	ORG:1
+pasta	PREFIX:1
+pasta jolly	ORG:1
+pastificio	ORG:1	PREFIX:1
+pastificio felicetti	ORG:1
+pat	ORG:1
+patriarcato	ORG:1	PREFIX:2
+patriarcato ortodosso	ORG:1	PREFIX:1
+patriarcato ortodosso di	PREFIX:1
+patriarcato ortodosso di mosca	ORG:1
+patronato	ORG:1
+patt	ORG:1
+patto	PREFIX:1
+patto segni	ORG:1
+pci	ORG:1
+pdci	ORG:1
+pds	ORG:1
+peake	ORG:1
+pearle	ORG:1
+pechiney	ORG:1
+pecom	PREFIX:1
+pecom -	PREFIX:1
+pecom - nec	ORG:1
+pedavena	ORG:1
+peio	PREFIX:1
+peio funivie	ORG:1
+pejo	PREFIX:1
+pejo funivie	ORG:1
+pennzoil	ORG:1
+penske	ORG:1
+pentair	ORG:1
+pepsico	ORG:1
+perkin	PREFIX:1
+perkin -	PREFIX:1
+perkin - elmer	ORG:1
+perlier	ORG:1
+permasteelisa	ORG:1
+pertamina	ORG:1
+pessina	PREFIX:1
+pessina costruzioni	ORG:1
+pet	NIL:1	PREFIX:1
+pet shop	PREFIX:1
+pet shop boys	ORG:1
+petrokimia	ORG:1
+petrolvilla	PREFIX:1
+petrolvilla &	PREFIX:1
+petrolvilla & bortolotti	ORG:1
+petronas	ORG:1
+petrosynthese	ORG:1
+peugeot	ORG:1	PREFIX:16
+peugeot 1007	NIL:1
+peugeot 105	NIL:1
+peugeot 106	NIL:1
+peugeot 107	NIL:1
+peugeot 206	NIL:1
+peugeot 207	NIL:1
+peugeot 207cc	NIL:1
+peugeot 305	NIL:1
+peugeot 306	NIL:1
+peugeot 307	NIL:1
+peugeot 308	NIL:1
+peugeot 309	NIL:1
+peugeot 405	NIL:1
+peugeot 406	NIL:1
+peugeot 407	NIL:1
+peugeot 4hp	NIL:1
+peugot	ORG:1
+pfizer	ORG:1
+ph	PREFIX:1
+ph quartet	ORG:1
+pharmatec	ORG:1
+philip	PREFIX:1
+philip morris	ORG:1
+philips	ORG:1
+phillips	ORG:1
+phoenix	ORG:2	PREFIX:1
+phoenix informatica	PREFIX:1
+phoenix informatica bancaria	ORG:1
+phonola	ORG:1
+piaggio	ORG:2	PREFIX:1
+piaggio aero	ORG:1
+piazza	PREFIX:1
+piazza affari	ORG:1
+picaro	ORG:1
+pierrel	ORG:1
+pikenz	ORG:1
+pil	NIL:1
+pilkington	ORG:1
+pin	NIL:1
+pinault	ORG:1
+pininfarina	ORG:1
+pink	PREFIX:1
+pink floyd	ORG:1
+pinkfloyd	ORG:1
+pirates	ORG:1
+pirella	ORG:1
+pirelli	ORG:1	PREFIX:3
+pirelli &	PREFIX:1
+pirelli & c.	ORG:1
+pirelli real	PREFIX:1
+pirelli real estate	ORG:1
+pirelli tyre	ORG:1
+pirelli&c	ORG:1
+pirelli&c.	ORG:1
+pittway	ORG:1
+pizzeria	TSO:1
+pkk	ORG:1
+placebo	ORG:1
+plastiman	ORG:1
+playtex	ORG:1
+plessey	ORG:1
+podcast	ORG:1
+podistica	TSO:1
+pohang	ORG:1
+polaroid	ORG:1
+poli	ORG:1	PREFIX:1
+poli supermercati	ORG:1
+policlinico	TSO:1
+polifonica	TSO:1
+poligrafica	ORG:1	PREFIX:2
+poligrafica s.	PREFIX:1
+poligrafica s. faustino	ORG:1
+poligrafica san	PREFIX:1
+poligrafica san faustino	ORG:1
+poligrafici	ORG:1	PREFIX:1
+poligrafici editoriale	ORG:1
+polis	ORG:1
+polisportiva	TSO:1
+politecnico	TSO:1
+polizia	PREFIX:1
+polizia di	PREFIX:1
+polizia di stato	ORG:1
+polyair	ORG:1
+polycon	ORG:1
+polydex	ORG:1
+polylithics	ORG:1
+polyplastics	ORG:1
+pompieri	ORG:1
+pontiac	ORG:1
+pop.	PREFIX:1
+pop. unite	ORG:1
+popolare	PREFIX:3
+popolare di	PREFIX:2
+popolare di verona	ORG:1	PREFIX:1
+popolare di verona e	PREFIX:1
+popolare di verona e novara	ORG:1
+popolare italiano	ORG:1
+popolari	PREFIX:1
+popolari unite	ORG:1
+porfidi	ORG:1	PREFIX:1
+porfidi porfidi	ORG:1
+porsche	PREFIX:4
+porsche 356	NIL:1
+porsche 911	NIL:1
+porsche 911c	NIL:1
+porsche carrera	NIL:1
+poste	ORG:1	PREFIX:2
+poste italiane	ORG:2
+potlatch	ORG:1
+ppi	ORG:1
+ppt	ORG:1
+pptt	ORG:1
+pra	ORG:1
+prada	ORG:1	PREFIX:2
+prada asfalti	ORG:1
+prada chimica	ORG:1
+prantil	ORG:1
+prc	ORG:1
+prealpi	PREFIX:1
+prealpi mineraria	ORG:1
+predaia	ORG:1
+prefettura	ORG:1
+prema	ORG:1
+premetal	ORG:1
+premiata	PREFIX:1
+premiata montegranaro	ORG:1
+premier	PREFIX:1
+premier hotels	PREFIX:1
+premier hotels crema	ORG:1
+premuda	ORG:1
+pressman	ORG:1
+pressmans	ORG:1
+pri	ORG:1
+primestar	ORG:1
+primetech	ORG:1
+primiero	PREFIX:1
+primiero energia	ORG:1
+prisma	ORG:1	PREFIX:1
+prisma taranto	ORG:1
+pritzker	ORG:1
+pro	PREFIX:2
+pro loco	ORG:1
+pro trento	ORG:1
+procar	ORG:1
+procigo	ORG:1
+procter	PREFIX:1
+procter &	PREFIX:1
+procter & gamble	ORG:1
+procura	ORG:1
+prodigy	ORG:1
+prodome	ORG:1
+profacta	ORG:1
+proler	ORG:1
+promo	ORG:1
+promocoop	ORG:1
+promus	ORG:1
+protezione	PREFIX:1
+protezione civile	ORG:1
+proton	ORG:1
+provveditorato	ORG:1	PREFIX:1
+provveditorato agli	PREFIX:1
+provveditorato agli studi	ORG:1
+psae	ORG:1
+psdi	ORG:1
+pse	ORG:1
+psi	ORG:1
+psion	ORG:1
+psv	ORG:1	PREFIX:1
+psv eindhoven	ORG:1
+pti	ORG:1
+ptronato	ORG:1
+ptt	ORG:1
+pub	TSO:1	PREFIX:1
+pub alla	PREFIX:1
+pub alla posta	ORG:1
+pubblico	PREFIX:1
+pubblico registro	PREFIX:1
+pubblico registro automobilistico	ORG:1
+publitalia	ORG:1	PREFIX:1
+publitalia '80	ORG:1
+publitalia'	PREFIX:1
+publitalia' 80	ORG:1
+puli	PREFIX:1
+puli european	ORG:1
+puma	ORG:1
+pumaisdue	ORG:1
+puntocom	ORG:1
+q.p.	ORG:1
+q.u.i.t.	ORG:1
+q8	ORG:1
+qantas	ORG:1
+qt	PREFIX:1
+qt questotrentino	ORG:1
+quaker	ORG:1
+quanex	ORG:1
+quantum	ORG:1
+quattroruote	ORG:1
+quebecor	ORG:1
+queen	ORG:1
+quercia	ORG:1
+quest	ORG:1
+questura	ORG:1
+quicksilver	ORG:1
+r.e.m	ORG:1
+raba	ORG:1
+rabobank	ORG:1
+rabotnicki	PREFIX:1
+rabotnicki skopje	ORG:1
+radio	TSO:1	PREFIX:21
+radio 1	ORG:1
+radio 101	ORG:1
+radio 2	ORG:1
+radio 24	ORG:1
+radio 3	ORG:1
+radio bum	PREFIX:1
+radio bum bum	ORG:1
+radio capital	ORG:1
+radio cuore	ORG:1
+radio deejay	ORG:1
+radio dimensione	PREFIX:1
+radio dimensione suono	ORG:1
+radio donna	ORG:1
+radio italia	ORG:1
+radio kiss	PREFIX:1
+radio kiss kiss	ORG:1
+radio lattemiele	ORG:1
+radio margherita	ORG:1
+radio maria	ORG:1
+radio monte	PREFIX:1
+radio monte carlo	ORG:1
+radio montecarlo	ORG:1
+radio nostalgia	ORG:1
+radio popolare	ORG:1
+radio radicale	ORG:1
+radio1	ORG:1
+radio2	ORG:1
+radio24	ORG:1
+radio3	ORG:1
+radiodue	ORG:1
+radiohead	ORG:1
+radiomarelli	ORG:1
+radionair	ORG:1
+radiosegugio	ORG:1
+radiotaxi	ORG:1
+radiotre	ORG:1
+radiouno	ORG:1
+raetia	PREFIX:1
+raetia sgr	ORG:1
+rafidia	ORG:1
+raggareggae	ORG:1
+rai	ORG:1	PREFIX:1
+rai radiotelevisione	PREFIX:1
+rai radiotelevisione italiana	ORG:1
+ramada	ORG:1
+randers	PREFIX:1
+randers fc	ORG:1
+rangers	PREFIX:1
+rangers glasgow	ORG:1
+rapid	PREFIX:1
+rapid bucarest	ORG:1
+ras	ORG:1	PREFIX:1
+ras fraz.	ORG:1
+rassini	ORG:1
+ratti	ORG:1
+rauchbau	ORG:1
+raychem	ORG:1
+raytheon	ORG:1
+rca	ORG:1
+rcs	ORG:1
+rdb	ORG:1
+rdm	PREFIX:1
+rdm realty	PREFIX:1
+rdm realty recordati	ORG:1
+rds	ORG:1
+reading	ORG:1
+real	PREFIX:3
+real estate	ORG:1
+real madrid	ORG:1
+real pejo	ORG:1
+recordati	ORG:1
+recta	PREFIX:1
+recta capital	ORG:1
+red	PREFIX:2
+red -	PREFIX:1
+red - bull	ORG:1
+red bull	ORG:1
+redbull	ORG:1
+reebock	ORG:1
+reebok	ORG:1
+regency	ORG:1
+regenex	ORG:1
+rem	ORG:1
+renault	ORG:1	PREFIX:4
+renault 21	NIL:1
+renault 4	NIL:1
+renault clio	NIL:1
+renault megane	NIL:1
+rendena	PREFIX:1
+rendena golf	ORG:1
+reno	PREFIX:2
+reno air	ORG:1
+reno de	PREFIX:1
+reno de medici	ORG:1
+reparto	TSO:1
+repetra	ORG:1
+reply	ORG:1
+repsol	ORG:1
+repubblicano	ORG:1	PREFIX:1
+repubblicano italiano	ORG:1
+republic	PREFIX:1
+republic -	PREFIX:1
+republic - asahi	ORG:1
+research	TEO:1
+residence	PREFIX:1
+residence hotel	ORG:1
+reuters	ORG:1
+rexfor	ORG:1
+reynolds	ORG:1
+rfi	ORG:1
+rheintalflug	ORG:1
+rhone	PREFIX:1
+rhone -	PREFIX:1
+rhone - poulenc	ORG:1
+riber	ORG:1
+richard	PREFIX:1
+richard ginori	ORG:1
+ricoh	ORG:1
+riello	ORG:1
+rifondazione	ORG:1	PREFIX:1
+rifondazione comunista	ORG:1
+rigotti	PREFIX:1
+rigotti immobiliare	ORG:1
+rinascente	ORG:1
+rinassico	ORG:1
+rink	PREFIX:1
+rink piné	ORG:1
+rinnovamento	PREFIX:1
+rinnovamento italiano	ORG:1
+ris	ORG:1
+risanamento	PREFIX:1
+risanamento napoli	ORG:1
+ristorante	TSO:1	PREFIX:1
+ristorante pizzeria	TSO:1
+ristorazione	TSO:1
+riva	PREFIX:1
+riva del	PREFIX:1
+riva del garda	PREFIX:1
+riva del garda immobiliare	ORG:1
+rizzoli	ORG:1
+rmc	ORG:1
+robertson	PREFIX:1
+robertson -	PREFIX:1
+robertson - ceco	ORG:1
+rockwell	ORG:1
+rohr	ORG:1
+roland	PREFIX:3
+roland -	PREFIX:1
+roland - garros	ORG:1
+roland europe	ORG:1
+roland garros	ORG:1
+rolex	ORG:1
+rollerblade	ORG:1
+rolling	PREFIX:1
+rolling stones	ORG:1
+rolls	PREFIX:1
+rolls -	PREFIX:1
+rolls - royce	ORG:1
+rolo	PREFIX:2
+rolo banca	ORG:1	PREFIX:1
+rolo banca 1473	ORG:1
+romanagri	ORG:1
+roncadin	ORG:1
+rotaltes	ORG:1
+rotondi	PREFIX:1
+rotondi evolution	ORG:1
+roverplastik	ORG:1
+roxette	ORG:1
+royal	ORG:1
+rpa	PREFIX:1
+rpa -	PREFIX:1
+rpa - luigibacchi	ORG:1
+rsu	ORG:1
+rttr	ORG:1
+rubbermaid	ORG:1
+rubin	PREFIX:1
+rubin kazan	ORG:1
+rumi	ORG:1
+ruzomberok	ORG:1
+ryanair	ORG:1
+ryobi	ORG:1
+s.	PREFIX:2
+s. klaus	PREFIX:1
+s. klaus running	ORG:1
+s. sebastian	ORG:1
+s.a.p.a.	ORG:1
+s.a.s.	ORG:1	TEO:1
+s.c	TSO:1
+s.c.	TSO:2
+s.c.a.r.l.	TEO:1
+s.e.c.	ORG:1
+s.e.p.a.	ORG:1
+s.i.l.p.a.	ORG:1
+s.n.c	TEO:1
+s.n.c.	TEO:1
+s.p.a.	TEO:1
+s.r.l.	TEO:1
+s2	PREFIX:1
+s2 serigrafia	ORG:1
+saab	ORG:1
+sabaf	ORG:1
+sabena	ORG:1
+sabreliner	ORG:1
+sabretech	ORG:1
+sacaim	ORG:1
+sadi	ORG:1
+sae	ORG:1	PREFIX:1
+sae autotrasporti	ORG:1
+saeco	ORG:1	PREFIX:1
+saeco international	ORG:1
+saes	PREFIX:1
+saes getters	ORG:1
+saf	TSO:1
+safalpa	ORG:1
+safety	PREFIX:1
+safety -	PREFIX:1
+safety - kleen	ORG:1
+safilo	ORG:1
+sahlen	ORG:1
+sai	ORG:1
+saiag	ORG:1
+sailor	ORG:1
+saint	PREFIX:1
+saint gobain	PREFIX:1
+saint gobain condotte	ORG:1
+saipem	ORG:1
+sait	ORG:1
+sakata	ORG:1
+salento	PREFIX:1
+salento d'	PREFIX:1
+salento d' amare	PREFIX:1
+salento d' amare taviano	ORG:1
+salernitana	ORG:1
+salick	ORG:1
+salim	ORG:1
+salman	ORG:1
+salumificio	TSO:1	PREFIX:1
+salumificio val	PREFIX:1
+salumificio val rendena	ORG:1
+sammi	ORG:1
+sampdoria	ORG:1
+samsonite	ORG:1
+samsung	ORG:1
+san	PREFIX:3
+san -	PREFIX:1
+san - fu	ORG:1
+san carlo	ORG:1
+san paolo	PREFIX:1
+san paolo imi	ORG:1
+sandomierz	ORG:1
+sandoz	ORG:1
+sanfu	ORG:1
+sanluis	ORG:1
+sanofi	ORG:1
+sanpaolo	PREFIX:2
+sanpaolo -	PREFIX:1
+sanpaolo - imi	ORG:1
+sanpaolo imi	ORG:1
+sanpellegrino	ORG:1
+santa	PREFIX:2
+santa klaus	PREFIX:1
+santa klaus running	ORG:1
+santa margherita	PREFIX:1
+santa margherita zignago	ORG:1
+santander	ORG:1
+sanwu	ORG:1
+sanyang	ORG:1
+sap	ORG:1
+sapes	ORG:1
+sapmi	ORG:1
+saras	ORG:1
+sarc	ORG:1
+sardo	PREFIX:1
+sardo d'	PREFIX:1
+sardo d' azione	ORG:1
+sarin	PREFIX:1
+sarin uno	ORG:1
+sas	ORG:1
+sat	ORG:1
+sata	ORG:2	PREFIX:1
+sata air	PREFIX:1
+sata air açores	ORG:1
+satic	ORG:1
+saturama	ORG:1
+sauber	ORG:1
+saunier	PREFIX:1
+saunier duval	ORG:1
+sauvignon	NIL:1
+savatage	ORG:1
+save	ORG:1
+sc	TSO:1
+scae	ORG:1
+scalfi	ORG:1
+scania	ORG:1
+scarl	TEO:1
+scarl.	TEO:1
+scavolini	ORG:1
+schal	ORG:1
+schering	PREFIX:1
+schering -	PREFIX:1
+schering - plough	ORG:1
+schiapparelli	ORG:1	PREFIX:2
+schiapparelli 1824	ORG:1
+schiapparelli pikenz	ORG:1
+schiava	NIL:1
+schreiner	PREFIX:1
+schreiner airways	ORG:1
+schulman	ORG:1
+schwarzheide	ORG:1
+scialpinistica	PREFIX:1
+scialpinistica lagorai	PREFIX:1
+scialpinistica lagorai cima	PREFIX:1
+scialpinistica lagorai cima d'	PREFIX:1
+scialpinistica lagorai cima d' asta	ORG:1
+scientific	TEO:1
+scripps	ORG:1
+scriven	ORG:1
+scrl	TEO:1
+scuderia	TSO:1
+scuola	TSO:1
+sdf	TSO:1
+sdp	TSO:1
+seac	ORG:2
+seacfin	ORG:1
+seagram	ORG:1
+sears	ORG:1
+seat	ORG:1	PREFIX:5
+seat altea	NIL:1
+seat ibiza	NIL:1
+seat leon	NIL:1
+seat pagine	PREFIX:1
+seat pagine gialle	ORG:1
+seat toledo	NIL:1
+secim	ORG:1
+secolo	PREFIX:2
+secolo d'	PREFIX:1
+secolo d' italia	ORG:1
+secolo xix	ORG:1
+sef	ORG:1
+segafredo	ORG:1
+seggiovie	PREFIX:1
+seggiovie san	PREFIX:1
+seggiovie san martino	ORG:1
+segheria	PREFIX:1
+segheria magnifica	PREFIX:1
+segheria magnifica comunitÀ	PREFIX:1
+segheria magnifica comunitÀ di	PREFIX:1
+segheria magnifica comunitÀ di fiemme	ORG:1
+seibu	ORG:1
+seiko	PREFIX:1
+seiko -	PREFIX:1
+seiko - epson	ORG:1
+sel	ORG:1
+selco	ORG:1
+seleco	ORG:1
+selecta	ORG:1
+selectronik	ORG:1
+seli	ORG:1
+sellaronda	PREFIX:1
+sellaronda skimarathon	ORG:1
+selm	ORG:1
+sels	ORG:1
+sematech	ORG:1
+semi	PREFIX:1
+semi -	PREFIX:1
+semi - tech	ORG:1
+senato	ORG:1	PREFIX:1
+senato della	PREFIX:1
+senato della repubblica	ORG:1
+senshukai	ORG:1
+sepr	ORG:1	PREFIX:1
+sepr italia	ORG:1
+sequa	ORG:1
+sergio	PREFIX:1
+sergio tacchini	ORG:1
+serie	TSO:1	PREFIX:12
+serie a	ORG:1
+serie a1	ORG:1
+serie a2	ORG:1
+serie b	ORG:1
+serie b1	ORG:1
+serie b2	ORG:1
+serie c	ORG:1
+serie c1	ORG:1
+serie c2	ORG:1
+serie d	ORG:1
+serie d1	ORG:1
+serie d2	ORG:1
+serin	ORG:1
+service	TEO:1
+services	TEO:1
+servizi	TSO:1	PREFIX:1
+servizi bancari	PREFIX:1
+servizi bancari associati	ORG:1
+servizio	TSO:1
+ses	ORG:1
+sesa	ORG:1
+sesto	PREFIX:1
+sesto senso	ORG:1
+set	PREFIX:1
+set distribuzione	ORG:1
+settimo	PREFIX:1
+settimo livello	ORG:1
+seval	ORG:1
+seven	ORG:1
+sex	PREFIX:1
+sex pistols	ORG:1
+sg	PREFIX:1
+sg elettrica	ORG:1
+sgr	ORG:1
+sgs	PREFIX:1
+sgs -	PREFIX:1
+sgs - thompson	ORG:1
+shakhtar	PREFIX:1
+shakhtar donetsk	ORG:1
+sharp	ORG:1
+sheaffer	ORG:1
+shearson	ORG:1
+sheffield	PREFIX:1
+sheffield utd	ORG:1
+sheldahl	ORG:1
+shell	ORG:1
+sheraton	ORG:1
+sherwin	PREFIX:1
+sherwin -	PREFIX:1
+sherwin - williams	ORG:1
+shimadzu	ORG:1
+shiroki	ORG:1
+shoei	ORG:1
+shosholoza	ORG:1
+showa	PREFIX:1
+showa -	PREFIX:1
+showa - savoie	ORG:1
+showtime	ORG:1
+si	PREFIX:1
+si &	PREFIX:1
+si & gi	ORG:1
+siae	ORG:1
+siai	ORG:1	PREFIX:1
+siai -	PREFIX:1
+siai - marchetti	ORG:1
+siber	ORG:1
+sic	ORG:1
+sica	ORG:1
+sicc	ORG:1	PREFIX:1
+sicc cucine	ORG:1
+siderbras	ORG:1
+siderurgia	PREFIX:1
+siderurgia trentina	ORG:1
+siderurgica	ORG:1	TSO:1
+sidley	ORG:1
+siemens	ORG:1	PREFIX:1
+siemens -	PREFIX:1
+siemens - asea	ORG:1
+sif	PREFIX:1
+sif lusia	ORG:1
+sigesa	ORG:1
+signetics	ORG:1
+silene	ORG:1
+silgan	ORG:1
+siliconix	ORG:1
+silvelox	ORG:2
+sime	ORG:2	PREFIX:1
+sime -	PREFIX:1
+sime - aiss	ORG:1
+simeaiss	ORG:1
+simint	ORG:1
+simply	PREFIX:1
+simply red	ORG:1
+sincobas	ORG:1
+sinotrans	ORG:1
+sion	ORG:1
+sipex	ORG:1
+siram	ORG:1
+siremar	ORG:1
+siric	ORG:1
+sirti	ORG:1
+sisa	ORG:1
+sisaf	ORG:1
+sisde	ORG:1
+sisley	ORG:1	PREFIX:1
+sisley treviso	ORG:1
+sismi	ORG:1
+sista	PREFIX:1
+sista pollution	ORG:1
+sistan	ORG:1
+sit	ORG:2	PREFIX:2
+sit bellamonte	ORG:1
+sit geo	ORG:1
+sitc	ORG:1
+siti	PREFIX:1
+siti di	PREFIX:1
+siti di interesse	PREFIX:1
+siti di interesse comunitario	ORG:1
+sitm	ORG:1
+siulp	ORG:1
+siviglia	ORG:1	PREFIX:2
+siviglia wear	ORG:1	PREFIX:1
+siviglia wear teramo	ORG:1
+sketchers	ORG:1
+ski	TEO:1	TSO:1
+skialp	ORG:1	PREFIX:1
+skialp dolomiti	PREFIX:1
+skialp dolomiti di	PREFIX:1
+skialp dolomiti di brenta	ORG:1
+skoda	ORG:1
+sky	ORG:1	PREFIX:1
+sky italia	ORG:1
+slavia	PREFIX:1
+slavia praga	ORG:1
+slhe	ORG:1
+slovan	PREFIX:1
+slovan liberec	ORG:1
+smart	ORG:1
+smashing	PREFIX:1
+smashing pumpkins	ORG:1
+sme	ORG:1
+smec	ORG:1
+smi	ORG:1
+smurfit	PREFIX:1
+smurfit -	PREFIX:1
+smurfit - sisa	ORG:1
+snai	ORG:1
+snaidero	ORG:1	PREFIX:3
+snaidero cucine	ORG:1	PREFIX:1
+snaidero cucine udine	ORG:1
+snaidero udine	ORG:1
+snals	ORG:1
+snam	ORG:2	PREFIX:1
+snam rete	PREFIX:1
+snam rete gas	ORG:1
+snami	ORG:1
+snc	TEO:1
+snc.	TEO:1
+sneak	ORG:1
+snecma	ORG:1
+snia	ORG:1
+snko	ORG:1
+so.l.e.	ORG:1
+soccer	TSO:1
+socialisti	ORG:1	PREFIX:2
+socialisti democratici	ORG:1	PREFIX:1
+socialisti democratici italiani	ORG:1
+society	TEO:1
+società	TSO:1	PREFIX:6
+società funivie	ORG:1	PREFIX:1
+società funivie pinzolo	ORG:1
+società interbrennero	ORG:1
+società mezzanotte	ORG:1
+società mineraria	PREFIX:1
+società mineraria baritina	ORG:1
+società operatori	PREFIX:1
+società operatori predaia	ORG:1
+sodalia	ORG:1
+sodi	PREFIX:1
+sodi scientific	ORG:1
+sogap	ORG:1
+sogedi	ORG:1
+sogefi	ORG:1
+sogei	ORG:1
+sol	ORG:1
+solatrix	ORG:1
+solidarnost	ORG:1
+solmine	ORG:1
+solutions	ORG:1
+somec	ORG:1
+sony	ORG:1
+sorin	ORG:1
+sortec	ORG:1
+sos	NIL:1
+sosat	ORG:1
+sosi	ORG:1
+sotheby'	PREFIX:1
+sotheby' s	ORG:1
+sottoriva	ORG:1
+soultrain	ORG:1
+southwest	PREFIX:1
+southwest airlines	ORG:1
+spa	TEO:1
+spa.	TEO:1
+spagoburgher	ORG:1
+sparkasse	ORG:1
+sparkling	ORG:1	PREFIX:1
+sparkling milano	ORG:1
+sparta	PREFIX:1
+sparta praga	ORG:1
+spartak	PREFIX:1
+spartak mosca	ORG:1
+spd	ORG:1
+speedfam	ORG:1
+spg	ORG:1
+spinindo	ORG:1
+sport	PREFIX:1
+sport invernali	ORG:1
+sporting	TSO:1	PREFIX:2
+sporting braga	ORG:1
+sporting lisbona	ORG:1
+sportsman	ORG:1
+spti	ORG:1
+spumanti	TSO:1
+spyker	ORG:1
+srg	ORG:1
+sriyuwono	ORG:1
+srl	TEO:1
+srl.	TEO:1
+stac	ORG:1
+standa	ORG:1
+stanhome	ORG:1
+start	PREFIX:2
+start ik	ORG:1	PREFIX:1
+start ik kristiansand	ORG:1
+stayer	ORG:1
+steaua	PREFIX:1
+steaua bucarest	ORG:1
+stefanel	ORG:1
+steinex	ORG:1
+steirerobst	ORG:1
+stelco	ORG:1
+stella	PREFIX:3
+stella alpina	ORG:1
+stella rossa	ORG:1	PREFIX:1
+stella rossa belgrado	ORG:1
+stet	ORG:2
+steyr	PREFIX:1
+steyr -	PREFIX:1
+steyr - daimler	PREFIX:1
+steyr - daimler -	PREFIX:1
+steyr - daimler - puch	ORG:1
+stice	ORG:1
+stilelettra	ORG:1
+stm	ORG:1
+stmicroelectronics	ORG:1
+stone	PREFIX:1
+stone martens	ORG:1
+stora	ORG:1
+stradasfalti	ORG:1
+strascina	ORG:1
+sts	ORG:1
+stube	PREFIX:1
+stube del	PREFIX:1
+stube del gufo	ORG:1
+studio	TSO:1	PREFIX:3
+studio dentistico	TSO:1
+studio notarile	TSO:1
+studio tecnico	TSO:1
+subaru	ORG:1	PREFIX:5
+subaru evo	NIL:1
+subaru impreza	NIL:1
+subaru italia	ORG:1
+subaru legacy	NIL:1
+subaru wrc	NIL:1
+sudtiroler	PREFIX:1
+sudtiroler volkspartei	ORG:1
+suite	NIL:1
+sukab	ORG:1
+sult	ORG:1
+sumi	ORG:1
+sumitomo	ORG:1
+summa	ORG:1
+sun	PREFIX:3
+sun -	PREFIX:1
+sun - times	ORG:1
+sun microsistems	ORG:1
+sun microsystems	ORG:1
+sundance	PREFIX:1
+sundance channel	ORG:1
+sundstrand	ORG:1
+sunkei	ORG:1
+sunset	ORG:1
+super	NIL:1
+superfund	PREFIX:1
+superfund pasching	ORG:1
+supermercati	PREFIX:1
+supermercati trentini	ORG:1
+supermercato	TSO:1	PREFIX:1
+supermercato orvea	ORG:1
+svgl	ORG:1
+sviluppo	PREFIX:1
+sviluppo vigo	PREFIX:1
+sviluppo vigo di	PREFIX:1
+sviluppo vigo di fassa	ORG:1
+svp	ORG:1
+swatch	ORG:1
+swedishamerican	ORG:1
+swissair	ORG:1
+swm	ORG:1
+sws	ORG:1	PREFIX:1
+sws engineering	ORG:1
+system	ORG:1	TSO:1
+systems	ORG:1	TSO:1
+szamilk	ORG:1
+südtiroler	PREFIX:1
+südtiroler volkspartei	ORG:1
+t.n.t	ORG:1
+tabaccheria	TSO:1
+tac	NIL:1
+tacchini	ORG:1
+taeg	NIL:1
+taferner	ORG:1
+taigene	ORG:1
+taipower	ORG:1
+taiyo	ORG:1
+tama	ORG:1
+tambrands	ORG:1
+tan	NIL:1
+taproot	ORG:1
+tar	ORG:1	PREFIX:1
+tar del	PREFIX:1
+tar del lazio	ORG:1
+targetti	PREFIX:1
+targetti sankey	ORG:1
+tas	ORG:1	PREFIX:1
+tas tecnologia	PREFIX:1
+tas tecnologia avanzata	PREFIX:1
+tas tecnologia avanzata dei	PREFIX:1
+tas tecnologia avanzata dei sistemi	ORG:1
+tasaki	ORG:1
+tass	ORG:1
+tassa	NIL:1
+tassullo	PREFIX:1
+tassullo energia	ORG:1
+taurus	ORG:1
+tbs	ORG:1
+tbwa	ORG:1
+tc	ORG:1	TSO:1	PREFIX:1
+tc sistema	PREFIX:1
+tc sistema tecnodiffusione	PREFIX:1
+tc sistema tecnodiffusione italia	ORG:1
+tca	ORG:1
+tcby	ORG:1
+tci	ORG:1
+tdshop.it	PREFIX:1
+tdshop.it livorno	ORG:1
+team	TSO:1	PREFIX:1
+team shosholoza	ORG:1
+teamsters	ORG:1
+teatro	TSO:1
+tecdis	ORG:1
+technolift	ORG:1
+tecnoclima	ORG:1
+tecnocoster	ORG:1
+tecnodiffusione	ORG:1
+tecnofin	ORG:1
+tecnoimpianti	ORG:2
+tecnoinfisso	ORG:1
+tecnology	TEO:1
+tecnoporfidi	ORG:1
+tecnost	ORG:1
+tecnostudio	ORG:1
+tecnotrentina	ORG:1
+teijin	ORG:1
+tekne	ORG:1
+tektronix	ORG:1
+telbios	ORG:1
+telco	ORG:1
+tele	PREFIX:2
+tele -	PREFIX:1
+tele - commmunications	ORG:1
+tele due	ORG:1
+tele2	ORG:1
+telecinco	ORG:1
+telecom	ORG:1	PREFIX:4
+telecom it.	ORG:1
+telecom italia	ORG:1	PREFIX:2
+telecom italia media	ORG:1
+telecom italia mobile	ORG:1
+teledue	ORG:1
+teledyne	ORG:1
+telefonica	ORG:1
+telefono	PREFIX:2
+telefono amico	ORG:1
+telefono azzuro	ORG:1
+telefunken	ORG:1
+telegraph	ORG:1
+telemarket	ORG:1
+telephonica	ORG:1
+teleradiofile	ORG:1
+telespazio	ORG:1
+telethon	ORG:1
+telettra	ORG:1
+telit	ORG:1
+temple	PREFIX:1
+temple -	PREFIX:1
+temple - inland	ORG:1
+tenarisdalmine	ORG:1
+tendaggi	TSO:1
+tenneco	ORG:1
+terex	ORG:1
+terme	TSO:1	PREFIX:2
+terme demaniali	PREFIX:1
+terme demaniali di	PREFIX:1
+terme demaniali di acqui	ORG:1
+terme di	PREFIX:1
+terme di rabbi	ORG:1
+terna	ORG:1
+ternana	ORG:1
+teroldego	NIL:1
+terra	PREFIX:1
+terra modena	ORG:1
+terre	PREFIX:1
+terre des	PREFIX:1
+terre des hommes	ORG:1
+tesinogroup	PREFIX:1
+tesinogroup 2847	ORG:1
+teuco	ORG:1
+texaco	ORG:1
+textron	ORG:1
+tfr	NIL:1
+tg.com	ORG:1
+tg1	ORG:1
+tg2	ORG:1
+tg3	ORG:1
+tg4	ORG:1
+tg5	ORG:1
+the	PREFIX:31
+the 4	PREFIX:1
+the 4 skins	ORG:1
+the adicts	ORG:1
+the adverts	ORG:1
+the alan	PREFIX:1
+the alan parsons	PREFIX:1
+the alan parsons project	ORG:1
+the alarm	ORG:1
+the arrows	ORG:1
+the beach	PREFIX:1
+the beach boys	ORG:1
+the beatles	ORG:1
+the buggles	ORG:1
+the cardigans	ORG:1
+the chemical	PREFIX:1
+the chemical brothers	ORG:1
+the communards	ORG:1
+the creation	ORG:1
+the cross	ORG:1
+the cure	ORG:1
+the darkness	ORG:1
+the feeling	ORG:1
+the flowers	PREFIX:1
+the flowers of	PREFIX:1
+the flowers of romance	ORG:1
+the go!	PREFIX:1
+the go! team	ORG:1
+the guardian	ORG:1
+the housemartins	ORG:1
+the independent	ORG:1
+the jam	ORG:1
+the lotus	ORG:1
+the movie	PREFIX:1
+the movie channel	ORG:1
+the new	PREFIX:1
+the new york	PREFIX:1
+the new york times	ORG:1
+the sunday	PREFIX:1
+the sunday times	ORG:1
+the times	ORG:1
+the verve	ORG:1
+the wall	PREFIX:1
+the wall street	PREFIX:1
+the wall street journal	ORG:1
+the washington	PREFIX:1
+the washington post	ORG:1
+thiokol	ORG:1
+third	PREFIX:1
+third from	PREFIX:1
+third from the	PREFIX:1
+third from the sun	ORG:1
+thompson	PREFIX:1
+thompson italia	ORG:1
+thomson	PREFIX:1
+thomson -	PREFIX:1
+thomson - csf	ORG:1
+thorn	ORG:1
+thun	ORG:1
+thy	PREFIX:1
+thy turkish	PREFIX:1
+thy turkish airlines	ORG:1
+ticino	ORG:1
+tim	ORG:1	PREFIX:1
+tim all	PREFIX:1
+tim all star	PREFIX:1
+tim all star volley	ORG:1
+timberland	ORG:1
+times	ORG:1
+timken	ORG:1
+tin	ORG:1
+tin.it	ORG:1
+tioxide	ORG:1
+tirrenia	ORG:1	PREFIX:1
+tirrenia di	PREFIX:1
+tirrenia di navigazione	ORG:1
+tiscali	ORG:1	PREFIX:1
+tiscali cagliari	ORG:1
+tishman	ORG:1
+tisza	ORG:1
+titanus	ORG:1
+tm	PREFIX:1
+tm racing	ORG:1
+tmmc	ORG:1
+tnt	ORG:1
+tod´	ORG:1	PREFIX:1
+tod´ s	ORG:1
+tokyu	ORG:1
+tomen	ORG:1
+tonno	PREFIX:2
+tonno callipo	PREFIX:2
+tonno callipo vibo	ORG:1	PREFIX:1
+tonno callipo vibo valentia	ORG:1
+too	PREFIX:1
+too much	PREFIX:1
+too much bunnies	ORG:1
+topix	ORG:1
+toray	ORG:1
+toro	ORG:1	PREFIX:2
+toro -	PREFIX:1
+toro - rosso	ORG:1
+toro rosso	ORG:1
+toshiba	ORG:1
+tottenham	ORG:1	PREFIX:1
+tottenham hotspur	ORG:1
+touchstone	ORG:1	PREFIX:1
+touchstone pictures	ORG:1
+tourplan	ORG:1
+toxon	ORG:1
+toyota	ORG:1	PREFIX:5
+toyota auris	NIL:1
+toyota aygo	NIL:1
+toyota corolla	NIL:1
+toyota rav4	NIL:1
+toyota yaris	NIL:1
+trabant	ORG:1
+trabzonspor	ORG:1
+trains	PREFIX:1
+trains in	PREFIX:1
+trains in spain	ORG:1
+tramontin	ORG:1
+transvik	ORG:1
+tranta	ORG:1
+trasco	ORG:1
+trasco.	ORG:1
+tre	PREFIX:1
+tre verticale	ORG:1
+trenitalia	ORG:1
+trentinalatte	ORG:1
+trentingrana	ORG:1
+trentino	PREFIX:10
+trentino emergenza	ORG:1
+trentino energia	ORG:1
+trentino legno	ORG:1
+trentino parcheggi	ORG:1
+trentino riscossioni	ORG:1
+trentino servizi	ORG:2
+trentino trasporti	ORG:2
+trentino volley	ORG:1
+trentino.tis	ORG:1
+trentinotrasporti	ORG:1
+trento	PREFIX:5
+trento -	PREFIX:2
+trento - malè	ORG:1
+trento - malé	ORG:1
+trento fiere	ORG:1
+trento malè	ORG:1
+trento malé	ORG:1
+trentomalè	ORG:1
+trentomalé	ORG:1
+treufinanz	ORG:1
+trevi	ORG:1
+tribunale	TSO:1	PREFIX:2
+tribunale ecclesiastico	ORG:1
+tribunale regionale	ORG:1
+tributi	NIL:1
+tributo	NIL:1
+trinova	ORG:1
+trivenet	ORG:1
+trony	ORG:1
+tropel	ORG:1
+tropicana	ORG:1
+trw	ORG:1
+ts	ORG:1
+tsmc	ORG:1
+tubosider	ORG:1
+tuc	ORG:1
+tungsram	ORG:1
+turbo	PREFIX:1
+turbo -	PREFIX:1
+turbo - union	ORG:1
+tuttosport	ORG:1
+twa	ORG:1
+txt	ORG:1
+tylan	ORG:1
+tyrolean	PREFIX:1
+tyrolean airways	ORG:1
+tyrone	ORG:1
+u	PREFIX:1
+u -	PREFIX:1
+u - lite	ORG:1
+u.c.	ORG:1
+u.d.c.	ORG:1
+u.n.	ORG:1
+u.n.e.s.c.o.	ORG:1
+u.s.	TSO:1
+u2	ORG:1
+ual	ORG:1
+uc	ORG:1	TSO:1
+ucaii	ORG:1
+ucd	ORG:1
+uci	ORG:1
+uck	ORG:1
+ucoii	ORG:1
+ucsi	ORG:1
+udace	ORG:1
+udc	ORG:1
+udeur	ORG:1
+udinese	ORG:1
+udr	ORG:1
+uefa	ORG:1
+uffici	PREFIX:1
+uffici comunali	ORG:1
+ufficio	TSO:1	PREFIX:3
+ufficio del	PREFIX:1
+ufficio del comune	ORG:1
+ufficio delle	PREFIX:1
+ufficio delle entrate	ORG:1
+ufficio entrate	ORG:1
+ufip	ORG:1
+ugl	ORG:1
+uhde	ORG:1
+uil	ORG:1
+uilm	ORG:1
+uiltucs	ORG:1
+uisp	ORG:1
+ukraine	PREFIX:1
+ukraine international	PREFIX:1
+ukraine international airlines	ORG:1
+ulcem	ORG:1
+ulivo	ORG:1
+ultratech	ORG:1
+umw	ORG:1
+under	ORG:1	PREFIX:3
+under 16	ORG:1
+under 18	ORG:1
+under 21	ORG:1
+under18	ORG:1
+under21	ORG:1
+unesco	ORG:1
+unicao	ORG:1
+unicef	ORG:1
+unicem	ORG:1
+unico	NIL:1
+unicredit	ORG:1
+unicredito	ORG:1	PREFIX:1
+unicredito italiano	ORG:1
+uniden	ORG:1
+unido	ORG:1
+unifarm	ORG:2
+unilever	ORG:1
+unilot	ORG:1
+unimedia	PREFIX:1
+unimedia group	ORG:1
+union	TSO:1
+unioncamere	ORG:1
+unione	TSO:1	PREFIX:6
+unione democratica	ORG:1	PREFIX:2
+unione democratica di	PREFIX:1
+unione democratica di centro	ORG:1
+unione democratica per	PREFIX:1
+unione democratica per la	PREFIX:1
+unione democratica per la repubblica	ORG:1
+unione radiofonica	PREFIX:1
+unione radiofonica italiana	ORG:1
+unione sarda	ORG:1
+unione sportiva	ORG:1
+unipol	ORG:1
+uniriscossioni	ORG:1
+uniroyal	ORG:1
+unisys	ORG:1
+united	TEO:1	PREFIX:6
+united -	PREFIX:2
+united - internet	ORG:1	PREFIX:1
+united - internet -	PREFIX:1
+united - internet - team	ORG:1
+united airlines	ORG:1
+united artists	ORG:1
+united internet	ORG:1	PREFIX:1
+united internet team	PREFIX:1
+united internet team germany	ORG:1
+unità	TSO:1
+university	TSO:1
+università	TSO:1
+unix	NIL:1
+unocal	ORG:1
+upea	ORG:1	PREFIX:1
+upea capo	PREFIX:1
+upea capo d'	PREFIX:1
+upea capo d' orlando	ORG:1
+upim	ORG:1
+upjohn	ORG:1
+upn	ORG:1
+upr	ORG:1
+ups	ORG:1
+urenco	ORG:1
+uri	ORG:1
+us	TSO:1	PREFIX:1
+us airways	ORG:1
+usaid	ORG:1
+usair	ORG:1
+usg	ORG:1
+usinor	ORG:1	PREFIX:1
+usinor -	PREFIX:1
+usinor - sacilor	ORG:1
+uss	PREFIX:1
+uss -	PREFIX:1
+uss - posco	ORG:1
+ust	ORG:1
+usx	ORG:1
+uta	ORG:1
+ute	ORG:2
+uzbekistan	PREFIX:1
+uzbekistan airways	ORG:1
+val	PREFIX:2
+val d'	PREFIX:1
+val d' adige	PREFIX:1
+val d' adige mineraria	ORG:1
+val rendena	PREFIX:1
+val rendena funivie	ORG:1
+valcantieri	ORG:1
+valentino	PREFIX:1
+valentino fashion	ORG:1
+valfiemme	ORG:1	PREFIX:1
+valfiemme legnami	ORG:1
+valgas	ORG:1
+valhi	ORG:1
+valman	ORG:1
+valsugana	PREFIX:1
+valsugana fiere	ORG:1
+valujet	ORG:1
+vap	ORG:1
+varian	ORG:1
+varsavia	ORG:1
+varta	ORG:1
+vault13	ORG:1
+vauxhall	ORG:1
+vcai	ORG:1
+vemer	ORG:1	PREFIX:1
+vemer siber	ORG:1
+veneto	PREFIX:1
+veneto strade	ORG:1
+veniceplaza	ORG:1
+verdi	ORG:1
+verinox	ORG:1
+vermigliana	ORG:1
+versace	ORG:1
+vertical	PREFIX:3
+vertical vision	ORG:1	PREFIX:2
+vertical vision cantu'	ORG:1
+vertical vision cantÙ	ORG:1
+vesta	ORG:1
+vestimenta	ORG:2
+vf	ORG:1
+vh1	ORG:1
+via	PREFIX:2
+via segantini	ORG:1
+via solferino	ORG:1
+viacom	ORG:1
+viale	PREFIX:1
+viale mazzini	ORG:1
+vianini	PREFIX:1
+vianini lavori	ORG:1
+victory	PREFIX:2
+victory -	PREFIX:1
+victory - challenge	ORG:1
+victory challenge	ORG:1
+videoton	ORG:1
+vidivici	ORG:1	PREFIX:1
+vidivici bologna	ORG:1
+vikay	ORG:1
+villarreal	ORG:1
+villegno	ORG:1
+vimar	ORG:1
+vinante	PREFIX:1
+vinante costruzioni	ORG:1
+vini	TSO:1
+vinifin	ORG:1
+viola	PREFIX:1
+viola reggio	PREFIX:1
+viola reggio calabria	ORG:1
+virgin	PREFIX:1
+virgin atlantic	ORG:1
+virtus	TSO:1
+viscodrive	ORG:1
+vista	NIL:2
+vita	PREFIX:1
+vita trentina	ORG:1
+vitaminic	ORG:1
+vitkovice	ORG:1
+vitoria	PREFIX:1
+vitoria setubal	ORG:1
+vitromatic	ORG:1
+vittoria	PREFIX:1
+vittoria assicurazioni	ORG:1
+vneshtorgizdat	ORG:1
+vneshtorgreklama	ORG:1
+vodafone	ORG:1
+vodaphone	ORG:1
+volksbank	ORG:1
+volkspartei	ORG:1
+volkswagen	ORG:1	PREFIX:5
+volkswagen golf	NIL:1
+volkswagen lupo	NIL:1
+volkswagen passat	NIL:1
+volkswagen polo	NIL:1
+volkswagen touareg	NIL:1
+volley	TSO:1	PREFIX:3
+volley -	PREFIX:1
+volley - 4	PREFIX:1
+volley - 4 asia	ORG:1
+volley 4	PREFIX:1
+volley 4 asia	ORG:1
+volley land	ORG:1
+volvo	PREFIX:2
+volvo c30	NIL:1
+volvo s40	NIL:1
+vulcanair	ORG:1
+vw	ORG:1	PREFIX:4
+vw golf	NIL:1
+vw lupo	NIL:1
+vw passat	NIL:1
+vw polo	NIL:1
+vyrus	ORG:1
+wacoal	ORG:1
+wal	PREFIX:1
+wal -	PREFIX:1
+wal - mart	ORG:1
+wall	PREFIX:2
+wall street	ORG:1	PREFIX:1
+wall street journal	ORG:1
+wally	PREFIX:1
+wally blu	ORG:1
+walmart	ORG:1
+walt	PREFIX:1
+walt disney	ORG:1
+waltdisney	ORG:1
+warner	PREFIX:3
+warner -	PREFIX:1
+warner - lambert	ORG:1
+warner bros	ORG:1
+warner brothers	ORG:1
+warnerbros	ORG:1
+wartburg	ORG:1
+washington	PREFIX:1
+washington post	ORG:1
+watford	ORG:1
+watkins	PREFIX:1
+watkins -	PREFIX:1
+watkins - johnson	ORG:1
+wavemat	ORG:1
+waxman	ORG:1
+wbc	PREFIX:2
+wbc -	PREFIX:1
+wbc - welter	ORG:1
+wbc welter	ORG:1
+web	NIL:1	PREFIX:1
+web browser	NIL:1
+webcast	ORG:1
+webcor	ORG:1
+wedgwood	ORG:1
+wellman	ORG:1
+werder	PREFIX:1
+werder brema	ORG:1
+wespec	ORG:1
+west	PREFIX:2
+west ham	ORG:1	PREFIX:1
+west ham united	ORG:1
+western	PREFIX:1
+western pacific	PREFIX:1
+western pacific airlines	ORG:1
+westfield	ORG:1
+westinghouse	ORG:1
+westlb	ORG:1
+westvaco	ORG:1
+weyerhaeuser	ORG:1
+whirlpool	ORG:1	PREFIX:1
+whirlpool varese	ORG:1
+whirpool	ORG:1
+whitewater	ORG:1
+whitman	ORG:1
+wi	PREFIX:1
+wi fi	NIL:1
+wickes	ORG:1
+wide	PREFIX:1
+wide web	ORG:1
+wifi	NIL:1
+wigan	ORG:1
+williams	ORG:1	PREFIX:2
+williams -	PREFIX:2
+williams - sonoma	ORG:1
+williams - toyota	ORG:1
+willimas	PREFIX:1
+willimas -	PREFIX:1
+willimas - toyota	ORG:1
+wimbledon	ORG:1
+wimpey	ORG:1
+wind	ORG:1
+windbond	ORG:1
+windows	NIL:1	PREFIX:2
+windows vista	NIL:1
+windows xp	NIL:1
+wireless	NIL:1
+wisla	PREFIX:1
+wisla cracovia	ORG:1
+witco	ORG:1
+wnyw	PREFIX:1
+wnyw -	PREFIX:1
+wnyw - tv	ORG:1
+wonderbra	ORG:1
+woolco	ORG:1
+woolworth	ORG:1
+world	PREFIX:2
+world airways	ORG:1
+world cup	ORG:1
+wrangler	ORG:1
+wrc	NIL:1
+wrigley	ORG:1
+wrm	ORG:1	PREFIX:1
+wrm motorcycles	ORG:1
+wuolter	ORG:1
+wurns	ORG:1
+wwf	ORG:1
+xanthi	ORG:1
+xerox	ORG:1
+xsara	PREFIX:1
+xsara picasso	NIL:1
+yahoo	ORG:1
+yakult	ORG:1
+yamatake	ORG:1	PREFIX:1
+yamatake -	PREFIX:1
+yamatake - honeywell	ORG:1
+yamuna	ORG:1
+yankees	ORG:1
+yanmar	ORG:1
+yaohan	ORG:1
+yelaz	ORG:1
+yell	ORG:1
+ymca	ORG:1
+yokogawa	ORG:1
+yueloong	ORG:1
+ywca	ORG:1
+zanghellini	PREFIX:1
+zanghellini asfalti	ORG:1
+zastava	ORG:1
+zeni	PREFIX:1
+zeni pitture	ORG:1
+zenith	ORG:1
+zignago	ORG:1
+zobele	PREFIX:1
+zobele holding	ORG:1
+zoppas	ORG:1
+zortea	ORG:1
+zugliani	ORG:1
+zulte	PREFIX:1
+zulte waregem	ORG:1
