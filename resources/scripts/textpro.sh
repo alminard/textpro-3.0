@@ -10,10 +10,10 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 . $DIR/conf/config.properties 
 
-CLASSPATH=$TEXTPROHOME
+TEXTPROHOME=$DIR
+LOCALCLASSPATH=$TEXTPROHOME
 for JAR in `ls $TEXTPROHOME/lib/*.jar` ; do
-        CLASSPATH=$CLASSPATH:$JAR;
+        LOCALCLASSPATH=$LOCALCLASSPATH:$JAR;
 done
-
-$JAVA_HOME/bin/java -Dfile.encoding=UTF8 $TEXTPROMEM -cp "$CLASSPATH" eu.fbk.textpro.wrapper.wrapper $* >& log.txt
-
+###-y -v -c token -i Facebook-testset.txt
+$JAVA_HOME/bin/java -Dfile.encoding=UTF8 $TEXTPROMEM -cp "$LOCALCLASSPATH" eu.fbk.textpro.wrapper.wrapper $DIR/conf/config.properties $*
