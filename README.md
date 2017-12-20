@@ -1,7 +1,7 @@
                      -------- TextPro v3.0 -------
 
          --- FBK (Fondazione Bruno Kessler, Povo, Italy) ----
---- Anne-Lyse Minard, Mohammed Qwaider, Emanuele Pianta, Christian Girardi, Roberto Zanoli ----
+--- Mohammed Qwaider, Anne-Lyse Minard, Emanuele Pianta, Christian Girardi, Roberto Zanoli ----
 
 TextPro supports the most common NLP tasks, such as tokenization, sentence segmentation, part-of-speech tagging, lemmatization, named entity extraction, chunking and keywords extraction for Italian and English.
 
@@ -40,46 +40,52 @@ RUN
 TextPro 3.0 can be also used in client-server mode. 
 
 1) Client-server mode:
-- Launch the server
+* Launch the server
+
 $> bash start-server.sh
 
 When you see "Start listening to server name: ..." the server is ready to be used.
 
-- Call TextPro (on an other terminal)
+* Call TextPro (on an other terminal)
+
 $> bash textpro-client.sh -l ita -c token+pos -i example_ita.txt
 
 2) Classic mode:
+
 $> textpro.sh -l ita -c token+pos -i example_ita.txt
 
 
 EXAMPLES 
 
-- Part of Speech tagging for Italian language:
+* Part of Speech tagging for Italian language:
+
 $> textpro.sh -l ita -c token+pos -o /tmp/ -i example_ita.txt
 
-- Named Entity Recognition for English language:
+* Named Entity Recognition for English language:
+
 $> textpro.sh -l eng -c token+entity -o /tmp/ -i example_eng.txt
 
 
 HELP
 ----
 $> ./textpro.sh -h
+
 Usage:
    textpro.sh [OPTIONS] <INPUT FILE or DIR>
 
 Options:
--h                                    show the help and exit;
--debug                                debug mode, do not delete tmp-files and to get more verbose output;
--report                               check the input text and print a report on the unknown things;
--v                                    verbose mode;
--html                                 clean html input file; the relevant text is kept as input text;
--l        <LANGUAGE>                  the language: 'eng' or 'ita' are possible; 'eng' is the default;
--c        <COLUMN or HEADER fields> the sequence of column values: token+tokenid+tokennorm+tokenstart+tokenend+tokentype+pos+full_morpho+comp_morpho+lemma+entity+chunk+timex+tmxvalue+tmxid+tmxanchor+beginpoint+endpoint+mod;
--o        <DIRNAME>                   the output directory path;
--n        <FILENAME>                  the output filename. If this value is specified the output is redirected to the file named as FILENAME. By default the file named as INPUTFILE plus '.txp' suffix;
--y                                    force rewriting all existing output files;
--dis        tokenization+sentence       disable the tokenization or/and sentence splitting;
--r                                    process all files in the input directory recursively;
--dct	  <DCT>			      set the document creation time.
--i	  <INPUT FILE or DIR>	      input raw text, html text or directory.
--type	  colloquial		      the texts to process are colloquial texts (avialable only for French)
+*-h                                    show the help and exit;
+*-debug                                debug mode, do not delete tmp-files and to get more verbose output;
+*-report                               check the input text and print a report on the unknown things;
+*-v                                    verbose mode;
+*-html                                 clean html input file; the relevant text is kept as input text;
+*-l        <LANGUAGE>                  the language: 'eng' or 'ita' are possible; 'eng' is the default;
+*-c        <COLUMN or HEADER fields> the sequence of column values: token+tokenid+tokennorm+tokenstart+tokenend+tokentype+pos+full_morpho+comp_morpho+lemma+entity+chunk+timex+tmxvalue+tmxid+tmxanchor+beginpoint+endpoint+mod;
+*-o        <DIRNAME>                   the output directory path;
+*-n        <FILENAME>                  the output filename. If this value is specified the output is redirected to the file named as FILENAME. By default the file named as INPUTFILE plus '.txp' suffix;
+*-y                                    force rewriting all existing output files;
+*-dis        tokenization+sentence       disable the tokenization or/and sentence splitting;
+*-r                                    process all files in the input directory recursively;
+*-dct	  <DCT>			      set the document creation time.
+*-i	  <INPUT FILE or DIR>	      input raw text, html text or directory.
+*-type	  colloquial		      the texts to process are colloquial texts (avialable only for French)
