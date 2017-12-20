@@ -74,18 +74,18 @@ Usage:
    textpro.sh [OPTIONS] <INPUT FILE or DIR>
 
 Options:
-*-h                                    show the help and exit;
-*-debug                                debug mode, do not delete tmp-files and to get more verbose output;
-*-report                               check the input text and print a report on the unknown things;
-*-v                                    verbose mode;
-*-html                                 clean html input file; the relevant text is kept as input text;
-*-l        <LANGUAGE>                  the language: 'eng' or 'ita' are possible; 'eng' is the default;
-*-c        <COLUMN or HEADER fields> the sequence of column values: token+tokenid+tokennorm+tokenstart+tokenend+tokentype+pos+full_morpho+comp_morpho+lemma+entity+chunk+timex+tmxvalue+tmxid+tmxanchor+beginpoint+endpoint+mod;
-*-o        <DIRNAME>                   the output directory path;
-*-n        <FILENAME>                  the output filename. If this value is specified the output is redirected to the file named as FILENAME. By default the file named as INPUTFILE plus '.txp' suffix;
-*-y                                    force rewriting all existing output files;
-*-dis        tokenization+sentence       disable the tokenization or/and sentence splitting;
-*-r                                    process all files in the input directory recursively;
-*-dct	  <DCT>			      set the document creation time.
-*-i	  <INPUT FILE or DIR>	      input raw text, html text or directory.
-*-type	  colloquial		      the texts to process are colloquial texts (avialable only for French)
+* -h                                    show the help and exit;
+* -debug                                debug mode, do not delete tmp-files and to get more verbose output;
+* -report                               check the input text and print a report on the unknown things;
+* -v                                    verbose mode;
+* -html                                 clean html input file; the relevant text is kept as input text;
+* -l        <LANGUAGE>                  the language: 'eng' or 'ita' are possible; 'eng' is the default;
+* -c        <COLUMN or HEADER fields> the sequence of column values: token+tokenid+tokennorm+tokenstart+tokenend+tokentype+pos+full_morpho+comp_morpho+lemma+entity+chunk+tmx+tmxvalue+tmxid+tmxanchor+beginpoint+endpoint+mod;
+* -o        <DIRNAME>                   the output directory path;
+* -n        <FILENAME>                  the output filename. If this value is specified the output is redirected to the file named as FILENAME. By default the file named as INPUTFILE plus '.txp' suffix;
+* -y                                    force rewriting all existing output files;
+* -dis        tokenization+sentence       disable the tokenization or/and sentence splitting;
+* -r                                    process all files in the input directory recursively;
+* -dct	  <DCT>			      set the document creation time.
+* -i	  <INPUT FILE or DIR>	      input raw text, html text or directory.
+* -type	  colloquial		      the texts to process are colloquial texts (avialable only for French)
