@@ -381,8 +381,8 @@ public class TimeProNormApplyEN {
 				String newTimex = "";
 				
 				
-				if(i+3<lines.length && lines[i+2] != null && lines[i+2][colTimex] != null && lines[i+1][colPOS] != null
-						&& lines[i+2][colTimex].startsWith("B-") && lines[i+1] != null 
+				if(i+3<lines.length && lines[i+2] != null && lines[i+1] != null && lines[i+2][colTimex] != null && lines[i+1][colPOS] != null
+						&& lines[i+2][colTimex].startsWith("B-")  
 						&& (lines[i+1][colPOS].equals("CJC") || lines[i+1][colPOS].equals("TO0"))
 						&& lines[i+3] != null && lines[i+3][colTimex] != null && lines[i+3][colTimex].startsWith("I-")){
 					if(lines[i+2][colRules].equals(lines[i][colRules])){

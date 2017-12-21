@@ -46,7 +46,7 @@ import cc.mallet.types.Sequence;
 import cc.mallet.util.FileUtils;
 
 public class MLMallet{
-	public  Classifier classifier;
+	public static Classifier classifier;
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException{
 		
@@ -343,6 +343,7 @@ public class MLMallet{
 	 public Classifier loadClassifier(File serializedFile)
         throws FileNotFoundException, IOException, ClassNotFoundException {
 
+		 System.out.println("load classifier");
         // The standard way to save classifiers and Mallet data                                            
         //  for repeated use is through Java serialization.                                                
         // Here we load a serialized classifier from a file.                                               
@@ -535,9 +536,15 @@ public class MLMallet{
 	}
 	
 	public Stream<String> classify (String fileModel, Collection<String> fileTest, boolean eval,learner ln, String algo) throws ClassNotFoundException, IOException{
-		if(classifier == null)
-		 classifier = loadClassifier(new File(fileModel));		
+		if(classifier == null) {
+			classifier = loadClassifier(new File(fileModel));	
+		}
+		int i = 0;
 		LinkedList<String> ret = new LinkedList<String>();
+		InstanceList testInstances = new InstanceList(classifier.getInstancePipe());
+		
+		Classification classified = null;
+		
 		for(String as:fileTest){
 			if(as.trim().length()>0){
 			//Add the FT features here
@@ -573,15 +580,16 @@ public class MLMallet{
 				//System.out.println(as);
 				
 				if(algo.equals("svm")) {
-					InstanceList testInstances = new InstanceList(classifier.getInstancePipe());
 					testInstances.addThruPipe(getObjClassify(as));
 					
-					Classification classified = classifier.classify(testInstances.get(0));
+					classified = classifier.classify(testInstances.get(i));
 					//System.out.println(classified.getLabeling().getBestIndex());
 					ret.add(classified.getLabeling().getBestLabel().toString());
+
+					i++;
 				}
 				else {
-					Classification classified = classifier.classify(as);
+					classified = classifier.classify(as);
 					//System.out.println(classified.getLabeling().getBestIndex());
 					ret.add(classified.getLabeling().getBestLabel().toString());
 				}

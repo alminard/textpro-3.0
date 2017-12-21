@@ -80,8 +80,10 @@ public class toolbox {
 			for (File file : faFiles) {
 				variables.setInfile(file);
 
+				if(variables.getOutputDir() == null || variables.getOutputDir().equals("")) {
+					variables.setOutputDir(variables.getInfile().getParent());
+				}
 				
-				variables.setOutputDir(variables.getInfile().getParent());
 			
 				variables.setOutputFileName(variables.getInfile().getName()
 						+ ".txp");

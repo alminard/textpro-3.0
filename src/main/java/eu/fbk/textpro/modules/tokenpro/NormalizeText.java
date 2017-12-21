@@ -33,7 +33,7 @@ public class NormalizeText {
     private Hashtable<String,String> charCategory = new Hashtable<String,String>();
     private Hashtable<String,String> charNormalize = new Hashtable<String,String>();
     private Hashtable<String,String> charSplitter = new Hashtable<String,String>();
-    private static Hashtable<String,String> listAbbr = new Hashtable<String,String>();
+    private static Hashtable<String,Hashtable<String,String>> listAbbr = new Hashtable<String,Hashtable<String,String>>();
 
     //class of characters use to write the normal words
     private List typesOfWords = new ArrayList();
@@ -112,7 +112,8 @@ public class NormalizeText {
                 }
             }
 
-	    read_abbr_file(TEXTPROVARIABLES.getTEXTPROPATH() + "/conf/abbreviations.lst");
+	    listAbbr.put("fre", read_abbr_file(TEXTPROVARIABLES.getTEXTPROPATH() + "/conf/abbreviations-fr.lst"));
+	    listAbbr.put("eng", read_abbr_file(TEXTPROVARIABLES.getTEXTPROPATH() + "/conf/abbreviations-en.lst"));
 
 
         } catch (ParserConfigurationException e) {
@@ -266,37 +267,39 @@ OTH
         return "OTH";
     }
 
-    //For French, get long form in case of abbreviation (e.g. jan for janvier) and add an apostroph if missing
-    private String getLongForm (String nrml){
-	nrml = convert_abbreviation(nrml);
-
-	if (nrml.matches("^((l)|(t)|(j)|(d)|(n)|(qu))$")){
-		nrml += "'";
-	}
-	return nrml;
+    //For French and English, get long form in case of abbreviation (e.g. jan for janvier) and add an apostroph if missing
+    private String getLongForm (String nrml, String lang){
+		nrml = convert_abbreviation(nrml, lang);
+	
+		if (nrml.matches("^((l)|(t)|(j)|(d)|(n)|(qu))$")){
+			nrml += "'";
+		}
+		return nrml;
     }
 
-    private String convert_abbreviation(String str){
-	String norm="";
-	if (listAbbr.containsKey(str.toLowerCase())){
-	    norm = listAbbr.get(str.toLowerCase());
-	}
-	else{
-	    norm = str;
-	}
-	return norm;
+    private String convert_abbreviation(String str, String lang){
+		String norm="";
+		if (listAbbr.containsKey(str.toLowerCase())){
+		    norm = listAbbr.get(lang).get(str.toLowerCase());
+		}
+		else{
+		    norm = str;
+		}
+		return norm;
     }
 
-    private void read_abbr_file (String fileName) throws IOException{
+    private Hashtable<String,String> read_abbr_file (String fileName) throws IOException{
+    	Hashtable<String,String> hash = new Hashtable<String,String>();
 		FileReader fr = new FileReader(fileName);
 		BufferedReader br=new BufferedReader(fr);
 		String line;
 		while ((line=br.readLine())!=null){
 		    if (line.contains("\t")){
-			String [] elts = line.split("\t");
-			listAbbr.put(elts[0], elts[1]);
+				String [] elts = line.split("\t");
+				hash.put(elts[0], elts[1]);
 		    }
 		}
+		return hash;
     }
 
     public String normalize(String str, String lang) {
@@ -309,8 +312,11 @@ OTH
         }
         else if(lang.equalsIgnoreCase("fre")){
         	nrml = Normalizer.normalize(str, Normalizer.Form.NFC);
-        	nrml = getLongForm(nrml);
         } 
+        
+        if (lang.equalsIgnoreCase("fre") || lang.equalsIgnoreCase("eng")) {
+        	nrml = getLongForm(nrml, lang);
+        }
 	
         String strnorm = "";
         for (int i=0;i<nrml.length();i++) {

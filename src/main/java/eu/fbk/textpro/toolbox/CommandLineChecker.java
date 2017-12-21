@@ -424,6 +424,23 @@ public class CommandLineChecker {
 					.getInfile()));
 			}
 			
+			
+			
+			
+			if (tools.variables.getInfile().isFile()  && !tools.variables.isY() 
+					&& new File(tools.variables.getOutputDir()+"/"+tools.variables.getOutputFileName()).exists()) {
+				
+				System.err
+					.println("WARNING! The output file "
+							+ tools.variables.getOutputDir()+"/"+tools.variables.getOutputFileName()
+							+ " already exists. Run TextPro again using rewrite mode to on (see the option -y)");
+				return TEXTPROCONSTANT.process_error_continue;
+				
+				//System.exit(0);
+			}
+
+			
+			
 			return tryt.checkUserTaskAccomplishable(tools.variables.getUserModelsToRun());
 		} catch (JAXBException | IOException e) {
 			e.printStackTrace();

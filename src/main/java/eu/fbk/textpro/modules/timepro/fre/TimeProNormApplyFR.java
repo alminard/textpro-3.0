@@ -232,14 +232,14 @@ public class TimeProNormApplyFR {
 							}
 							else{
 								for(int l=i+numTok+1; l<lines.length; l++){
-									if(lines[l][colTimexID].startsWith("tmx")){
+									if(lines[l] != null && lines[l][colTimexID].startsWith("tmx")){
 										if(lines[l][colRules].matches("_UNIT_") || lines[l][colRules].matches("_MONTH_")){
 											timex = timex + " "+ lines[l][colToken];
 											modify = true;
 											break;
 										}
 									}
-									else if(lines[l][colTimexID] == null || !lines[l][colTimexID].startsWith("tmx")){
+									else if(lines[l] != null && (lines[l][colTimexID] == null || !lines[l][colTimexID].startsWith("tmx"))){
 										break;
 									}
 								}
@@ -302,7 +302,7 @@ public class TimeProNormApplyFR {
 							ls = i+numTok+5;
 						}
 						for(int l=i+numTok-1; l<ls; l++){
-							if (lines[l][colRules] != null && (lines[l][colRules].equals("_UNIT_") || lines[l][colRules].equals("_MONTH_"))){
+							if (lines[l] != null && lines[l][colRules] != null && (lines[l][colRules].equals("_UNIT_") || lines[l][colRules].equals("_MONTH_"))){
 								timex += " "+lines[l][colToken];
 								break;
 							}
@@ -332,7 +332,7 @@ public class TimeProNormApplyFR {
 						timex = timex.replace("un minimum de ","");
 					}
 					
-					else if(i>0 && lines[i-1][colToken] != null){ // && lines[i-1][colRules-1].equals("_SIGNAL_")){
+					else if(i>0 && lines[i-1] != null && lines[i-1][colToken] != null){ // && lines[i-1][colRules-1].equals("_SIGNAL_")){
 						boolean inPD = false;
 						for (int l=i; l<i+timex.split(" ").length; l++){
 							if (lines[l][colRules].equals("_PD_")){

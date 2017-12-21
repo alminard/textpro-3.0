@@ -26,7 +26,7 @@ import java.util.stream.Stream;
 
 public class learner {
 	
-	parameters pr;
+	public parameters pr;
 	public static void main(String[] args) throws IOException {
 		//String feature = "F:-1..1:0..2 FB:0..0:1..2";
 		String feature ="F:-1..-1:6,7 F:0..0:1,2,4,7 F:1..1:6,7";
@@ -447,7 +447,9 @@ public class learner {
 				.orElse(entry)
 				.getKey();
 	}
+	
 	public void init(File fileDirKey) {
+		
 		try {
 			getParameterObjSerialized(fileDirKey);
 		} catch (IOException e) {
