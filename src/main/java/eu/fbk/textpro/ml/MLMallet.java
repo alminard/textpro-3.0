@@ -46,7 +46,7 @@ import cc.mallet.types.Sequence;
 import cc.mallet.util.FileUtils;
 
 public class MLMallet{
-	public static Classifier classifier;
+	public Classifier classifier;
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException{
 		
@@ -343,7 +343,6 @@ public class MLMallet{
 	 public Classifier loadClassifier(File serializedFile)
         throws FileNotFoundException, IOException, ClassNotFoundException {
 
-		 System.out.println("load classifier");
         // The standard way to save classifiers and Mallet data                                            
         //  for repeated use is through Java serialization.                                                
         // Here we load a serialized classifier from a file.                                               

@@ -183,7 +183,7 @@ public class TimeProNormApplyFR {
 				
 				//"ore 17 - 23" --> two timexes "ore 17" and "ore 23"
 				if(step2){
-					if(timex.matches("([012])?[0-9]") && i > 3 && lines[i-3][colToken].equals("heures")){
+					if(timex.matches("([012])?[0-9]") && i > 3 && lines[i-3] != null && lines[i-3][colToken].equals("heures")){
 						timex = "heures "+timex;
 					}
 					else if(timex.matches("([012])?[0-9]( h)?( ?[0-9]*)")){
@@ -195,7 +195,7 @@ public class TimeProNormApplyFR {
 						
 						//for(int l=li; l<i; l++){
 						for(int l=i-1; l>li; l--){
-							if(lines[l][colToken] != null && lines[l][colToken].equals("heures") && lines[l][colToken].equals("h")){
+							if(lines[l] != null && lines[l][colToken] != null && lines[l][colToken].equals("heures") && lines[l][colToken].equals("h")){
 								modify = true;
 								break;
 							}
@@ -208,7 +208,7 @@ public class TimeProNormApplyFR {
 							}
 	
 							
-							if(lines[l][colRules] == null){
+							if(lines[l] != null && lines[l][colRules] == null){
 								break;
 							}
 						}
@@ -255,7 +255,7 @@ public class TimeProNormApplyFR {
 						
 						if(!modify){
 							//System.out.println("test");
-							if(lines[i+numTok][colToken].equals("et") || (lines[i+numTok][colToken].equals("ou"))){
+							if(lines[i+numTok] != null && (lines[i+numTok][colToken].equals("et") || (lines[i+numTok][colToken].equals("ou")))){
 								for(int l=i+numTok+1; l<lines.length; l++){
 									//System.out.println(l);
 									if(lines[l] != null && lines[l].length >= colTimexID && lines[l][colTimexID] != null && lines[l][colTimexID].startsWith("tmx")){

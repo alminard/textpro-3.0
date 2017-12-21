@@ -40,6 +40,10 @@ public class TimePro implements TextProModuleInterface {
     static String modelFR="",
     		indexFR="";
     static MLMallet mlFR = new MLMallet();
+    static learner lnFRC = new learner();
+    static String modelFRC="",
+    		indexFRC="";
+    static MLMallet mlFRC = new MLMallet();
     static ProcessFeatures pf;
     static String algo = "svm";
     
@@ -50,6 +54,8 @@ public class TimePro implements TextProModuleInterface {
         indexEN=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_EN_INDEX");
         modelFR=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_MODEL");
         indexFR=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_INDEX");
+        modelFRC=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_C_MODEL");
+        indexFRC=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_C_INDEX");
     	
         language = params[0];
         
@@ -99,6 +105,19 @@ public class TimePro implements TextProModuleInterface {
 	        if(lnFR == null) {
 	        	lnFR.init(new File(indexFR));
 	        }
+	        if(mlFRC.classifier == null)
+				try {
+					mlFRC.classifier = mlFRC.loadClassifier(new File(modelFRC));
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+				} catch (ClassNotFoundException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+	        if(lnFRC == null) {
+	        	lnFRC.init(new File(indexFRC));
+	        }
         }
         
         if(pf == null) {
@@ -111,6 +130,7 @@ public class TimePro implements TextProModuleInterface {
 			throws Exception {
     	
     	String [] params = {tools.variables.getLanguage().substring(0,3).toUpperCase()};
+    	
     	
     	if(mlFR.classifier == null || mlEN.classifier == null || ml.classifier == null) {
     		init(params,tools.variables.getProp());
@@ -242,11 +262,18 @@ public class TimePro implements TextProModuleInterface {
 		
 		algo = "svm";		
 		
-		mlFR
-		.classify(modelFR, lnFR.test(indexFR, filein.getFileLineByLineAsList(copyThisTokens,false)), false,lnFR,algo)
-		.map(e-> e.trim().length()>0? lnFR.getTag(indexFR, Integer.parseInt(e)):e)
-		.forEach(columValues::addLast);	
-		
+		if(tools.variables.isColloquialLanguage()){
+			mlFRC
+			.classify(modelFRC, lnFRC.test(indexFRC, filein.getFileLineByLineAsList(copyThisTokens,false)), false,lnFRC,algo)
+			.map(e-> e.trim().length()>0? lnFRC.getTag(indexFRC, Integer.parseInt(e)):e)
+			.forEach(columValues::addLast);
+		}
+		else{
+			mlFR
+			.classify(modelFR, lnFR.test(indexFR, filein.getFileLineByLineAsList(copyThisTokens,false)), false,lnFR,algo)
+			.map(e-> e.trim().length()>0? lnFR.getTag(indexFR, Integer.parseInt(e)):e)
+			.forEach(columValues::addLast);	
+		}
 		filein.addColumn("tmx", columValues );
 		
 		String dct = getDocumentCreationTime(tools);
