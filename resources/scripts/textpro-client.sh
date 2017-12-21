@@ -11,6 +11,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
 . $DIR/conf/config.properties 
 
+TEXTPROHOME=$DIR
 LOCALCLASSPATH=$TEXTPROHOME
 for JAR in `ls $TEXTPROHOME/lib/*.jar` ; do
         LOCALCLASSPATH=$LOCALCLASSPATH:$JAR;
