@@ -1,0 +1,23 @@
+Models built with the following parameters:
+
+- training: eventi (EVALITA 2014) training set
+- svn
+- F:-4..4:0..6 T:-4..-1
+0: token
+1: pos
+2: lemma
+3: chunk
+4: entity
+5: Rule1
+6: Rule2
+
+- evaluation against eventi (EVALITA 2014) test set
+processed 20765 tokens with 444 phrases; found: 384 phrases; correct: 320.
+accuracy:  98.72%; precision:  83.33%; recall:  72.07%; FB1:  77.29
+             DATE: precision:  82.16%; recall:  77.00%; FB1:  79.50
+         DURATION: precision:  82.89%; recall:  66.32%; FB1:  73.68
+              SET: precision:  88.89%; recall:  32.00%; FB1:  47.06
+             TIME: precision:  93.33%; recall:  75.68%; FB1:  83.58
+
+
+
