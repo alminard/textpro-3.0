@@ -2,31 +2,31 @@
 
   parts_of_the_day = "^(sta)*(mattina|mattino|mattinata|mattutino|pomeriggio|pomeridiano|sera|serata|serale|vigilia|notte|nottata|nottetempo|mezzogiorno|mezzanotte|man[ie])$";
 
-  day = "^(luned.|marted.|mercoled.|gioved.|venerd.|sabato|domenica|lun\\.?|mar\\.?|mart\\.?|mer\\.?|merc\\.?|gio\\.?|giov\\.?|ven\\.?|sab\\.?|dom\\.?|domen\\.?)$";
+  day = "^(luned.|marted.|mercoled.|gioved.|venerd.|sabato|domenica|lun\\.?|mar\\.?|mart\\.?|mer\\.?|merc\\.?|gio\\.?|giov\\.?|ven\\.?|sab\\.?|dom\\.?|domen\\.?)['`]?$";
 
   month = "^(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre|gen\\.?|genn\\.?|feb\\.?|febb\\.?|mar\\.?|apr\\.?|mag\\.?|magg\\.?|giu\\.?|giug\\.?|lug\\.?|ago\\.?|set\\.?|sett\\.?|ot\\.?|ott\\.?|nov\\.?|dic\\.?)$";
 
   season = "^(primavera|estate|estiv[oa]|autunno|inverno)$";
 
-  number = "^(0?[1-9]|[1-2][0-9]|30|31)\\s?$";
+  number = "^(0?[1-9]|[1-2][0-9]|30|31)$";
 
-  yy = "^('[1-9][0-9]|[1-2][0-9][0-9][0-9])\\s?$";
+  yy = "^(('[1-9][0-9])|([1-2][0-9][0-9][0-9]))$";
 
-  time = "^(([1-9]|[0-1][0-9]|20|21|22|23|24)([:.,]([0-5][0-9]|60)([:.,][0-5][0-9]60)?))\\s?$";
+  time = "^(([1-9]|[0-1][0-9]|20|21|22|23|24)([:.,]([0-5][0-9]|60)([:.,][0-5][0-9]60)?))$";
 
-  duration = "^([0-9][0-9]?h)?([0-9][0-9]+\047)?([0-9][0-9]+)?$";
+  duration = "^([0-9][0-9]?[:.,])?([0-9][0-9]+')?([0-9][0-9]+\\")?$";
 
-  cardinal_number = "^(un|uno|una|due|tre|quattro|cinque|sei|sette|otto|nove|dieci|undici|dodici|tredici|quattordici|quindici|sedici|diciassette|diciotto|diciannove|vent|trent|quarant|cinquant|sessant|settant|ottant|novant|cento|cent|mille|mill|paio|coppia|dozzina)[a-z]*$";
+  cardinal_number = "^(un|uno|una|due|tre|quattro|cinque|sei|sette|otto|nove|dieci|undici|dodici|tredici|quattordici|quindici|sedici|diciassette|diciotto|diciannove|vent|trent|quarant|cinquant|sessant|settant|ottant|novant|cento|cent|mille|mill|paio|coppia|dozzina)[a-z']*$";
 
   ordinal_number = "^(primo|prima|secondo|seconda|terzo|terza|quarto|quarta|quinto|quinta)$";
 
-  mods = "^(alcuni|poco|breve|molto|qualche|diverso|parecchio|vario|ultimi|primi|quasi|circa|pressappoco|pressapoco|intorno|meno|pi[ùu]|over|oltre|sopra|dai|superiore|inferiore|massimo|fino|sotto|met[àa]|almeno|stesso|quest[oa]|quell?[oa]?|fine|inizio?|tard[oi]|post|quest[ie])$";
+  mods = "^(alcuni|poco|breve|molto|qualche|diverso|parecchio|vario|ultimi|primi|quasi|circa|pressappoco|pressapoco|intorno|meno|pi[ùu]['`]?|over|oltre|sopra|dai|superiore|inferiore|massimo|fino|sotto|met[àa]['`]?|almeno|stesso|quest[oa]|quell?[oa']?|fine|inizio?|tard[oi]|post|quest[ie])$";
 
   adverbs = "^(passat[oiae]|recent[ei]|recentemente|ultimamente|scors[oiae]|prima|present[ei]|ora|adesso|attualmente|tuttora|finora|attual[ei]|corrente|correntemente|allora|futuro|presto|appena|subito|prossimamente|prossim[oiae]|particolarmente|dopo|ben|corso|ultim[oiae]|precedent[ei]|f[àa]|addietro|successiv[oiae]|ventur[oiae]|seguent[ei]|entrant[ei]|qui|oggi|domani|indomani|domattina|dopodomani|ieri|altro|altroieri|pt|st)$";
 
   plurals = "^(mattin[ei]|mattinate|pomeriggi|sere|serate|vigilie|notti|nottate|primavere|estati|estivi|estive|autunni|inverni|agosti|domeniche|futuri|maggi|sabati)$";
 
-  names = "^(weekend|week-end|finesettiman(a|e)|periodo|ferragosto|natale|pasqua|mezz[a-z]*|moment[oi]|temp[oi]|alba|annata|annate|anticipo|apertura|attimi|bimestre|contemporanei|crepuscolo|data|dopoguerra|epoca|epoche|era|ere|et[àa]|ex|fasce|local[ie]|imbrunire|lasso|lustri|medioevo|minutino|notturn[oi]|parte|pranzo|preistoria|quadrimestre|quarti|quindicina|ritardo|settennato|stagion[ei]|tramonto|trentennio|ventina|vere|volontariato)$";
+  names = "^(weekend|week-end|finesettiman(a|e)|periodo|ferragosto|natale|pasqua|mezz[a-z']*|moment[oi]|temp[oi]|alba|annata|annate|anticipo|apertura|attimi|bimestre|contemporanei|crepuscolo|data|dopoguerra|epoca|epoche|era|ere|et[àa]['`]?|ex|fasce|local[ie]|imbrunire|lasso|lustri|medioevo|minutino|notturn[oi]|parte|pranzo|preistoria|quadrimestre|quarti|quindicina|ritardo|settennato|stagion[ei]|tramonto|trentennio|ventina|vere|volontariato)$";
 
   set = "^(ogni|quotidian[oia]|giornaliero|quotidianamente|giornalmente|settimanal[ei]|settimanalmente|mensil[ei]|mensilmente|trimestral[ei]|trimestralmente|annual[ei]|annu[aoi]|annualmente|annualizzat[oa]|tutti|tutte|ciascun|stagional[ei]|triennal[ei]|triennio|biennal[ei]|biennio|decennale|quadriennale)$";
 
