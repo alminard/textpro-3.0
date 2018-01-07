@@ -36,6 +36,10 @@ public class TimePro implements TextProModuleInterface {
     static String modelEN="",
     		indexEN="";
     static MLMallet mlEN = new MLMallet();
+    static learner lnENC = new learner();
+    static String modelENC="",
+    		indexENC="";
+    static MLMallet mlENC = new MLMallet();
     static learner lnFR = new learner();
     static String modelFR="",
     		indexFR="";
@@ -52,7 +56,9 @@ public class TimePro implements TextProModuleInterface {
         index=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_IT_INDEX");
         modelEN=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_EN_MODEL");
         indexEN=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_EN_INDEX");
-        modelFR=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_MODEL");
+        modelENC=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_EN_C_MODEL");
+        indexENC=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_EN_C_INDEX");
+	modelFR=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_MODEL");
         indexFR=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_INDEX");
         modelFRC=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_C_MODEL");
         indexFRC=prop.getProperty("TEXTPROHOME")+prop.getProperty("TIMEPRO_FR_C_INDEX");
@@ -88,6 +94,19 @@ public class TimePro implements TextProModuleInterface {
 				}
 	        if(lnEN == null) {
 	        	lnEN.init(new File(indexEN));
+	        }
+		if(mlENC.classifier == null)
+				try {
+					mlENC.classifier = mlENC.loadClassifier(new File(modelENC));
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+				} catch (ClassNotFoundException e) {
+					e.printStackTrace();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+	        if(lnENC == null) {
+	        	lnENC.init(new File(indexENC));
 	        }
         }
         
@@ -197,10 +216,18 @@ public class TimePro implements TextProModuleInterface {
 		
 		algo = "maxent";		
 		
-		mlEN
-		.classify(modelEN, lnEN.test(indexEN, filein.getFileLineByLineAsList(copyThisTokens,false)), false,lnEN,algo)
-		.map(e-> e.trim().length()>0? lnEN.getTag(indexEN, Integer.parseInt(e)):e)
-		.forEach(columValues::addLast);	
+		if(tools.variables.isColloquialLanguage()){
+		    mlENC
+			.classify(modelENC, lnENC.test(indexENC, filein.getFileLineByLineAsList(copyThisTokens,false)), false,lnENC,algo)
+			.map(e-> e.trim().length()>0? lnENC.getTag(indexENC, Integer.parseInt(e)):e)
+			.forEach(columValues::addLast);
+		}
+		else{
+		    mlEN
+			.classify(modelEN, lnEN.test(indexEN, filein.getFileLineByLineAsList(copyThisTokens,false)), false,lnEN,algo)
+			.map(e-> e.trim().length()>0? lnEN.getTag(indexEN, Integer.parseInt(e)):e)
+			.forEach(columValues::addLast);	
+		}
 		
 		filein.addColumn("tmx", columValues );
 		
