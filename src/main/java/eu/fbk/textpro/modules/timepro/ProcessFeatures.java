@@ -143,7 +143,7 @@ public class ProcessFeatures implements TextProModuleInterface {
 			String signal = "_";
 			String timex = "_";
 			if (!tok.equals("")){
-				
+			    tok = tok.toLowerCase();
 				
 				if (rulesLang.containsKey("signal_words") && tok.matches(rulesLang.get("signal_words"))){
 					signal = "_SIGNAL_";
