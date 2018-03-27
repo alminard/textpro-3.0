@@ -21,6 +21,14 @@ $> setenv JAVA_HOME <directory where the JDK is installed>
 
 3) Change the path TEXTPROHOME in resources/conf/config.properties
 
+4) Build with maven:
+$> mvn clean package
+
+5) Untar the executable textpro:
+$> cd target/
+$> tar -xzf textpro-0.0.1-SNAPSHOT-textpro.tar.gz
+$> cd textpro/
+
 Usage TextPro
 -------------
 
